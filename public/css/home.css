@@ -1,4 +1,72 @@
 .home-header {
+    position: relative;
     width: 100%;
     height: 100svh;
+}
+.header-background {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+.header-background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    z-index: 1;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
+}
+.header-content {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.header-content h1 {
+    font-size: 4rem;
+}
+.header-content p {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.header-content button {
+    margin-top: 2rem;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: white;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: box-shadow 0.25s ease, scale 0.25s ease;
+    font-size: 1.5rem;
+}
+.header-content button:hover,
+.header-content button:active {
+    box-shadow: 0 0 10px 3px white;
+}
+.header-content button:active {
+    scale: 0.9;
 }
