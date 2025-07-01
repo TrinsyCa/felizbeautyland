@@ -37,7 +37,7 @@ jobs:
           DEPLOY_HOST: ${{ secrets.HOSTINGER_HOST }}
           DEPLOY_USER: ${{ secrets.HOSTINGER_USER }}
           DEPLOY_PASSWORD: ${{ secrets.HOSTINGER_PASSWORD }}
-          DEPLOY_PATH: ${{ secrets.HOSTINGER_PATH }}
+          DEPLOY_PATH: domains/trinsy.ca/public_html/subdomains/felizbeautyland
         run: |
           sshpass -p $DEPLOY_PASSWORD ssh -o StrictHostKeyChecking=no -p 65002 $DEPLOY_USER@$DEPLOY_HOST << 'EOF'
             whoami
@@ -51,10 +51,17 @@ jobs:
               echo 'export PATH=$HOME/node/bin:$PATH' >> ~/.bashrc
               export PATH=$HOME/node/bin:$PATH
             fi
-            cd ~/$DEPLOY_PATH
+            cd ~/domains/trinsy.ca/public_html/subdomains/felizbeautyland
             pwd
             ls -la
+            # Verify Node.js and npm
+            node -v
+            npm -v
             git pull origin main
             php composer.phar install --no-interaction --optimize-autoloader --no-dev
+            npm install
+            npm run build
+            php artisan migrate:fresh
             php artisan optimize
+            chmod -R 755 storage bootstrap/cache
           EOF
