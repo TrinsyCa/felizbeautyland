@@ -25,7 +25,7 @@
     @include('layouts.footer')
 
     {{-- Static Scripts --}}
-    <script src="{{ asset('js/app.js') }}?v={{ filemtime(public_path('js/app.js')) }}"></script>
+    <script src="{{ asset('scripts/app.js') }}?v={{ filemtime(public_path('scripts/app.js')) }}"></script>
     {{-- Static Scripts --}}
 
     {{-- Dynamic Scripts --}}
