@@ -39,19 +39,22 @@ jobs:
           DEPLOY_PASSWORD: ${{ secrets.HOSTINGER_PASSWORD }}
           DEPLOY_PATH: ${{ secrets.HOSTINGER_PATH }}
         run: |
-          sshpass -p "$DEPLOY_PASSWORD" ssh -o StrictHostKeyChecking=no -p 65002 "$DEPLOY_USER@$DEPLOY_HOST" << EOF
+          sshpass -p $DEPLOY_PASSWORD ssh -o StrictHostKeyChecking=no -p 65002 $DEPLOY_USER@$DEPLOY_HOST << 'EOF'
             whoami
-            # Dizin kontrolü
-            if [ -d "~/$DEPLOY_PATH" ]; then
-              cd "~/$DEPLOY_PATH" || { echo "Dizin değiştirilemedi"; exit 1; }
-              echo "Dizin değiştirildi: $(pwd)"
-            else
-              echo "Dizin bulunamadı: ~/$DEPLOY_PATH"
-              exit 1
+            # Install Node.js if not installed
+            if ! command -v node >/dev/null 2>&1; then
+              mkdir -p ~/nodejs
+              cd ~/nodejs
+              wget https://nodejs.org/dist/v20.18.0/node-v20.18.0-linux-x64.tar.xz
+              tar -xJf node-v20.18.0-linux-x64.tar.xz
+              mv node-v20.18.0-linux-x64 ~/node
+              echo 'export PATH=$HOME/node/bin:$PATH' >> ~/.bashrc
+              export PATH=$HOME/node/bin:$PATH
             fi
+            cd ~/$DEPLOY_PATH
             pwd
             ls -la
-            git pull origin main || { echo "Git pull başarısız"; exit 1; }
-            php composer.phar install --no-interaction --optimize-autoloader --no-dev || { echo "Composer başarısız"; exit 1; }
-            php artisan optimize || { echo "Optimize başarısız"; exit 1; }
+            git pull origin main
+            php composer.phar install --no-interaction --optimize-autoloader --no-dev
+            php artisan optimize
           EOF
