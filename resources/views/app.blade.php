@@ -10,9 +10,9 @@
     {{-- Meta Tags --}}
 
     {{-- Static Styles --}}
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}?v={{ filemtime(public_path('css/app.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/navbar.css') }}?v={{ filemtime(public_path('css/navbar.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/footer.css') }}?v={{ filemtime(public_path('css/footer.css')) }}">
     {{-- Static Styles --}}
 
     {{-- Dynamic Styles --}}
@@ -25,7 +25,7 @@
     @include('layouts.footer')
 
     {{-- Static Scripts --}}
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}?v={{ filemtime(public_path('js/app.js')) }}"></script>
     {{-- Static Scripts --}}
 
     {{-- Dynamic Scripts --}}

@@ -5,8 +5,8 @@
 @section('author', 'Feliz Beautyland Team')
 
 @section('styles')
-    <link rel="stylesheet" href="{{ asset('tools/swiper-bundle.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/home.css') }}">
+    <link rel="stylesheet" href="{{ asset('tools/swiper-bundle.min.css') }}?v={{ filemtime(public_path('tools/swiper-bundle.min.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/home.css') }}?v={{ filemtime(public_path('css/home.css')) }}">
 @endsection
 
 @section('content')
@@ -21,26 +21,26 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <video muted autoplay loop>
-                            <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-1.webm') }}" type="video/webm" media="(max-width: 767px)">
-                            <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-1.webm') }}" type="video/webm" media="(min-width: 768px)">
+                            <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-1.webm') }}?v={{ filemtime(public_path('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-1.webm')) }}" type="video/webm" media="(max-width: 767px)">
+                            <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-1.webm') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-1.webm')) }}" type="video/webm" media="(min-width: 768px)">
                         </video>
                     </div>
                     <div class="swiper-slide">
                         <video muted autoplay loop>
-                            <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-2.webm') }}" type="video/webm" media="(max-width: 767px)">
-                            <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-2.webm') }}" type="video/webm" media="(min-width: 768px)">
+                            <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-2.webm') }}?v={{ filemtime(public_path('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-2.webm')) }}" type="video/webm" media="(max-width: 767px)">
+                            <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-2.webm') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-2.webm')) }}" type="video/webm" media="(min-width: 768px)">
                         </video>
                     </div>
                     <div class="swiper-slide">
                         <video muted autoplay loop>
-                            <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-3.webm') }}" type="video/webm" media="(max-width: 767px)">
-                            <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-3.webm') }}" type="video/webm" media="(min-width: 768px)">
+                            <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-3.webm') }}?v={{ filemtime(public_path('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-3.webm')) }}" type="video/webm" media="(max-width: 767px)">
+                            <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-3.webm') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-3.webm')) }}" type="video/webm" media="(min-width: 768px)">
                         </video>
                     </div>
                     <div class="swiper-slide">
                         <video muted autoplay loop>
-                            <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-4.webm') }}" type="video/webm" media="(max-width: 767px)">
-                            <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-4.webm') }}" type="video/webm" media="(min-width: 768px)">
+                            <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-4.webm') }}?v={{ filemtime(public_path('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-4.webm')) }}" type="video/webm" media="(max-width: 767px)">
+                            <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-4.webm') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-4.webm')) }}" type="video/webm" media="(min-width: 768px)">
                         </video>
                     </div>
                 </div>
@@ -57,22 +57,22 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <picture>
-                                <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-1.webp') }}" type="image/webp">
-                                <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-1.webp') }}" type="image/webp">
+                                <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-1.webp') }}?v={{ filemtime(public_path('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-1.webp')) }}" type="image/webp">
+                                <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-1.webp') }}?v={{ filemtime(public_path('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-1.webp')) }}" type="image/webp">
                                 <img src="{{ asset('assets/images/customers/original/feliz-beautyland-güzellik-salonu-1.jpg') }}" alt="Feliz Beautyland Güzellik Salonu">
                             </picture>
                         </div>
                         <div class="swiper-slide">
                             <picture>
-                            <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-2.webp') }}" type="image/webp">
-                            <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-2.webp') }}" type="image/webp">
+                            <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-2.webp') }}?v={{ filemtime(public_path('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-2.webp')) }}" type="image/webp">
+                            <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-2.webp') }}?v={{ filemtime(public_path('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-2.webp')) }}" type="image/webp">
                             <img src="{{ asset('assets/images/customers/original/feliz-beautyland-güzellik-salonu-2.jpg') }}" alt="Feliz Beautyland Güzellik Salonu">
                         </picture>
                         </div>
                         <div class="swiper-slide">
                             <picture>
-                                <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-3.webp') }}" type="image/webp">
-                                <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-3.webp') }}" type="image/webp">
+                                <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-3.webp') }}?v={{ filemtime(public_path('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-3.webp')) }}" type="image/webp">
+                                <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-3.webp') }}?v={{ filemtime(public_path('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-3.webp')) }}" type="image/webp">
                                 <img src="{{ asset('assets/images/customers/original/feliz-beautyland-güzellik-salonu-3.jpg') }}" alt="Feliz Beautyland Güzellik Salonu">
                             </picture>
                         </div>
@@ -104,6 +104,6 @@
 @endsection
 
 @section('scripts')
-    <script src="{{ asset('scripts/home.js') }}"></script>
-    <script src="{{ asset('tools/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('scripts/home.js') }}?v={{ filemtime(public_path('scripts/home.js')) }}"></script>
+    <script src="{{ asset('tools/swiper-bundle.min.js') }}?v={{ filemtime(public_path('tools/swiper-bundle.min.js')) }}"></script>
 @endsection
