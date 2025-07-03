@@ -51,52 +51,180 @@
         </div>
     </header>
     <div class="container">
-        <section class="sidebyside leftMedia">
-            <div class="sidebyside-media">
-                <div class="swiper mySwiper2">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <picture>
-                                <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-1.webp') }}?v={{ filemtime(public_path('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-1.webp')) }}" type="image/webp">
-                                <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-1.webp') }}?v={{ filemtime(public_path('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-1.webp')) }}" type="image/webp">
-                                <img src="{{ asset('assets/images/customers/original/feliz-beautyland-güzellik-salonu-1.jpg') }}" alt="Feliz Beautyland Güzellik Salonu">
+        <section class="sidebyside">
+            <div class="animation-trigger"></div>
+            <div class="sidebyside-container">
+                <div class="sidebyside-media TopToBottomAnim">
+                    <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-1.webp') }}?v={{ filemtime(public_path('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-1.webp')) }}" type="image/webp">
+                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-1.webp') }}?v={{ filemtime(public_path('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-1.webp')) }}" type="image/webp">
+                                    <img src="{{ asset('assets/images/customers/original/feliz-beautyland-güzellik-salonu-1.jpg') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-2.webp') }}?v={{ filemtime(public_path('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-2.webp')) }}" type="image/webp">
+                                <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-2.webp') }}?v={{ filemtime(public_path('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-2.webp')) }}" type="image/webp">
+                                <img src="{{ asset('assets/images/customers/original/feliz-beautyland-güzellik-salonu-2.jpg') }}" alt="Feliz Beautyland Güzellik Salonu">
                             </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-3.webp') }}?v={{ filemtime(public_path('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-3.webp')) }}" type="image/webp">
+                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-3.webp') }}?v={{ filemtime(public_path('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-3.webp')) }}" type="image/webp">
+                                    <img src="{{ asset('assets/images/customers/original/feliz-beautyland-güzellik-salonu-3.jpg') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                </picture>
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <picture>
-                            <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-2.webp') }}?v={{ filemtime(public_path('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-2.webp')) }}" type="image/webp">
-                            <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-2.webp') }}?v={{ filemtime(public_path('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-2.webp')) }}" type="image/webp">
-                            <img src="{{ asset('assets/images/customers/original/feliz-beautyland-güzellik-salonu-2.jpg') }}" alt="Feliz Beautyland Güzellik Salonu">
-                        </picture>
-                        </div>
-                        <div class="swiper-slide">
-                            <picture>
-                                <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-3.webp') }}?v={{ filemtime(public_path('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-3.webp')) }}" type="image/webp">
-                                <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-3.webp') }}?v={{ filemtime(public_path('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-3.webp')) }}" type="image/webp">
-                                <img src="{{ asset('assets/images/customers/original/feliz-beautyland-güzellik-salonu-3.jpg') }}" alt="Feliz Beautyland Güzellik Salonu">
-                            </picture>
+                        <div class="swiper-prev-next-buttons">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
                         </div>
                     </div>
-                    <div class="swiper-prev-next-buttons">
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-button-next"></div>
+                </div>
+                <div class="sidebyside-content BottomToTopAnim">
+                    <h2>Hizmetlerimiz</h2>
+                    <p>
+                        Feliz Beautyland, geniş bir hizmet yelpazesi sunar. Cilt bakımı, saç kesimi, manikür ve pedikür gibi birçok hizmetimizle güzelliğinizi ön plana çıkarıyoruz.
+                        <br><br>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto quis aut repellat molestias tenetur, voluptates deserunt ipsa amet dolorum! Enim odio explicabo rerum repudiandae sunt dolore quaerat tenetur vitae accusamus!
+                        Molestiae, ex repudiandae atque tempore magni unde repellendus doloremque, dolorum sit adipisci tempora commodi, possimus excepturi? Accusamus repudiandae necessitatibus ullam excepturi, provident quidem laudantium maxime cumque voluptatem accusantium laborum magnam?
+                        Placeat consequuntur dolore repellendus temporibus iure dolorem vitae exercitationem atque obcaecati explicabo quidem magnam dolor, totam itaque ab quibusdam facere omnis neque harum perferendis reiciendis accusamus animi. Ipsam, pariatur necessitatibus?
+                        Expedita, aut doloremque. In voluptatem ratione quaerat, soluta ipsa magnam odit deserunt. Commodi ipsam non a, dicta delectus eius dolore, praesentium nobis suscipit, sit eveniet deserunt earum ab iste magni.
+                        Modi, numquam animi facilis aut dicta optio quo et consequuntur, hic veritatis voluptatem architecto neque id doloremque? Voluptatem iste magnam alias accusantium. Dignissimos rem, quae quas molestiae voluptates labore facere.
+                    </p>
+                    <div class="center-container">
+                        <button>Hizmetlerimizi İnceleyin</button>
                     </div>
                 </div>
             </div>
-            <div class="sidebyside-content">
-                <h2>Hizmetlerimiz</h2>
-                <p>
-                    Feliz Beautyland, geniş bir hizmet yelpazesi sunar. Cilt bakımı, saç kesimi, manikür ve pedikür gibi birçok hizmetimizle güzelliğinizi ön plana çıkarıyoruz.
-                    <br><br>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto quis aut repellat molestias tenetur, voluptates deserunt ipsa amet dolorum! Enim odio explicabo rerum repudiandae sunt dolore quaerat tenetur vitae accusamus!
-                    Molestiae, ex repudiandae atque tempore magni unde repellendus doloremque, dolorum sit adipisci tempora commodi, possimus excepturi? Accusamus repudiandae necessitatibus ullam excepturi, provident quidem laudantium maxime cumque voluptatem accusantium laborum magnam?
-                    Placeat consequuntur dolore repellendus temporibus iure dolorem vitae exercitationem atque obcaecati explicabo quidem magnam dolor, totam itaque ab quibusdam facere omnis neque harum perferendis reiciendis accusamus animi. Ipsam, pariatur necessitatibus?
-                    Expedita, aut doloremque. In voluptatem ratione quaerat, soluta ipsa magnam odit deserunt. Commodi ipsam non a, dicta delectus eius dolore, praesentium nobis suscipit, sit eveniet deserunt earum ab iste magni.
-                    Modi, numquam animi facilis aut dicta optio quo et consequuntur, hic veritatis voluptatem architecto neque id doloremque? Voluptatem iste magnam alias accusantium. Dignissimos rem, quae quas molestiae voluptates labore facere.
-                </p>
-                <div class="center-container">
-                    <button>Hizmetlerimizi İnceleyin</button>
+        </section>
+        <section class="userStories">
+            <div class="animation-trigger"></div>
+            <div class="sidebyside">
+                <div class="sidebyside-container">
+                    <div class="userStories-container">
+                        <div class="userStories-stories">
+                            <div class="swiper mySwiper3">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">Slide 1</div>
+                                                <div class="swiper-slide">Slide 2</div>
+                                                <div class="swiper-slide">Slide 3</div>
+                                                <div class="swiper-slide">Slide 4</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">Slide 1</div>
+                                                <div class="swiper-slide">Slide 2</div>
+                                                <div class="swiper-slide">Slide 3</div>
+                                                <div class="swiper-slide">Slide 4</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">Slide 1</div>
+                                                <div class="swiper-slide">Slide 2</div>
+                                                <div class="swiper-slide">Slide 3</div>
+                                                <div class="swiper-slide">Slide 4</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">Slide 1</div>
+                                                <div class="swiper-slide">Slide 2</div>
+                                                <div class="swiper-slide">Slide 3</div>
+                                                <div class="swiper-slide">Slide 4</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">Slide 1</div>
+                                                <div class="swiper-slide">Slide 2</div>
+                                                <div class="swiper-slide">Slide 3</div>
+                                                <div class="swiper-slide">Slide 4</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="userStories-users">
+                        <h2>Bizi Tavsiye Edenler</h2>
+                        <div class="space"></div>
+                        <div class="userStories-users-container">
+                            <div class="swiper mySwiper4">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" onclick="changeHistory();">
+                                        <div class="user-profile-pic">
+                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
+                                        </div>
+                                        <p>Nilsu Aktaş</p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="user-profile-pic">
+                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
+                                        </div>
+                                        <p>Çağla Şimşek</p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="user-profile-pic">
+                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
+                                        </div>
+                                        <p>Buket Sena</p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="user-profile-pic">
+                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
+                                        </div>
+                                        <p>Slide 4</p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="user-profile-pic">
+                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
+                                        </div>
+                                        <p>Slide 5</p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="user-profile-pic">
+                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
+                                        </div>
+                                        <p>Slide 5</p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="user-profile-pic">
+                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
+                                        </div>
+                                        <p>Slide 5</p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="user-profile-pic">
+                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
+                                        </div>
+                                        <p>Slide 5</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -106,4 +234,5 @@
 @section('scripts')
     <script src="{{ asset('scripts/home.js') }}?v={{ filemtime(public_path('scripts/home.js')) }}"></script>
     <script src="{{ asset('tools/swiper-bundle.min.js') }}?v={{ filemtime(public_path('tools/swiper-bundle.min.js')) }}"></script>
+    <script src="{{ asset('scripts/anim.js') }}?v={{ filemtime(public_path('scripts/home.js')) }}""></script>
 @endsection

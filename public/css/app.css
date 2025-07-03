@@ -1,7 +1,7 @@
 :root {
     --primary-color: #E2986A;
     --primary-color-hover: rgb(224, 158, 116);
-    --background-color: #f5f5f5;
+    --background-color: rgb(245, 245, 245);
     --text-color: #333;
     --text-secondary-color: #555;
     --font-family: 'Arial', sans-serif;
@@ -59,4 +59,7 @@ button:active {
 }
 ::-webkit-scrollbar {
     width: 0;
+}
+.space {
+    min-height: 40px;
 }

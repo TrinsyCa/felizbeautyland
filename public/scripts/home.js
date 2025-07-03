@@ -39,4 +39,63 @@ document.addEventListener('DOMContentLoaded', function () {
             prevEl: ".swiper-button-prev",
         },
     });
+    var swiper3 = new Swiper(".mySwiper3", {
+        effect: "cards",
+        grabCursor: true,
+    });
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        speed: 1000,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        },
+        loop: true,
+        simulateTouch: false,
+        allowTouchMove: false,
+    });
+    (function () {
+        'use strict';
+
+        let swiper4 = null;
+        const breakpoint = window.matchMedia('(max-width: 1024px)');
+
+        const enableSwiper = function () {
+            swiper4 = new Swiper('.mySwiper4', {
+                slidesPerView: 5,
+                speed: 800,
+                loop: true,
+                allowTouchMove: true, /* Mobilde kaydırma açık */
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    320: { slidesPerView: 1 }, /* Opsiyonel: Daha küçük ekranlar için */
+                    768: { slidesPerView: 3 },
+                    1024: { slidesPerView: 5 }
+                }
+            });
+        };
+
+        const breakpointChecker = function () {
+            if (breakpoint.matches) {
+                if (!swiper4) {
+                    enableSwiper();
+                }
+            } else {
+                if (swiper4) {
+                    swiper4.destroy(true, true);
+                    swiper4 = null;
+                }
+            }
+        };
+
+        // Başlangıçta kontrol et
+        breakpointChecker();
+
+        // Ekran boyutu değiştiğinde kontrol et
+        breakpoint.addEventListener('change', breakpointChecker);
+    })();
 });

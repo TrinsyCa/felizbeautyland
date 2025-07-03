@@ -6,10 +6,10 @@
             </a>
         </div>
         <ul class="nav-links">
-            <li><a href="{{ url('/') }}">Anasayfa</a></li>
-            <li><a href="{{ url('/hizmetler') }}">Hizmetler</a></li>
-            <li><a href="{{ url('/galeri') }}">Galeri</a></li>
-            <li><a href="{{ url('/iletisim') }}">İletişim</a></li>
+            <li><a href="{{ url('#') }}">Anasayfa</a></li>
+            <li><a href="{{ url('#hizmetler') }}">Hizmetler</a></li>
+            <li><a href="{{ url('#galeri') }}">Galeri</a></li>
+            <li><a href="{{ url('#iletisim') }}">İletişim</a></li>
         </ul>
     </div>
     <div class="nav-hamburger">
