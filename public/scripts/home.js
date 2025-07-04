@@ -1,3 +1,4 @@
+let swiper3;
 document.addEventListener('DOMContentLoaded', function () {
     var swiper = new Swiper(".mySwiper", {
         spaceBetween: 30,
@@ -39,21 +40,14 @@ document.addEventListener('DOMContentLoaded', function () {
             prevEl: ".swiper-button-prev",
         },
     });
-    var swiper3 = new Swiper(".mySwiper3", {
+    swiper3 = new Swiper(".mySwiper3", {
         effect: "cards",
         grabCursor: true,
-    });
-    var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 30,
-        effect: "fade",
-        speed: 1000,
+        speed: 800,
         autoplay: {
-            delay: 4000,
+            delay: 10000,
             disableOnInteraction: false,
         },
-        loop: true,
-        simulateTouch: false,
-        allowTouchMove: false,
     });
     (function () {
         'use strict';
@@ -65,7 +59,6 @@ document.addEventListener('DOMContentLoaded', function () {
             swiper4 = new Swiper('.mySwiper4', {
                 slidesPerView: 5,
                 speed: 800,
-                loop: true,
                 allowTouchMove: true, /* Mobilde kaydırma açık */
                 navigation: {
                     nextEl: '.swiper-button-next',
@@ -99,3 +92,11 @@ document.addEventListener('DOMContentLoaded', function () {
         breakpoint.addEventListener('change', breakpointChecker);
     })();
 });
+function changeStory(element) {
+    const slides = document.querySelectorAll('#userStoriesUsers .swiper-slide');
+    const index = Array.from(slides).indexOf(element);
+
+    if (swiper3 && index !== -1) {
+        swiper3.slideTo(index);
+    }
+}

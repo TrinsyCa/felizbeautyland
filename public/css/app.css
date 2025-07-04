@@ -5,6 +5,7 @@
     --text-color: #333;
     --text-secondary-color: #555;
     --font-family: 'Arial', sans-serif;
+    --insta-profile-bg: linear-gradient(-135deg, #D300C5, #F40180, #FF4032, #ffb300, #FFC900)
 }
 * {
     margin: 0;

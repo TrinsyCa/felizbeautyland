@@ -282,6 +282,11 @@ h2 {
     font-weight: bold;
     color: #fff;
 }
+.userStories-container .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .userStories-container .swiper-slide:nth-child(1n) {
     background-color: rgb(206, 17, 17);
 }
@@ -310,16 +315,45 @@ h2 {
     justify-content: center;
     cursor: pointer;
 }
-.userStories-users .swiper-slide img {
+.userStories-users .swiper-slide .user-profile-pic img {
     display: block;
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
+    padding: 3px;
+    background: var(--background-color);
+}
+.userStories-users .swiper-slide .user-profile-pic::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 14px);
+    height: calc(100% - 14px);
+    border-radius: 50%;
+    background: var(--background-color);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
 }
 .userStories-users-container {
     width: 840px;
     overflow: hidden;
+}
+.userStories-users .user-profile-pic {
+    position: relative;
+    background: var(--insta-profile-bg);
+    padding: 4px;
+    border-radius: 50%;
+    transition: scale 0.25s ease-in-out;
+}
+.userStories-users .swiper-slide:hover .user-profile-pic::after {
+    opacity: 0.12;
+}
+.userStories-users .swiper-slide:active .user-profile-pic {
+    scale: 0.9;
 }
 @media (min-width: 1024px) {
     .userStories-users .swiper-button-prev,
