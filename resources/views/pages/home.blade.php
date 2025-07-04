@@ -7,14 +7,16 @@
 @section('styles')
     <link rel="stylesheet" href="{{ asset('tools/swiper-bundle.min.css') }}?v={{ filemtime(public_path('tools/swiper-bundle.min.css')) }}">
     <link rel="stylesheet" href="{{ asset('css/home.css') }}?v={{ filemtime(public_path('css/home.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/reservation.css') }}?v={{ filemtime(public_path('css/reservation.css')) }}">
 @endsection
 
 @section('content')
+    @include('layouts.reservation')
     <header class="home-header">
         <div class="header-content">
             <h1>Feliz Beautyland'e Hoş Geldiniz</h1>
             <p>Güzelliğinizi Keşfedin</p>
-            <button>Randevu Alın</button>
+            <button onclick="reservationSection();">Randevu Alın</button>
         </div>
         <div class="header-background">
             <div class="swiper mySwiper">
@@ -98,7 +100,7 @@
                         Modi, numquam animi facilis aut dicta optio quo et consequuntur, hic veritatis voluptatem architecto neque id doloremque? Voluptatem iste magnam alias accusantium. Dignissimos rem, quae quas molestiae voluptates labore facere.
                     </p>
                     <div class="center-container">
-                        <button>Hizmetlerimizi İnceleyin</button>
+                        <button onclick="reservationSection();" class="primary">Hizmetlerimizi İnceleyin</button>
                     </div>
                 </div>
             </div>
@@ -115,19 +117,19 @@
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" onclick="changeStory(this);">
                                         <div class="user-profile-pic">
-                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
+                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/nilsu-aktas.webp')) }}" alt="Nilsu Aktaş">
                                         </div>
                                         <p>Nilsu Aktaş</p>
                                     </div>
                                     <div class="swiper-slide" onclick="changeStory(this);">
                                         <div class="user-profile-pic">
-                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
+                                            <img src="{{ asset('assets/images/customers/pp/cagla-simsek.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/cagla-simsek.webp')) }}" alt="Çağla Şimşek">
                                         </div>
                                         <p>Çağla Şimşek</p>
                                     </div>
                                     <div class="swiper-slide" onclick="changeStory(this);">
                                         <div class="user-profile-pic">
-                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
+                                            <img src="{{ asset('assets/images/customers/pp/buket-sena.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/buket-sena.webp')) }}" alt="Buket Sena">
                                         </div>
                                         <p>Buket Sena</p>
                                     </div>
@@ -175,27 +177,29 @@
                                         <div class="swiper mySwiper">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.mp4') }}?v={{ filemtime(public_path('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.mp4')) }}" type="video/mp4"></video></div>
-                                                <div class="swiper-slide"><img src="{{ asset('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.jpg') }}" alt="Nilsu Aktaş | Feliz Beautyland"></div>
+                                                <div class="swiper-slide"><img src="{{ asset('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.webp')) }}"" alt="Nilsu Aktaş | Feliz Beautyland"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="swiper mySwiper">
                                             <div class="swiper-wrapper">
-                                                <div class="swiper-slide">Slide 1</div>
-                                                <div class="swiper-slide">Slide 2</div>
-                                                <div class="swiper-slide">Slide 3</div>
-                                                <div class="swiper-slide">Slide 4</div>
+                                                <div class="swiper-slide"><img src="{{ asset('assets/images/customers/stories/cagla-simsek/cagla-simsek-feliz-beautyland.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/cagla-simsek/cagla-simsek-feliz-beautyland.webp')) }}" alt="Nilsu Aktaş | Feliz Beautyland"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="swiper mySwiper">
                                             <div class="swiper-wrapper">
-                                                <div class="swiper-slide">Slide 1</div>
-                                                <div class="swiper-slide">Slide 2</div>
-                                                <div class="swiper-slide">Slide 3</div>
-                                                <div class="swiper-slide">Slide 4</div>
+                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland.webm')) }}" type="video/mp4"></video></div>
+                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-1.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-1.webm')) }}" type="video/mp4"></video></div>
+                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-2.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-2.webm')) }}" type="video/mp4"></video></div>
+                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-3.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-3.webm')) }}" type="video/mp4"></video></div>
+                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-4.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-4.webm')) }}" type="video/mp4"></video></div>
+                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-5.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-5.webm')) }}" type="video/mp4"></video></div>
+                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-6.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-6.webm')) }}" type="video/mp4"></video></div>
+                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-7.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-7.webm')) }}" type="video/mp4"></video></div>
+                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-8.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-8.webm')) }}" type="video/mp4"></video></div>
                                             </div>
                                         </div>
                                     </div>

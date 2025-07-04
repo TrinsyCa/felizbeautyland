@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         effect: "fade",
         speed: 1000,
         autoplay: {
-            delay: 4000,
+            delay: 5000,
             disableOnInteraction: false,
         },
         loop: true,
@@ -44,10 +44,10 @@ document.addEventListener('DOMContentLoaded', function () {
         effect: "cards",
         grabCursor: true,
         speed: 800,
-        autoplay: {
+        /* autoplay: {
             delay: 10000,
             disableOnInteraction: false,
-        },
+        }, */
     });
     (function () {
         'use strict';

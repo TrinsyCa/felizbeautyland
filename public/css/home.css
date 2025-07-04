@@ -349,7 +349,8 @@ h2 {
     border-radius: 50%;
     transition: scale 0.25s ease-in-out;
 }
-.userStories-users .swiper-slide:hover .user-profile-pic::after {
+.userStories-users .swiper-slide:hover .user-profile-pic::after,
+.userStories-users .swiper-slide:active .user-profile-pic::after {
     opacity: 0.12;
 }
 .userStories-users .swiper-slide:active .user-profile-pic {
