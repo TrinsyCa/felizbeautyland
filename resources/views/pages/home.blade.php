@@ -107,63 +107,7 @@
             <div class="animation-trigger"></div>
             <div class="sidebyside">
                 <div class="sidebyside-container">
-                    <div class="userStories-container">
-                        <div class="userStories-stories">
-                            <div class="swiper mySwiper3">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="swiper mySwiper">
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.mp4') }}?v={{ filemtime(public_path('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.mp4')) }}" type="video/mp4"></video></div>
-                                                <div class="swiper-slide"><img src="{{ asset('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.jpg') }}" alt="Nilsu Aktaş | Feliz Beautyland"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="swiper mySwiper">
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide">Slide 1</div>
-                                                <div class="swiper-slide">Slide 2</div>
-                                                <div class="swiper-slide">Slide 3</div>
-                                                <div class="swiper-slide">Slide 4</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="swiper mySwiper">
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide">Slide 1</div>
-                                                <div class="swiper-slide">Slide 2</div>
-                                                <div class="swiper-slide">Slide 3</div>
-                                                <div class="swiper-slide">Slide 4</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="swiper mySwiper">
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide">Slide 1</div>
-                                                <div class="swiper-slide">Slide 2</div>
-                                                <div class="swiper-slide">Slide 3</div>
-                                                <div class="swiper-slide">Slide 4</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="swiper mySwiper">
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide">Slide 1</div>
-                                                <div class="swiper-slide">Slide 2</div>
-                                                <div class="swiper-slide">Slide 3</div>
-                                                <div class="swiper-slide">Slide 4</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="userStories-users" id="userStoriesUsers">
+                    <div class="userStories-users BottomToTopAnim" id="userStoriesUsers">
                         <h2>Bizi Tavsiye Edenler</h2>
                         <div class="space"></div>
                         <div class="userStories-users-container">
@@ -220,6 +164,62 @@
                                 </div>
                                 <div class="swiper-button-prev"></div>
                                 <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="userStories-container TopToBottomAnim">
+                        <div class="userStories-stories">
+                            <div class="swiper mySwiper3">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.mp4') }}?v={{ filemtime(public_path('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.mp4')) }}" type="video/mp4"></video></div>
+                                                <div class="swiper-slide"><img src="{{ asset('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.jpg') }}" alt="Nilsu Aktaş | Feliz Beautyland"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">Slide 1</div>
+                                                <div class="swiper-slide">Slide 2</div>
+                                                <div class="swiper-slide">Slide 3</div>
+                                                <div class="swiper-slide">Slide 4</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">Slide 1</div>
+                                                <div class="swiper-slide">Slide 2</div>
+                                                <div class="swiper-slide">Slide 3</div>
+                                                <div class="swiper-slide">Slide 4</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">Slide 1</div>
+                                                <div class="swiper-slide">Slide 2</div>
+                                                <div class="swiper-slide">Slide 3</div>
+                                                <div class="swiper-slide">Slide 4</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">Slide 1</div>
+                                                <div class="swiper-slide">Slide 2</div>
+                                                <div class="swiper-slide">Slide 3</div>
+                                                <div class="swiper-slide">Slide 4</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
