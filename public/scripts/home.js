@@ -96,11 +96,13 @@ document.addEventListener('DOMContentLoaded', function () {
         speed: 700,
         freeMode: true,
         watchSlidesProgress: true,
+        lazy: true,
     });
     var swiperGallery2 = new Swiper(".mySwiperGallery2", {
         loop: true,
         spaceBetween: 10,
         speed: 700,
+        lazy: true,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",

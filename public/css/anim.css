@@ -1,7 +1,7 @@
 .TopToBottomAnim {
     opacity: 0;
-    translate: 0 -100px;
-    transition: opacity 0.4s ease-in-out, translate 0.4s ease-in-out;
+    translate: 0 -150px;
+    transition: opacity 0.5s ease-in-out, translate 0.4s ease-in-out, scale 0.4s ease-in-out;
 }
 .TopToBottomAnim.activeAnim {
     opacity: 1;
@@ -9,17 +9,35 @@
 }
 .BottomToTopAnim {
     opacity: 0;
-    translate: 0 100px;
-    transition: opacity 0.4s ease-in-out, translate 0.4s ease-in-out;
+    translate: 0 150px;
+    transition: opacity 0.5s ease-in-out, translate 0.4s ease-in-out, scale 0.4s ease-in-out;
 }
 .BottomToTopAnim.activeAnim {
+    opacity: 1;
+    translate: 0 0;
+}
+.LeftToRightAnim {
+    opacity: 0;
+    translate: -150px 0;
+    transition: opacity 0.5s ease-in-out, translate 0.4s ease-in-out, scale 0.4s ease-in-out;
+}
+.LeftToRightAnim.activeAnim {
+    opacity: 1;
+    translate: 0 0;
+}
+.RightToLeftAnim {
+    opacity: 0;
+    translate: 150px 0;
+    transition: opacity 0.5s ease-in-out, translate 0.4s ease-in-out, scale 0.4s ease-in-out;
+}
+.RightToLeftAnim.activeAnim {
     opacity: 1;
     translate: 0 0;
 }
 .ScaleToShowAnim {
     opacity: 0;
     scale: 0.3;
-    transition: opacity 0.4s ease-in-out, scale 0.4s ease-in-out;
+    transition: opacity 0.5s ease-in-out, scale 0.4s ease-in-out, translate 0.4s ease-in-out;
 }
 .ScaleToShowAnim.activeAnim {
     opacity: 1;
@@ -28,7 +46,7 @@
 .ScaleReverseToShowAnim {
     opacity: 0;
     scale: 1.7;
-    transition: opacity 0.4s ease-in-out, scale 0.4s ease-in-out;
+    transition: opacity 0.5s ease-in-out, scale 0.4s ease-in-out, translate 0.4s ease-in-out;
 }
 .ScaleReverseToShowAnim.activeAnim {
     opacity: 1;
