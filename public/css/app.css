@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #E2986A;
-    --primary-color-hover: rgb(224, 158, 116);
+    --primary-color: #e09160;
+    --primary-color-hover: rgb(224, 171, 137);
     --background-color: rgb(245, 245, 245);
     --text-color: #333;
     --text-secondary-color: #555;
@@ -28,6 +28,9 @@
 ::selection {
     background-color: var(--primary-color);
     color: var(--background-color);
+}
+html {
+    scroll-behavior: smooth !important;
 }
 button,
 a {

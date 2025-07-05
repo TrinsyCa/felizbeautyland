@@ -230,7 +230,7 @@
                 </div>
             </div>
         </section>
-        <section class="gallery">
+        <section class="gallery" id="gallery">
             <div class="animation-trigger"></div>
             <h2 class="ScaleReverseToShowAnim">Salonumuzdan Kareler</h2>
             <div class="gallery-container ScaleToShowAnim">

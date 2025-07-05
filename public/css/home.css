@@ -191,7 +191,7 @@ h2 {
     bottom: 25px;
     left: 50%;
     transform: translate(-50%, 0);
-    background-color: rgba(197, 188, 182, 0.5);
+    background-color: rgba(197, 188, 182, 0.7);
     backdrop-filter: blur(10px);
     border-radius: 50px;
     display: flex;
@@ -220,11 +220,18 @@ h2 {
 .swiper-prev-next-buttons .swiper-button-prev::after {
     font-size: 1.2rem;
     font-weight: 900;
-    color: var(--primary-color-hover);
+    color: var(--primary-color);
+    transition: scale 0.15s ease-in-out;
 }
 .swiper-prev-next-buttons .swiper-button-next:hover,
-.swiper-prev-next-buttons .swiper-button-prev:hover {
+.swiper-prev-next-buttons .swiper-button-prev:hover,
+.swiper-prev-next-buttons .swiper-button-next:active,
+.swiper-prev-next-buttons .swiper-button-prev:active {
     background-color: rgba(255, 255, 255, 0.3);
+}
+.swiper-prev-next-buttons .swiper-button-next:active:after,
+.swiper-prev-next-buttons .swiper-button-prev:active:after {
+    scale: 0.8;
 }
 .userStories {
     padding: 50px 0;
