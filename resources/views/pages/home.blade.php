@@ -48,9 +48,9 @@
                 </div>
             </div>
         </div>
-        <div class="header-icon">
+        <a class="header-icon" href="{{ url('#services') }}">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><rect width="24" height="24" fill="none"/><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect width="14" height="20" x="5" y="2" rx="7"/><path d="M12 6v4"/></g></svg>
-        </div>
+        </a>
     </header>
     <div class="container">
         <section class="sidebyside">
@@ -231,8 +231,10 @@
             </div>
         </section>
         <section class="gallery">
-            <div class="gallery-container">
-                <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper6">
+            <div class="animation-trigger"></div>
+            <h2 class="ScaleReverseToShowAnim">Salonumuzdan Kareler</h2>
+            <div class="gallery-container ScaleToShowAnim">
+                <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiperGallery2">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
@@ -268,7 +270,7 @@
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
                 </div>
-                <div thumbsSlider="" class="swiper mySwiper5">
+                <div thumbsSlider="" class="swiper mySwiperGallery">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="https://swiperjs.com/demos/images/nature-1.jpg" />

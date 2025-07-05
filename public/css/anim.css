@@ -1,0 +1,36 @@
+.TopToBottomAnim {
+    opacity: 0;
+    translate: 0 -100px;
+    transition: opacity 0.4s ease-in-out, translate 0.4s ease-in-out;
+}
+.TopToBottomAnim.activeAnim {
+    opacity: 1;
+    translate: 0 0;
+}
+.BottomToTopAnim {
+    opacity: 0;
+    translate: 0 100px;
+    transition: opacity 0.4s ease-in-out, translate 0.4s ease-in-out;
+}
+.BottomToTopAnim.activeAnim {
+    opacity: 1;
+    translate: 0 0;
+}
+.ScaleToShowAnim {
+    opacity: 0;
+    scale: 0.3;
+    transition: opacity 0.4s ease-in-out, scale 0.4s ease-in-out;
+}
+.ScaleToShowAnim.activeAnim {
+    opacity: 1;
+    scale: 1;
+}
+.ScaleReverseToShowAnim {
+    opacity: 0;
+    scale: 1.7;
+    transition: opacity 0.4s ease-in-out, scale 0.4s ease-in-out;
+}
+.ScaleReverseToShowAnim.activeAnim {
+    opacity: 1;
+    scale: 1;
+}

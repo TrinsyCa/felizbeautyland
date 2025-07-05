@@ -85,29 +85,44 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         };
 
-        // Başlangıçta kontrol et
         breakpointChecker();
 
-        // Ekran boyutu değiştiğinde kontrol et
         breakpoint.addEventListener('change', breakpointChecker);
     })();
-        var swiper5 = new Swiper(".mySwiper5", {
-      loop: true,
-      spaceBetween: 10,
-      slidesPerView: 4,
-      freeMode: true,
-      watchSlidesProgress: true,
+    var swiperGallery = new Swiper(".mySwiperGallery", {
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 4,
+        speed: 700,
+        freeMode: true,
+        watchSlidesProgress: true,
     });
-    var swiper6 = new Swiper(".mySwiper6", {
-      loop: true,
-      spaceBetween: 10,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      thumbs: {
-        swiper: swiper,
-      },
+    var swiperGallery2 = new Swiper(".mySwiperGallery2", {
+        loop: true,
+        spaceBetween: 10,
+        speed: 700,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiperGallery,
+        },
+        grabCursor: true,
+        effect: "creative",
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        creativeEffect: {
+            prev: {
+                shadow: true,
+                translate: ["-20%", 0, -1],
+            },
+            next: {
+                translate: ["100%", 0, 0],
+            },
+        },
     });
 });
 function changeStory(element) {
