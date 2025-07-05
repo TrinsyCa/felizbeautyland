@@ -91,6 +91,24 @@ document.addEventListener('DOMContentLoaded', function () {
         // Ekran boyutu değiştiğinde kontrol et
         breakpoint.addEventListener('change', breakpointChecker);
     })();
+        var swiper5 = new Swiper(".mySwiper5", {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper6 = new Swiper(".mySwiper6", {
+      loop: true,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
 });
 function changeStory(element) {
     const slides = document.querySelectorAll('#userStoriesUsers .swiper-slide');
