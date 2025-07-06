@@ -314,8 +314,31 @@
                             </div>
                         </div>
                     </div>
-                    <div class="location BottomToTopAnim">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.3653998211325!2d29.021148999999998!3d41.082862299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7fb0d3f440f%3A0x9fc0c14816c4af9a!2sFEL%C4%B0Z%20SPA%20%26%20BEAUTYLAND!5e0!3m2!1str!2str!4v1751737717665!5m2!1str!2str" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="location">
+                        <div class="location-link-container RightToLeftAnim">
+                            <div class="location-link">
+                                <a rel="nofollow" target="_blank" href="https://www.google.com/maps/dir//FEL%C4%B0Z+SPA+%26+BEAUTYLAND,+akatlar,+Levent,+Ebulula+Mardin+Cd.+No:69,+34335+Be%C5%9Fikta%C5%9F%2F%C4%B0stanbul/@41.0828663,29.0185741,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x14cab7fb0d3f440f:0x9fc0c14816c4af9a!2m2!1d29.021149!2d41.0828623!3e0?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D">Şimdi Ziyaret Et</a>
+                            </div>
+                        </div>
+                        <div class="location-map BottomToTopAnim">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.3653998211325!2d29.021148999999998!3d41.082862299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7fb0d3f440f%3A0x9fc0c14816c4af9a!2sFEL%C4%B0Z%20SPA%20%26%20BEAUTYLAND!5e0!3m2!1str!2str!4v1751737717665!5m2!1str!2str" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <h2 class="TopToBottomAnim">
+                Bizimle İletişime Geçin
+            </h2>
+            <div class="animation-trigger"></div>
+            <div class="sidebyside">
+                <div class="sidebyside-container">
+                    <div class="contactMedia">
+                        <img src="" alt="">
+                    </div>
+                    <div class="contact-container">
+
                     </div>
                 </div>
             </div>
