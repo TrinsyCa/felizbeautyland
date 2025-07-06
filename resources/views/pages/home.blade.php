@@ -91,12 +91,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="sidebyside-content BottomToTopAnim">
-                    <h2>
+                <div class="sidebyside-content">
+                    <h2 class="RightToLeftAnim">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><rect width="24" height="24" fill="none"/><path fill="#f109ff" d="M14.121 10.48a1 1 0 0 0-1.414 0l-.707.706a2 2 0 0 1-2.828-2.828l5.63-5.632a6.5 6.5 0 0 1 6.377 10.568l-2.108 2.135zM3.161 4.468a6.5 6.5 0 0 1 8.009-.938L7.757 6.944a4 4 0 0 0 5.513 5.794l.144-.137l4.243 4.242l-4.243 4.243a2 2 0 0 1-2.828 0L3.16 13.66a6.5 6.5 0 0 1 0-9.192"/></svg>
                         Hizmetlerimiz
                     </h2>
-                    <p>
+                    <p class="BottomToTopAnim">
                         Feliz Beautyland, geniş bir hizmet yelpazesi sunar. Cilt bakımı, saç kesimi, manikür ve pedikür gibi birçok hizmetimizle güzelliğinizi ön plana çıkarıyoruz.
                         <br><br>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto quis aut repellat molestias tenetur, voluptates deserunt ipsa amet dolorum! Enim odio explicabo rerum repudiandae sunt dolore quaerat tenetur vitae accusamus!
@@ -105,7 +105,7 @@
                         Expedita, aut doloremque. In voluptatem ratione quaerat, soluta ipsa magnam odit deserunt. Commodi ipsam non a, dicta delectus eius dolore, praesentium nobis suscipit, sit eveniet deserunt earum ab iste magni.
                         Modi, numquam animi facilis aut dicta optio quo et consequuntur, hic veritatis voluptatem architecto neque id doloremque? Voluptatem iste magnam alias accusantium. Dignissimos rem, quae quas molestiae voluptates labore facere.
                     </p>
-                    <div class="center-container">
+                    <div class="center-container BottomToTopAnim">
                         <button onclick="reservationSection();" class="primary">
                             <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><rect width="24" height="24" fill="none"/><path fill="rgb(245, 245, 245)" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg>
                             Hizmetlerimizi İnceleyin
@@ -118,13 +118,13 @@
             <div class="animation-trigger"></div>
             <div class="sidebyside">
                 <div class="sidebyside-container">
-                    <div class="userStories-users BottomToTopAnim" id="userStoriesUsers">
-                        <h2>
+                    <div class="userStories-users" id="userStoriesUsers">
+                        <h2 class="LeftToRightAnim">
                             <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 512 512"><rect width="512" height="512" fill="none"/><defs><linearGradient id="meteoconsStarFill0" x1="187.9" x2="324.1" y1="138.1" y2="373.9" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fcd966"/><stop offset=".5" stop-color="#fcd966"/><stop offset="1" stop-color="#fccd34"/></linearGradient></defs><path fill="url(#meteoconsStarFill0)" stroke="#fcd34d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m105.7 263.5l107.5 29.9a7.9 7.9 0 0 1 5.4 5.4l29.9 107.5a7.8 7.8 0 0 0 15 0l29.9-107.5a7.9 7.9 0 0 1 5.4-5.4l107.5-29.9a7.8 7.8 0 0 0 0-15l-107.5-29.9a7.9 7.9 0 0 1-5.4-5.4l-29.9-107.5a7.8 7.8 0 0 0-15 0l-29.9 107.5a7.9 7.9 0 0 1-5.4 5.4l-107.5 29.9a7.8 7.8 0 0 0 0 15Z"><animateTransform additive="sum" attributeName="transform" calcMode="spline" dur="6s" keySplines=".42, 0, .58, 1; .42, 0, .58, 1" repeatCount="indefinite" type="rotate" values="-15 256 256; 15 256 256; -15 256 256"/><animate attributeName="opacity" dur="6s" values="1; .75; 1; .75; 1; .75; 1"/></path></svg>
                             Bizi Tavsiye Edenler
                         </h2>
                         <div class="space"></div>
-                        <div class="userStories-users-container">
+                        <div class="userStories-users-container BottomToTopAnim">
                             <div class="swiper mySwiper4">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" onclick="changeStory(this);">

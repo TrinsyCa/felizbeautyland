@@ -1,6 +1,6 @@
 nav {
     position: fixed;
-    top: 20px;
+    top: -100px;
     left: 0;
     z-index: 999999;
     display: flex;
@@ -8,6 +8,19 @@ nav {
     align-items: center;
     width: 100%;
     user-select: none;
+    opacity: 0;
+    animation: navStartAnim 1s ease-in-out forwards;
+    animation-delay: 0.2s;
+}
+@keyframes navStartAnim {
+    0% {
+        top: -100px;
+        opacity: 0;
+    }
+    100% {
+        top: 20px;
+        opacity: 1;
+    }
 }
 .nav-logo {
     padding-right: 30px;

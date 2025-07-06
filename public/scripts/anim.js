@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 anims.forEach((el, i) => {
                     setTimeout(() => {
                         el.classList.add('activeAnim');
-                    }, i * 200);
+                    }, i * 250);
                 });
             } else {
                 anims.forEach(el => el.classList.remove('activeAnim'));

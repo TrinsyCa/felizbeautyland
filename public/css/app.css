@@ -39,6 +39,7 @@ a {
 }
 body {
     background-color: var(--background-color);
+    overflow-x: hidden;
 }
 .container {
     width: 1500px;
