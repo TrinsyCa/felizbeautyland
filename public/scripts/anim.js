@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ];
             const selector = animClasses.map(cls => '.' + cls).join(', ');
             const anims = Array.from(container.querySelectorAll(selector));
-            if (rect.top <= 650) {
+            if (rect.top <= 700) {
                 anims.forEach((el, i) => {
                     setTimeout(() => {
                         el.classList.add('activeAnim');

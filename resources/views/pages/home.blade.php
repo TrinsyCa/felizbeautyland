@@ -346,5 +346,4 @@
 @section('scripts')
     <script src="{{ asset('scripts/home.js') }}?v={{ filemtime(public_path('scripts/home.js')) }}"></script>
     <script src="{{ asset('tools/swiper-bundle.min.js') }}?v={{ filemtime(public_path('tools/swiper-bundle.min.js')) }}"></script>
-    <script src="{{ asset('scripts/anim.js') }}?v={{ filemtime(public_path('scripts/home.js')) }}"></script>
 @endsection
