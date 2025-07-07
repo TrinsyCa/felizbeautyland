@@ -1,13 +1,10 @@
 @extends('app')
 @section('title', 'Anasayfa | Feliz Beautyland')
-@section('description', 'Welcome to Feliz Beautyland, your one-stop destination for all beauty needs.')
-@section('keywords', 'beauty, cosmetics, skincare, haircare, Feliz Beautyland')
-@section('author', 'Feliz Beautyland Team')
-
+@section('description', 'Tüm güzellik ihtiyaçlarınız için tek adresiniz olan Feliz Beautyland\'e hoş geldiniz.')
+@section('keywords', 'Feliz Beautyland, ünlülerin geldiği güzellik salonları, güzellik salonu, güzellik, beşiktaş güzellik salonu, cilt bakımı, sırt bakımı, masaj, güzellik salonu randevu')
 @section('styles')
     <link rel="stylesheet" href="{{ asset('tools/swiper-bundle.min.css') }}?v={{ filemtime(public_path('tools/swiper-bundle.min.css')) }}">
     <link rel="stylesheet" href="{{ asset('css/home.css') }}?v={{ filemtime(public_path('css/home.css')) }}">
-    <link rel="stylesheet" href="{{ asset('css/reservation.css') }}?v={{ filemtime(public_path('css/reservation.css')) }}">
 @endsection
 
 @section('content')
@@ -351,6 +348,6 @@
 @endsection
 
 @section('scripts')
-    <script src="{{ asset('scripts/home.js') }}?v={{ filemtime(public_path('scripts/home.js')) }}"></script>
     <script src="{{ asset('tools/swiper-bundle.min.js') }}?v={{ filemtime(public_path('tools/swiper-bundle.min.js')) }}"></script>
+    <script src="{{ asset('scripts/home.js') }}?v={{ filemtime(public_path('scripts/home.js')) }}"></script>
 @endsection

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="{{ asset('css/fixedscreen.css') }}?v={{ filemtime(public_path('css/fixedscreen.css')) }}">
     <link rel="stylesheet" href="{{ asset('css/navbar.css') }}?v={{ filemtime(public_path('css/navbar.css')) }}">
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}?v={{ filemtime(public_path('css/footer.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/reservation.css') }}?v={{ filemtime(public_path('css/reservation.css')) }}">
     <link rel="stylesheet" href="{{ asset('css/anim.css') }}?v={{ filemtime(public_path('css/footer.css')) }}">
     {{-- Static Styles --}}
 
@@ -28,8 +29,8 @@
     @include('layouts.footer')
 
     {{-- Static Scripts --}}
-    <script src="{{ asset('scripts/app.js') }}?v={{ filemtime(public_path('scripts/app.js')) }}"></script>
-    <script src="{{ asset('scripts/anim.js') }}?v={{ filemtime(public_path('scripts/anim.js')) }}"></script>
+    <script src="{{ asset('scripts/app.js') }}?v={{ filemtime(public_path('scripts/app.js')) }}" async></script>
+    <script src="{{ asset('scripts/anim.js') }}?v={{ filemtime(public_path('scripts/anim.js')) }}" defer></script>
     {{-- Static Scripts --}}
 
     {{-- Dynamic Scripts --}}
