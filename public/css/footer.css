@@ -1,5 +1,18 @@
 footer {
     user-select: none;
+    translate: 0 100px;
+    opacity: 0;
+    animation: footerAnim 1.2s ease-in-out forwards;
+}
+@keyframes footerAnim {
+    0% {
+        translate: 0 100px;
+        opacity: 0;
+    }
+    100% {
+        translate: 0 0;
+        opacity: 1;
+    }
 }
 footer * {
     font-family: 'Quicksand', sans-serif;
@@ -125,8 +138,13 @@ footer * {
     letter-spacing: 1px;
 }
 
-/* Footer */
+/* Responsive */
 
+@media (max-width: 1335px) {
+    .footer-container {
+        width: 90%;
+    }
+}
 @media (max-width: 950px) {
     .footer-bottom {
         display: block;

@@ -1,5 +1,5 @@
 <footer>
-    <div class="footer-container section-container">
+    <div class="footer-container">
         <div class="footer-top">
             <ul class="footer-menu-list">
                 <li class="footer-menu">
@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="footer-policy">
-            <a class="footer-link" href="/gizlilik-ve-kosullar">Gizlilik ve Kullanım Koşulları</a>
+            <a class="footer-link" href="/gizlilik-ve-kullanim-kosullari">Gizlilik ve Kullanım Koşulları</a>
         </div>
         <div class="footer-signature">
             <p class="signature">
