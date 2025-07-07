@@ -613,3 +613,6 @@ h2 {
   height: 100%;
   object-fit: cover;
 }
+#hizmetler {
+    scroll-margin-top: -100px;
+}
