@@ -142,36 +142,6 @@
                                         </div>
                                         <p>Buket Sena</p>
                                     </div>
-                                    <div class="swiper-slide" onclick="changeStory(this);">
-                                        <div class="user-profile-pic">
-                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
-                                        </div>
-                                        <p>Slide 4</p>
-                                    </div>
-                                    <div class="swiper-slide" onclick="changeStory(this);">
-                                        <div class="user-profile-pic">
-                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
-                                        </div>
-                                        <p>Slide 5</p>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="user-profile-pic">
-                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
-                                        </div>
-                                        <p>Slide 5</p>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="user-profile-pic">
-                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
-                                        </div>
-                                        <p>Slide 5</p>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="user-profile-pic">
-                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}" alt="Nilsu Aktaş">
-                                        </div>
-                                        <p>Slide 5</p>
-                                    </div>
                                 </div>
                                 <div class="swiper-button-prev"></div>
                                 <div class="swiper-button-next"></div>
