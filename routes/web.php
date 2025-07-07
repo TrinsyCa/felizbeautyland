@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.home');
 });
+
+Route::get('/gizlilik-ve-kullanim-kosullari', function () {
+    return view('pages.policies');
+});

@@ -1,15 +1,15 @@
 <nav>
     <div class="nav-container">
         <div class="nav-logo">
-            <a href="{{ url('#') }}">
+            <a href="{{ url('/#') }}">
                 <img src="{{ asset('assets/images/logo/feliz-logo.webp') }}" alt="Feliz Beautyland Logo">
             </a>
         </div>
         <ul class="nav-links">
-            <li><a href="{{ url('#') }}">Anasayfa</a></li>
+            <li><a href="{{ url('/#') }}">Anasayfa</a></li>
             <li><a onclick="reservationSection();">Hizmetler</a></li>
-            <li><a href="{{ url('#galeri') }}">Galeri</a></li>
-            <li><a href="{{ url('#iletisim') }}">İletişim</a></li>
+            <li><a href="{{ url('/#galeri') }}">Galeri</a></li>
+            <li><a href="{{ url('/#iletisim') }}">İletişim</a></li>
         </ul>
         <div class="close-reservation">
             <button onclick="reservationSection();">
