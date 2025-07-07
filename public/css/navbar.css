@@ -1,7 +1,7 @@
 nav {
     position: fixed;
     top: 20px;
-    left: calc(122px / 2);
+    left: 0;
     z-index: 999999;
     display: flex;
     justify-content: center;
@@ -9,9 +9,6 @@ nav {
     width: 100%;
     user-select: none;
     transition: left 0.3s;
-}
-body.reservationActivated nav {
-    left: calc(202px / 2);
 }
 .nav-logo {
     padding-right: 30px;
