@@ -1,0 +1,85 @@
+.fixed-contact {
+    position: fixed;
+    z-index: 100;
+    bottom: 25px;
+    right: 25px;
+    display: flex;
+    justify-content: end;
+}
+.fixed-contactContainer {
+    gap: 15px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+}
+.fixed-contactBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: var(--dark);
+    box-shadow: 0 0 10px 3px var(--dark);
+    border: 0;
+    color: white;
+    transition: translate 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 12px;
+    opacity: 0;
+    scale: 0;
+    animation: openscale 1s forwards;
+    animation-delay: 1s;
+    transition: 0.15s transform;
+}
+.fixed-contactBtn:hover .fixed-contactDetails {
+    width: 125px;
+    opacity: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fixed-contactBtn:active {
+    transform: scale(0.9);
+}
+.fixed-contactBtn.phone {
+    background-color: #0468CB;
+    box-shadow: 0 0 10px 2px #0468CB;
+}
+.fixed-contactBtn.whatsapp {
+    background-color: #4CAF50;
+    box-shadow: 0 0 10px 2px #4CAF50;
+}
+.fixed-contactDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 0;
+    height: 100%;
+    opacity: 0;
+    overflow: hidden;
+    transition: width 0.3s, height 0.3s, opacity 0.3s;
+    white-space: nowrap;
+    margin-left: 0;
+    margin-right: 0;
+}
+.fixed-contactBtn h4 {
+    font-size: 1.1rem;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.fixed-contactBtn span {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.fixed-contactBtn svg {
+    width: 40px;
+    height: 40px;
+}
+@keyframes openscale {
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}

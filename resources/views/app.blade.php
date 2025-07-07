@@ -11,6 +11,7 @@
 
     {{-- Static Styles --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}?v={{ filemtime(public_path('css/app.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/fixedscreen.css') }}?v={{ filemtime(public_path('css/fixedscreen.css')) }}">
     <link rel="stylesheet" href="{{ asset('css/navbar.css') }}?v={{ filemtime(public_path('css/navbar.css')) }}">
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}?v={{ filemtime(public_path('css/footer.css')) }}">
     <link rel="stylesheet" href="{{ asset('css/anim.css') }}?v={{ filemtime(public_path('css/footer.css')) }}">
@@ -21,6 +22,7 @@
     {{-- Dynamic Styles --}}
 </head>
 <body>
+    @include('layouts.fixedscreen')
     @include('layouts.navbar')
     @yield('content')
     @include('layouts.footer')
