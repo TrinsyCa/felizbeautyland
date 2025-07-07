@@ -246,34 +246,31 @@
                         <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiperGallery2">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-1.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-2.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-3.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-4.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-5.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-5.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-6.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-6.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-7.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-7.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-8.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-8.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-9.jpg" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-10.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-9.webp') }}" loading="lazy">
                                 </div>
                             </div>
                             <div class="swiper-button-next"></div>
@@ -282,34 +279,31 @@
                         <div thumbsSlider="" class="swiper mySwiperGallery">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-1.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-2.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-3.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-4.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-5.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-5.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-6.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-6.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-7.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-7.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-8.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-8.webp') }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-9.jpg" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-10.jpg" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-9.webp') }}" loading="lazy">
                                 </div>
                             </div>
                         </div>
