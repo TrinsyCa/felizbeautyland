@@ -321,22 +321,32 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
-            <h2 class="TopToBottomAnim">
-                Bizimle İletişime Geçin
-            </h2>
+        {{-- <section class="contact">
             <div class="animation-trigger"></div>
             <div class="sidebyside">
                 <div class="sidebyside-container">
                     <div class="contactMedia">
-                        <img src="" alt="">
+                        <img src="{{ asset('assets/images/stock/contact-us.webp') }}" alt="">
                     </div>
                     <div class="contact-container">
-
+                        <div class="contactForm">
+                            <h2 class="TopToBottomAnim">
+                                Bizimle İletişime Geçin
+                            </h2>
+                            <div class="inputBx">
+                                <input type="text" name="name" id="name" required>
+                                <i>İsim Soyisim</i>
+                            </div>
+                            <div class="inputBx">
+                                <select name="category" id="category">
+                                    <option></option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
     </div>
 @endsection
 
