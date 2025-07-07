@@ -15,11 +15,16 @@ document.addEventListener('DOMContentLoaded', () => {
             ];
             const selector = animClasses.map(cls => '.' + cls).join(', ');
             const anims = Array.from(container.querySelectorAll(selector));
+            const sameTime = trigger.classList.contains('same-time');
             if (rect.top <= 700) {
                 anims.forEach((el, i) => {
-                    setTimeout(() => {
+                    if (sameTime) {
                         el.classList.add('activeAnim');
-                    }, i * 250);
+                    } else {
+                        setTimeout(() => {
+                            el.classList.add('activeAnim');
+                        }, i * 250);
+                    }
                 });
             } else {
                 anims.forEach(el => el.classList.remove('activeAnim'));
