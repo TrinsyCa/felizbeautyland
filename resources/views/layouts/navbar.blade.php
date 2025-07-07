@@ -1,7 +1,7 @@
 <nav>
     <div class="nav-container">
         <div class="nav-logo">
-            <a href="{{ url('/') }}">
+            <a href="{{ url('#') }}">
                 <img src="{{ asset('assets/images/logo/feliz-logo.webp') }}" alt="Feliz Beautyland Logo">
             </a>
         </div>
