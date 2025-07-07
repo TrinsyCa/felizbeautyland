@@ -1,13 +1,17 @@
 nav {
     position: fixed;
     top: 20px;
-    left: 0;
+    left: calc(122px / 2);
     z-index: 999999;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     user-select: none;
+    transition: left 0.3s;
+}
+body.reservationActivated nav {
+    left: calc(202px / 2);
 }
 .nav-logo {
     padding-right: 30px;
