@@ -246,31 +246,31 @@
                         <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiperGallery2">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-1.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-1.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-1.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-2.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-2.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-2.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-3.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-3.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-3.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-4.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-4.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-4.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-5.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-5.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-5.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-6.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-6.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-6.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-7.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-7.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-7.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-8.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-8.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-8.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-9.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-9.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-9.webp')) }}" loading="lazy">
                                 </div>
                             </div>
                             <div class="swiper-button-next"></div>
@@ -279,31 +279,31 @@
                         <div thumbsSlider="" class="swiper mySwiperGallery">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-1.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-1.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-1.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-2.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-2.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-2.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-3.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-3.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-3.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-4.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-4.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-4.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-5.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-5.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-5.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-6.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-6.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-6.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-7.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-7.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-7.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-8.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-8.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-8.webp')) }}" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-9.webp') }}" loading="lazy">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-9.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-9.webp')) }}" loading="lazy">
                                 </div>
                             </div>
                         </div>
