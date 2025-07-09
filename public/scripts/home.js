@@ -159,9 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     box.classList.remove('showAnim');
                 });
                 if(currentReservationList.classList.contains('scrollActive')) {
-                    setTimeout(() => {
-                        currentReservationList.classList.remove('scrollActive');
-                    }, 400);
+                    currentReservationList.classList.remove('scrollActive');
                 }
             });
 
@@ -174,9 +172,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         box.classList.remove('showAnim');
                     });
                     if(currentReservationList.classList.contains('scrollActive')) {
-                        setTimeout(() => {
-                            currentReservationList.classList.remove('scrollActive');
-                        }, 400);
+                        currentReservationList.classList.remove('scrollActive');
                     }
                 }
             });
@@ -186,9 +182,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 currentReservationList.classList.remove('active');
 
                 if(currentReservationList.classList.contains('scrollActive')) {
-                    setTimeout(() => {
-                        currentReservationList.classList.remove('scrollActive');
-                    }, 400);
+                    currentReservationList.classList.remove('scrollActive');
                 }
             } else {
                 currentReservationList.style.height = 'auto';
