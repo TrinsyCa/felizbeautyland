@@ -46,8 +46,5 @@ function wp() {
         + formattedReservations
         + line;
 
-    // EK BİLGİ
-    wp_url += "*Not:* " + "Sizi dört gözle salonumuza bekliyoruz..";
-
     window.open(wp_url, "_blank", "noopener");
 }
