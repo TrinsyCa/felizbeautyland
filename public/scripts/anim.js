@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const timeouts = [];
 
-            if (rect.top <= 700) {
+            if (rect.top <= 900) {
                 anims.forEach((el, i) => {
                     if (sameTime) {
                         el.classList.add('activeAnim');
