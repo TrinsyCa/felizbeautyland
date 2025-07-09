@@ -733,7 +733,6 @@ h2 {
 .flex-inputs {
     display: flex;
     align-items: center;
-    gap: 5px;
 }
 .txtBox
 {

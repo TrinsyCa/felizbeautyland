@@ -96,7 +96,7 @@ nav {
     height: 100%;
 }
 .nav-links li {
-    height: 55px;
+    height: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,7 +126,7 @@ body.reservationActivated .nav-links {
 .close-reservation {
     width: 0;
     padding-left: 0;
-    height: 55px;
+    height: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +134,7 @@ body.reservationActivated .nav-links {
     transition: padding-left 0.3s ease-in-out, width 0.3s ease-in-out;
 }
 body.reservationActivated .nav-container {
-    width: 320px;
+    width: 325px;
 }
 body.reservationActivated .close-reservation {
     width: 100%;

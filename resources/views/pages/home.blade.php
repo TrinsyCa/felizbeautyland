@@ -308,7 +308,7 @@
                             </div>
                             <div class="minispace"></div>
                             <div class="flex-inputs">
-                                <div class="inputBx LeftToRightAnim">
+                                <div class="inputBx LeftToRightAnim" style="margin-right: 10px;">
                                     <label for="datetime">
                                         <input type="date" name="datetime" id="datetime" min="<?= date('Y-m-d'); ?>" max="2099-12-31" required>
                                         <i>📅 Date</i>
@@ -459,11 +459,11 @@
                                                     <button class="reservate-btn">+ Randevu Ekle</button>
                                                 </div>
                                                 <div class="reservation-box">
-                                                    <p>Lazer Epilasyon(Yarım Kol)</p>
+                                                    <p>Lazer Epilasyon (Yarım Kol)</p>
                                                     <button class="reservate-btn">+ Randevu Ekle</button>
                                                 </div>
                                                 <div class="reservation-box">
-                                                    <p>Lazer Epilasyon( Yarım Bacak)</p>
+                                                    <p>Lazer Epilasyon (Yarım Bacak)</p>
                                                     <button class="reservate-btn">+ Randevu Ekle</button>
                                                 </div>
                                                 <div class="reservation-box">
