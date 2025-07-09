@@ -5,9 +5,6 @@
 .detailGroup {
     padding: 5.6svh 0;
 }
-.detailGroup * {
-    font-family: 'Quicksand', sans-serif;
-}
 .detailGroup-container {
     display: flex;
     justify-content: center;

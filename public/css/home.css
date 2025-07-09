@@ -155,7 +155,7 @@ h2 {
     font-size: 2.5rem;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 .sidebyside-content p {
     font-size: 1.15rem;
@@ -406,7 +406,6 @@ h2 {
     cursor: pointer;
     box-shadow: 0 0 5px var(--text-color);
     text-shadow: 0 0 1px var(--text-color);
-    font-family: 'Quicksand', sans-serif;
     font-optical-sizing: auto;
 }
 .userStories-story-button:hover,
@@ -454,7 +453,6 @@ h2 {
     transform: translate(-50%,-50%);
     font-size: 1.2rem;
     z-index: 3;
-    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     transition: width 0.25s ease-in-out, height 0.25s ease-in-out, background-color 0.25s ease-in-out, color 0.25s ease-in-out, border-radius 0.25s ease-in-out;
 }
@@ -615,4 +613,276 @@ h2 {
 }
 #hizmetler {
     scroll-margin-top: -100px;
+}
+.contact-container {
+    width: 100%;
+}
+.contact .sidebyside-container {
+    flex-direction: row-reverse;
+}
+.reservation-category-box {
+    position: relative;
+    user-select: none;
+}
+.reservation-category-btn {
+    position: relative;
+    font-size: 1.4rem;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 0;
+    padding-left: 35px;
+    cursor: pointer;
+    user-select: none;
+    width: 100%;
+    text-align: start;
+    pointer-events: none;
+}
+.reservation-list {
+    font-size: 20px;
+    padding-bottom: 0;
+    height: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, height 0.5s ease-in-out;
+    overflow: hidden;
+    max-height: 232px;
+}
+.reservation-list.active {
+    opacity: 1;
+}
+.reservation-list.scrollActive {
+    overflow-y: auto;
+    padding-right: 3px;
+}
+.reservation-list p {
+    width: 100%;
+    height: 100%;
+    font-size: 1.15rem;
+}
+.reservation-category-btn::after {
+    font-size: 1.5rem;
+    content: '>';
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease-in-out;
+}
+.reservation-category-btn.active::after {
+    transform: translateY(-50%) rotate(90deg);
+}
+.reservation-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.reservation-box {
+    border-radius: 15px;
+    padding: 6px 6px 6px 12px;
+    background: rgba(0,0,0, 0.17);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.25s ease-in-out;
+    user-select: none;
+    opacity: 0;
+    translate: 0 50px;
+    transition: 0.4s ease-in-out;
+}
+.reservation-box.showAnim {
+    translate: 0 0;
+    opacity: 1;
+}
+.reservation-box:hover,
+.reservation-box.activeReservation {
+    background: rgba(0, 0, 0, 0.19);
+}
+.reservation-box .reservate-btn {
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 2px solid var(--primary-color);
+    white-space: nowrap;
+    background-color: transparent;
+    color: var(--primary-color);
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, scale 0.2s ease-in-out;
+    cursor: pointer;
+    height: 40px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.reservation-box .reservate-btn:hover,
+.reservation-box .reservate-btn:active,
+.reservation-box .reservate-btn.checked {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+.reservation-box .reservate-btn:active {
+    scale: 0.9;
+}
+.inputBx
+{
+   position: relative;
+   width: 100%;
+   overflow: hidden;
+   user-select: none;
+}
+.flex-inputs {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.txtBox
+{
+    height: 120px;
+}
+textarea
+{
+    width: 100%;
+    outline: 2px solid transparent;
+    border: 2px solid rgb(255,255,255,0.2);
+    border-radius: 10px;
+    background-color: rgb(255,255,255,0.25);
+    color: white;
+    font-weight: 500;
+    font-size: 1em;
+    transition: 0.4s;
+    height: 120px;
+    max-height: 195px;
+    resize: none;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 21px 10px 5px;
+    backdrop-filter: blur(10px);
+}
+textarea:focus
+{
+   border-color: rgba(255,255,255,0.45);
+}
+textarea::placeholder
+{
+   font-style: normal;
+   color: rgb(161, 161, 161);
+}
+textarea::-webkit-scrollbar
+{
+   width: 9px;
+   background-color: transparent;
+}
+textarea::-webkit-scrollbar-thumb
+{
+   background-color: rgba(0, 0, 0, 0.35);
+   border-radius: 10px;
+}
+.inputBx input
+{
+   position: relative;
+   width: 100%;
+   border-radius: 15px;
+   outline: none;
+   padding: 26px 10px 5px;
+   color: var(--text-color);
+   font-weight: 500;
+   font-size: 1em;
+   border: 2px solid var(--text-secondary-color);
+   transition: 0.4s ease-in-out;
+   backdrop-filter: blur(10px);
+}
+.inputBx input[type="date"],
+.inputBx input[type="time"]
+{
+    color: transparent;
+    transition: 0.3s;
+}
+.inputBx input:focus,
+.inputBx input:valid
+{
+    color: var(--text-color);
+}
+.inputBx input[name="phone"]
+{
+    padding-left: 32px;
+}
+.inputBx g
+{
+   position: absolute;
+   left: 0;
+   padding: 19px 12px;
+   font-style: normal;
+   color: var(--text-color);
+   transition: 0.15s;
+   pointer-events: none;
+   font-size: 22px;
+   opacity: 0;
+   transition: 0.3s;
+   transform: translate(-20px,3px);
+}
+.inputBx i
+{
+   position: absolute;
+   left: 0;
+   padding: 15px 10px;
+   font-style: normal;
+   color: var(--text-secondary-color);
+   transition: 0.15s;
+   pointer-events: none;
+   font-size: 24px;
+   transform: translateY(-3px);
+   font-weight:bold;
+}
+.inputBx input:focus ~ i,
+.inputBx input:valid ~ i,
+.inputBx textarea:focus ~ i,
+.inputBx textarea:valid ~ i
+{
+   font-weight:bold;
+   transform: translateY(-10px);
+   font-size: 0.88em;
+   transition: 0.3s;
+}
+.inputBx input:focus ~ g,
+.inputBx input:valid ~ g,
+.inputBx textarea:focus ~ g,
+.inputBx textarea:valid ~ g
+{
+    transform: translate(1px,3px);
+    opacity: 1;
+}
+.inputBx select
+{
+    position: relative;
+    width: 100%;
+    background-color: rgba(255,255,255,0.25);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 9px 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.4em;
+    font-weight: bold;
+    border: 2px solid rgb(255,255,255,0.2);
+    transition: 0.4s;
+    backdrop-filter: blur(10px);
+    transition: 0.4s;
+}
+.inputBx select option
+{
+    background-color: rgba(0,0,0,0.4);
+}
+.inputBx input:focus,
+.inputBx select:focus
+{
+    border-color: var(--text-color);
+}
+.services {
+    border: 2px solid var(--text-secondary-color);
+    border-radius: 15px;
+    padding: 12px;
+    overflow: hidden;
+}
+.services h3 {
+    color: var(--text-secondary-color);
 }

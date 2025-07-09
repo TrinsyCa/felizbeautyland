@@ -4,7 +4,7 @@
     --background-color: rgb(245, 245, 245);
     --text-color: #333;
     --text-secondary-color: #555;
-    --font-family: 'Arial', sans-serif;
+    --font-family: 'Quicksand', sans-serif;
     --insta-profile-bg: linear-gradient(-135deg, #D300C5, #F40180, #FF4032, #ffb300, #FFC900);
     --gender-woman-clr: #D85590;
     --gender-man-clr: #4981A9;
@@ -24,10 +24,27 @@
     outline: 0;
     font-family: var(--font-family);
     color: var(--text-color);
+    scrollbar-width: thin;
+    scrollbar-color: #999 var(--background-color);
 }
 ::selection {
     background-color: var(--primary-color);
     color: var(--background-color);
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 html {
     scroll-behavior: smooth !important;
@@ -53,6 +70,9 @@ body {
     align-items: center;
     gap: 15px;
 }
+.fullWidth {
+    width: 100% !important;
+}
 button.primary {
     background-color: var(--primary-color);
     padding: 10px 20px;
@@ -69,15 +89,22 @@ button.primary {
     align-items: center;
     gap: 10px;
 }
+button.primary svg {
+    color: var(--background-color);
+}
+button.primary svg g {
+    fill: var(--background-color);
+}
 button.primary:hover {
     background-color: var(--primary-color-hover);
+    box-shadow: 0 0 10px var(--primary-color-hover);
 }
 button.primary:active {
     scale: 0.9;
 }
-::-webkit-scrollbar {
-    width: 0;
-}
 .space {
     min-height: 40px;
+}
+.minispace {
+    min-height: 10px;
 }

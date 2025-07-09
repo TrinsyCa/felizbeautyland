@@ -126,6 +126,124 @@ document.addEventListener('DOMContentLoaded', function () {
             },
         },
     });
+    const reservationCategoryBtn = document.querySelectorAll(".reservation-category-btn");
+    const reservationList = document.querySelectorAll(".reservation-list");
+
+    const reservationCategoryBox = document.querySelectorAll(".reservation-category-box");
+    const lastBox = reservationCategoryBox[reservationCategoryBox.length - 1];
+
+    if (lastBox) {
+        const observer = new MutationObserver(() => {
+            if (lastBox.classList.contains('activeAnim')) {
+                reservationCategoryBtn.forEach((btn) => {
+                    btn.style.pointerEvents = 'all';
+                });
+            } else {
+                reservationCategoryBtn.forEach((btn) => {
+                    btn.style.pointerEvents = 'none';
+                });
+            }
+        });
+        observer.observe(lastBox, { attributes: true, attributeFilter: ['class'] });
+    }
+
+    reservationCategoryBtn.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            const currentReservationList = this.nextElementSibling;
+            const currentReservationItem = currentReservationList.querySelector(".reservation-item");
+
+            reservationCategoryBtn.forEach(function(rCategoryBtn) {
+                rCategoryBtn.classList.remove('active');
+                const currentReservationBoxes = currentReservationItem.querySelectorAll('.reservation-box');
+                currentReservationBoxes.forEach((box, i) => {
+                    box.classList.remove('showAnim');
+                });
+                if(currentReservationList.classList.contains('scrollActive')) {
+                    setTimeout(() => {
+                        currentReservationList.classList.remove('scrollActive');
+                    }, 400);
+                }
+            });
+
+            reservationList.forEach(function(rListBtn) {
+                if (rListBtn !== currentReservationList) {
+                    rListBtn.style.height = '0px';
+                    rListBtn.classList.remove('active');
+                    const currentReservationBoxes = currentReservationItem.querySelectorAll('.reservation-box');
+                    currentReservationBoxes.forEach((box) => {
+                        box.classList.remove('showAnim');
+                    });
+                    if(currentReservationList.classList.contains('scrollActive')) {
+                        setTimeout(() => {
+                            currentReservationList.classList.remove('scrollActive');
+                        }, 400);
+                    }
+                }
+            });
+
+            if (currentReservationList.classList.contains('active')) {
+                currentReservationList.style.height = '0px';
+                currentReservationList.classList.remove('active');
+
+                if(currentReservationList.classList.contains('scrollActive')) {
+                    setTimeout(() => {
+                        currentReservationList.classList.remove('scrollActive');
+                    }, 400);
+                }
+            } else {
+                currentReservationList.style.height = 'auto';
+                const fullHeight = currentReservationItem.offsetHeight;
+
+                currentReservationList.style.height = '0px';
+                currentReservationList.scrollIntoView({ behavior: "smooth", block: "start" });
+                window.scrollBy({ top: -200, left: 0, behavior: "smooth" });
+                currentReservationItem.scrollIntoView({ behavior: "smooth", block: "start" });
+
+                requestAnimationFrame(function() {
+                    btn.classList.add('active');
+                    const computedMaxHeight = window.getComputedStyle(currentReservationList).maxHeight;
+                    const maxHeightValue = parseInt(computedMaxHeight) + 50 || 0;
+                    if(maxHeightValue <= fullHeight) {
+                        currentReservationList.classList.add('scrollActive');
+                    }
+                    currentReservationList.style.height = fullHeight + 'px';
+                    currentReservationList.classList.add('active');
+                    const currentReservationBoxes = currentReservationItem.querySelectorAll('.reservation-box');
+                    currentReservationBoxes.forEach((box, i) => {
+                        setTimeout(() => {
+                            box.classList.add('showAnim');
+                        }, i * 250);
+                    });
+                });
+            }
+        });
+    });
+
+    const reservationsInput = document.getElementsByName("reservations")[0];
+    const reservateBtns = document.querySelectorAll('.reservate-btn');
+
+    reservateBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+            btn.classList.toggle('checked');
+            const p = btn.previousElementSibling;
+            if (!p || p.tagName !== 'P') return;
+            const text = p.textContent.trim();
+
+            let value = reservationsInput.value || "";
+
+            if (btn.classList.contains('checked')) {
+                if (!value.includes(text + ',')) {
+                    value += text + ',';
+                }
+                btn.innerText = '✓ Randevu Eklendi';
+            } else {
+                value = value.replace(text + ',', '');
+                btn.innerText = '+ Randevu Ekle';
+            }
+
+            reservationsInput.value = value.trim();
+        });
+    });
 });
 function changeStory(element) {
     const slides = document.querySelectorAll('#userStoriesUsers .swiper-slide');

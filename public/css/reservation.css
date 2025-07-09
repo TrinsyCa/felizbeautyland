@@ -16,7 +16,6 @@
     text-align: center;
     justify-content: center;
     font-size: 2.5rem;
-    font-family: "Quicksand", serif;
     margin-bottom: 40px;
     color: var(--text-color);
 }
@@ -24,13 +23,13 @@ body.reservationActivated .reservation-container {
     opacity: 1;
     pointer-events: auto;
 }
-.reservation-list {
+.reservationList {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
 }
 @media (max-width: 600px) {
-    .reservation-list {
+    .reservationList {
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -62,7 +61,6 @@ body.reservationActivated .reservation-container {
     z-index: 3;
 }
 .reservationBox article h3 {
-    font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     position: relative;
     font-size: 2.5rem;

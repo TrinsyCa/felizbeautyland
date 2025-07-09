@@ -14,9 +14,6 @@ footer {
         opacity: 1;
     }
 }
-footer * {
-    font-family: 'Quicksand', sans-serif;
-}
 .footer-container {
     display: flex;
     flex-direction: column;
