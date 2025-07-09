@@ -42,7 +42,7 @@ function wp() {
         + "*Saat: " + time + "*" + dbr
         + "*Müşteri İsmi: " + name + "*" + br
         + line
-        + "*Randevular*" + br
+        + "*Randevular*" + dbr
         + formattedReservations
         + line;
 
