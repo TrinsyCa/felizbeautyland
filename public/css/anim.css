@@ -45,7 +45,7 @@
 .ScaleToShowAnim {
     opacity: 0;
     scale: 0.3;
-    transition: opacity 0.5s ease-in-out, scale 0.4s ease-in-out, translate 0.4s ease-in-out;
+    transition: opacity 0.5s ease-in-out, scale 0.4s ease-in-out, translate 0.4s ease-in-out !important;
     pointer-events: none;
 }
 .ScaleToShowAnim.activeAnim {

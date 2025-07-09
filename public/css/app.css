@@ -74,7 +74,7 @@ body {
     width: 100% !important;
 }
 button.primary {
-    background-color: var(--primary-color);
+    background: var(--primary-color);
     padding: 10px 20px;
     border-radius: 15px;
     color: var(--background-color);
@@ -101,6 +101,10 @@ button.primary:hover {
 }
 button.primary:active {
     scale: 0.9;
+}
+button.primary.disable {
+    background: var(--text-color);
+    pointer-events: none;
 }
 .space {
     min-height: 40px;

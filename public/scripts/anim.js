@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     } else {
                         const t = setTimeout(() => {
                             el.classList.add('activeAnim');
-                        }, i * 250);
+                        }, i * 100);
                         timeouts.push(t);
                     }
                 });

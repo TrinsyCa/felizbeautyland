@@ -121,22 +121,22 @@
                             Bizi Tavsiye Edenler
                         </h2>
                         <div class="space"></div>
-                        <div class="userStories-users-container BottomToTopAnim">
+                        <div class="userStories-users-container">
                             <div class="swiper mySwiper4">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide" onclick="changeStory(this);">
+                                    <div class="swiper-slide ScaleToShowAnim" onclick="changeStory(this);">
                                         <div class="user-profile-pic">
                                             <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/nilsu-aktas.webp')) }}" alt="Nilsu Aktaş">
                                         </div>
                                         <p>Nilsu Aktaş</p>
                                     </div>
-                                    <div class="swiper-slide" onclick="changeStory(this);">
+                                    <div class="swiper-slide ScaleToShowAnim" onclick="changeStory(this);">
                                         <div class="user-profile-pic">
                                             <img src="{{ asset('assets/images/customers/pp/cagla-simsek.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/cagla-simsek.webp')) }}" alt="Çağla Şimşek">
                                         </div>
                                         <p>Çağla Şimşek</p>
                                     </div>
-                                    <div class="swiper-slide" onclick="changeStory(this);">
+                                    <div class="swiper-slide ScaleToShowAnim" onclick="changeStory(this);">
                                         <div class="user-profile-pic">
                                             <img src="{{ asset('assets/images/customers/pp/buket-sena.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/buket-sena.webp')) }}" alt="Buket Sena">
                                         </div>
@@ -544,7 +544,7 @@
                             </div>
                             <div class="minispace"></div>
                             <div class="center-container BottomToTopAnim">
-                                <button class="primary fullWidth" onclick="wp();">
+                                <button class="primary fullWidth disable" id="submitWp" onclick="wp();">
                                     Şimdi Randevu Al
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 20 20"><rect width="20" height="20" fill="none"/><g fill="#e09160" fill-rule="evenodd" clip-rule="evenodd"><g opacity="0.2"><path d="M12.206 5.848a1.5 1.5 0 0 1 2.113.192l3.333 4a1.5 1.5 0 1 1-2.304 1.92l-3.334-4a1.5 1.5 0 0 1 .192-2.112"/><path d="M12.206 16.152a1.5 1.5 0 0 1-.192-2.112l3.334-4a1.5 1.5 0 0 1 2.304 1.92l-3.333 4a1.5 1.5 0 0 1-2.113.192"/><path d="M16 11a1.5 1.5 0 0 1-1.5 1.5h-8a1.5 1.5 0 0 1 0-3h8A1.5 1.5 0 0 1 16 11"/></g><path d="M11.347 5.616a.5.5 0 0 1 .704.064l3.333 4a.5.5 0 0 1-.768.64l-3.333-4a.5.5 0 0 1 .064-.704"/><path d="M11.347 14.384a.5.5 0 0 1-.064-.704l3.333-4a.5.5 0 0 1 .768.64l-3.333 4a.5.5 0 0 1-.704.064"/><path d="M15.5 10a.5.5 0 0 1-.5.5H5a.5.5 0 0 1 0-1h10a.5.5 0 0 1 .5.5"/></g></svg>
                                 </button>
