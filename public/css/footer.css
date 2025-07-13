@@ -1,7 +1,5 @@
 footer {
     user-select: none;
-    translate: 0 100px;
-    opacity: 0;
 }
 .footer-container {
     display: flex;
