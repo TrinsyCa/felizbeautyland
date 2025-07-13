@@ -189,9 +189,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 const fullHeight = currentReservationItem.offsetHeight;
 
                 currentReservationList.style.height = '0px';
-                currentReservationList.scrollIntoView({ behavior: "smooth", block: "start" });
-                window.scrollBy({ top: -200, left: 0, behavior: "smooth" });
-                currentReservationItem.scrollIntoView({ behavior: "smooth", block: "start" });
 
                 requestAnimationFrame(function() {
                     btn.classList.add('active');

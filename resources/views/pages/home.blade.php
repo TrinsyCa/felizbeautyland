@@ -54,9 +54,9 @@
     </header>
     <div class="container">
         <section class="sidebyside">
-            <div class="animation-trigger"></div>
             <div class="sidebyside-container">
-                <div class="sidebyside-media TopToBottomAnim" id="hizmetler">
+            <div class="animation-trigger"></div>
+                <div class="sidebyside-media LeftToRightAnim" id="hizmetler">
                     <div class="swiper mySwiper2">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -107,6 +107,90 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><rect width="24" height="24" fill="none"/><path fill="rgb(245, 245, 245)" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg>
                             Hizmetlerimizi İnceleyin
                         </button>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebyside-container">
+            <div class="animation-trigger"></div>
+                <div class="sidebyside-content">
+                    <h2 class="LeftToRightAnim">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 32 32"><rect width="32" height="32" fill="none"/><g fill="none"><g filter="url(#f2372id4)"><path fill="url(#f2372id0)" d="M15.821 11.106c-.17.662-.749 1.156-1.433 1.498c-1.939.67-3.47 1.316-4.738 1.942c-1.122.555-1.11 2.308.015 2.855c1.315.639 2.966 1.252 4.8 1.98c.493.195 1.19.747 1.363 1.426a56 56 0 0 0 2.063 6.35c.621 1.587 2.158 1.585 2.783 0c.81-2.059 1.427-4.282 2.122-6.397a2.02 2.02 0 0 1 1.294-1.395a70 70 0 0 0 4.721-1.889c1.26-.555 1.286-2.356.042-2.946a56 56 0 0 0-4.771-2.009a2.16 2.16 0 0 1-1.339-1.398c-.754-2.31-1.232-4.27-2.034-6.304c-.625-1.586-2.264-1.537-2.89.048c-.798 2.028-1.355 4.045-1.998 6.239"/></g><path fill="url(#f2372id1)" d="M15.821 11.106c-.17.662-.749 1.156-1.433 1.498c-1.939.67-3.47 1.316-4.738 1.942c-1.122.555-1.11 2.308.015 2.855c1.315.639 2.966 1.252 4.8 1.98c.493.195 1.19.747 1.363 1.426a56 56 0 0 0 2.063 6.35c.621 1.587 2.158 1.585 2.783 0c.81-2.059 1.427-4.282 2.122-6.397a2.02 2.02 0 0 1 1.294-1.395a70 70 0 0 0 4.721-1.889c1.26-.555 1.286-2.356.042-2.946a56 56 0 0 0-4.771-2.009a2.16 2.16 0 0 1-1.339-1.398c-.754-2.31-1.232-4.27-2.034-6.304c-.625-1.586-2.264-1.537-2.89.048c-.798 2.028-1.355 4.045-1.998 6.239"/><g filter="url(#f2372id5)"><path fill="url(#f2372id2)" d="M7.768 5.816c-.055.213-.241.372-.461.482c-.624.216-1.117.424-1.525.626c-.361.178-.358.742.005.918c.423.206.954.403 1.544.637c.16.063.383.241.44.46c.171.673.405 1.385.663 2.043c.2.511.695.51.896 0c.26-.662.46-1.378.683-2.059a.65.65 0 0 1 .417-.449a22 22 0 0 0 1.52-.607a.523.523 0 0 0 .013-.949c-.428-.202-.96-.437-1.536-.646a.7.7 0 0 1-.431-.45c-.243-.744-.397-1.374-.655-2.03c-.2-.51-.729-.494-.93.016c-.257.653-.436 1.302-.643 2.008"/></g><path fill="url(#f2372id3)" d="M7.768 5.816c-.055.213-.241.372-.461.482c-.624.216-1.117.424-1.525.626c-.361.178-.358.742.005.918c.423.206.954.403 1.544.637c.16.063.383.241.44.46c.171.673.405 1.385.663 2.043c.2.511.695.51.896 0c.26-.662.46-1.378.683-2.059a.65.65 0 0 1 .417-.449a22 22 0 0 0 1.52-.607a.523.523 0 0 0 .013-.949c-.428-.202-.96-.437-1.536-.646a.7.7 0 0 1-.431-.45c-.243-.744-.397-1.374-.655-2.03c-.2-.51-.729-.494-.93.016c-.257.653-.436 1.302-.643 2.008"/><g filter="url(#f2372id6)"><path fill="url(#f2372id7)" d="M5.226 20.066c-.076.297-.336.518-.643.672c-.87.3-1.558.59-2.127.872c-.503.249-.498 1.035.007 1.28c.59.288 1.331.563 2.154.89c.222.087.534.335.612.64c.24.938.566 1.932.926 2.85c.279.712.969.711 1.249 0c.364-.924.64-1.922.952-2.872a.9.9 0 0 1 .581-.626a31 31 0 0 0 2.12-.847a.73.73 0 0 0 .018-1.323a25 25 0 0 0-2.141-.901a.97.97 0 0 1-.601-.628c-.339-1.037-.553-1.916-.913-2.83c-.28-.71-1.017-.689-1.297.023c-.358.91-.609 1.815-.897 2.8"/></g><defs><linearGradient id="f2372id0" x1="26.129" x2="15.052" y1="11.271" y2="22.931" gradientUnits="userSpaceOnUse"><stop stop-color="#ffcf5a"/><stop offset="1" stop-color="#fea254"/></linearGradient><linearGradient id="f2372id1" x1="14.754" x2="20.792" y1="29.29" y2="16.554" gradientUnits="userSpaceOnUse"><stop stop-color="#ff886d"/><stop offset="1" stop-color="#ff886d" stop-opacity="0"/></linearGradient><linearGradient id="f2372id2" x1="11.086" x2="7.521" y1="5.869" y2="9.622" gradientUnits="userSpaceOnUse"><stop stop-color="#ffda72"/><stop offset="1" stop-color="#f7a967"/></linearGradient><linearGradient id="f2372id3" x1="8.886" x2="8.886" y1="11.98" y2="7.855" gradientUnits="userSpaceOnUse"><stop stop-color="#fda071"/><stop offset="1" stop-color="#fda071" stop-opacity="0"/></linearGradient><filter id="f2372id4" width="21.607" height="25.193" x="8.415" y="3.404" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx=".25" dy="-.25"/><feGaussianBlur stdDeviation=".25"/><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/><feColorMatrix values="0 0 0 0 0.937255 0 0 0 0 0.482353 0 0 0 0 0.329412 0 0 0 1 0"/><feBlend in2="shape" result="effect1_innerShadow_18_454"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx=".25" dy=".25"/><feGaussianBlur stdDeviation=".5"/><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/><feColorMatrix values="0 0 0 0 0.737255 0 0 0 0 0.615686 0 0 0 0 0.415686 0 0 0 1 0"/><feBlend in2="effect1_innerShadow_18_454" result="effect2_innerShadow_18_454"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="-.4" dy=".25"/><feGaussianBlur stdDeviation=".2"/><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 0.901961 0 0 0 0 0.458824 0 0 0 1 0"/><feBlend in2="effect2_innerShadow_18_454" result="effect3_innerShadow_18_454"/></filter><filter id="f2372id5" width="6.945" height="8.048" x="5.413" y="3.418" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx=".1" dy=".1"/><feGaussianBlur stdDeviation=".1"/><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/><feColorMatrix values="0 0 0 0 0.803922 0 0 0 0 0.6 0 0 0 0 0.262745 0 0 0 1 0"/><feBlend in2="shape" result="effect1_innerShadow_18_454"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="-.1" dy=".1"/><feGaussianBlur stdDeviation=".1"/><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 0.882353 0 0 0 0 0.423529 0 0 0 1 0"/><feBlend in2="effect1_innerShadow_18_454" result="effect2_innerShadow_18_454"/></filter><filter id="f2372id6" width="9.556" height="11.233" x="2.081" y="16.571" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx=".15" dy="-.15"/><feGaussianBlur stdDeviation=".15"/><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 0.458824 0 0 0 0 0.462745 0 0 0 1 0"/><feBlend in2="shape" result="effect1_innerShadow_18_454"/></filter><radialGradient id="f2372id7" cx="0" cy="0" r="1" gradientTransform="matrix(-4.2802 5.63466 -5.4871 -4.1681 10.014 18.567)" gradientUnits="userSpaceOnUse"><stop offset=".365" stop-color="#ffbc64"/><stop offset="1" stop-color="#ff8f6b"/></radialGradient></defs></g></svg>
+                        Cildiniz İçin En İyisi
+                    </h2>
+                    <p class="BottomToTopAnim">
+                        Feliz Beautyland, geniş bir hizmet yelpazesi sunar. Cilt bakımı, saç kesimi, manikür ve pedikür gibi birçok hizmetimizle güzelliğinizi ön plana çıkarıyoruz.
+                        <br><br>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto quis aut repellat molestias tenetur, voluptates deserunt ipsa amet dolorum! Enim odio explicabo rerum repudiandae sunt dolore quaerat tenetur vitae accusamus!
+                        Molestiae, ex repudiandae atque tempore magni unde repellendus doloremque, dolorum sit adipisci tempora commodi, possimus excepturi? Accusamus repudiandae necessitatibus ullam excepturi, provident quidem laudantium maxime cumque voluptatem accusantium laborum magnam?
+                        Placeat consequuntur dolore repellendus temporibus iure dolorem vitae exercitationem atque obcaecati explicabo quidem magnam dolor, totam itaque ab quibusdam facere omnis neque harum perferendis reiciendis accusamus animi. Ipsam, pariatur necessitatibus?
+                        Expedita, aut doloremque. In voluptatem ratione quaerat, soluta ipsa magnam odit deserunt. Commodi ipsam non a, dicta delectus eius dolore, praesentium nobis suscipit, sit eveniet deserunt earum ab iste magni.
+                        Modi, numquam animi facilis aut dicta optio quo et consequuntur, hic veritatis voluptatem architecto neque id doloremque? Voluptatem iste magnam alias accusantium. Dignissimos rem, quae quas molestiae voluptates labore facere.
+                    </p>
+                    <div class="center-container BottomToTopAnim">
+                        <button onclick="reservationSection();" class="primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><rect width="24" height="24" fill="none"/><path fill="rgb(245, 245, 245)" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg>
+                            Hizmetlerimizi İnceleyin
+                        </button>
+                    </div>
+                </div>
+                <div class="sidebyside-media RightToLeftAnim" id="hizmetler">
+                    <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-1.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-1.webp')) }}" type="image/webp">
+                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-1.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-1.webp')) }}" type="image/webp">
+                                    <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-1.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-2.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-2.webp')) }}" type="image/webp">
+                                <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-2.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-2.webp')) }}" type="image/webp">
+                                <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-2.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                            </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-3.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-3.webp')) }}" type="image/webp">
+                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-3.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-3.webp')) }}" type="image/webp">
+                                    <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-3.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-4.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-4.webp')) }}" type="image/webp">
+                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-4.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-4.webp')) }}" type="image/webp">
+                                    <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-4.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-5.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-5.webp')) }}" type="image/webp">
+                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-5.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-5.webp')) }}" type="image/webp">
+                                    <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-5.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-6.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-6.webp')) }}" type="image/webp">
+                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-6.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-6.webp')) }}" type="image/webp">
+                                    <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-6.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-7.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-7.webp')) }}" type="image/webp">
+                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-7.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-7.webp')) }}" type="image/webp">
+                                    <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-7.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="swiper-prev-next-buttons">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -196,93 +280,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="gallery" id="galeri">
-            <h2 class="ScaleReverseToShowAnim">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><rect width="48" height="48" fill="none"/><g fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"><path d="m9.262 12.92l25.933-3.568a5.5 5.5 0 0 1 6.213 4.708l2.04 14.808a5.5 5.5 0 0 1-4.71 6.211l-25.933 3.569a5.5 5.5 0 0 1-6.213-4.708l-2.04-14.808a5.5 5.5 0 0 1 4.71-6.212"/><path d="M8.807 13.007c.712-.208 1.259-.623 1.736-1.717c.216-.492.6-.914 1.17-.993l2.721-.374c.57-.079 1.055.224 1.395.64c.71.869 1.317 1.143 2.004 1.18"/></g><path fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" d="M34.027 17.746c-.125.017-1.366-1.43-1.467-1.507s-1.83-.88-1.847-1.005c-.018-.125 1.43-1.366 1.507-1.466s.88-1.83 1.005-1.847s1.366 1.43 1.467 1.507s1.83.88 1.847 1.005c.018.125-1.43 1.365-1.507 1.466s-.88 1.83-1.005 1.847" stroke-width="1"/><g fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"><path d="M31.982 23.333c.602 4.374-2.457 8.408-6.833 9.01s-8.412-2.456-9.014-6.83h0a7.995 7.995 0 0 1 6.833-9.01h0a7.997 7.997 0 0 1 9.014 6.83m-15.847 2.181l-1.29-9.373"/><path d="M24.68 22.451a2.06 2.06 0 0 1-1.758 2.32h0a2.06 2.06 0 0 1-2.321-1.759h0a2.059 2.059 0 0 1 4.08-.56"/></g></svg>
-                Salonumuzdan Kareler
-            </h2>
-            <div class="animation-trigger"></div>
-            <div class="sidebyside">
-                <div class="sidebyside-container">
-                    <div class="gallery-container LeftToRightAnim">
-                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiperGallery2">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-1.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-1.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-2.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-2.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-3.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-3.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-4.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-4.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-5.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-5.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-6.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-6.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-7.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-7.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-8.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-8.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-9.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-9.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-                        <div thumbsSlider="" class="swiper mySwiperGallery">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-1.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-1.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-2.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-2.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-3.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-3.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-4.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-4.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-5.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-5.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-6.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-6.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-7.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-7.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-8.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-8.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-9.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-9.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="location">
-                        <div class="location-link-container RightToLeftAnim">
-                            <div class="location-link">
-                                <a rel="nofollow" target="_blank" href="https://www.google.com/maps/dir//FEL%C4%B0Z+SPA+%26+BEAUTYLAND,+akatlar,+Levent,+Ebulula+Mardin+Cd.+No:69,+34335+Be%C5%9Fikta%C5%9F%2F%C4%B0stanbul/@41.0828663,29.0185741,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x14cab7fb0d3f440f:0x9fc0c14816c4af9a!2m2!1d29.021149!2d41.0828623!3e0?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D">Şimdi Ziyaret Et</a>
-                            </div>
-                        </div>
-                        <div class="location-map BottomToTopAnim">
-                            <iframe title="FELİZ SPA & BEAUTYLAND" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.3653998211325!2d29.021148999999998!3d41.082862299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7fb0d3f440f%3A0x9fc0c14816c4af9a!2sFEL%C4%B0Z%20SPA%20%26%20BEAUTYLAND!5e0!3m2!1str!2str!4v1751737717665!5m2!1str!2str" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
@@ -549,6 +546,93 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 20 20"><rect width="20" height="20" fill="none"/><g fill="#e09160" fill-rule="evenodd" clip-rule="evenodd"><g opacity="0.2"><path d="M12.206 5.848a1.5 1.5 0 0 1 2.113.192l3.333 4a1.5 1.5 0 1 1-2.304 1.92l-3.334-4a1.5 1.5 0 0 1 .192-2.112"/><path d="M12.206 16.152a1.5 1.5 0 0 1-.192-2.112l3.334-4a1.5 1.5 0 0 1 2.304 1.92l-3.333 4a1.5 1.5 0 0 1-2.113.192"/><path d="M16 11a1.5 1.5 0 0 1-1.5 1.5h-8a1.5 1.5 0 0 1 0-3h8A1.5 1.5 0 0 1 16 11"/></g><path d="M11.347 5.616a.5.5 0 0 1 .704.064l3.333 4a.5.5 0 0 1-.768.64l-3.333-4a.5.5 0 0 1 .064-.704"/><path d="M11.347 14.384a.5.5 0 0 1-.064-.704l3.333-4a.5.5 0 0 1 .768.64l-3.333 4a.5.5 0 0 1-.704.064"/><path d="M15.5 10a.5.5 0 0 1-.5.5H5a.5.5 0 0 1 0-1h10a.5.5 0 0 1 .5.5"/></g></svg>
                                 </button>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="galeri">
+            <h2 class="ScaleReverseToShowAnim">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><rect width="48" height="48" fill="none"/><g fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"><path d="m9.262 12.92l25.933-3.568a5.5 5.5 0 0 1 6.213 4.708l2.04 14.808a5.5 5.5 0 0 1-4.71 6.211l-25.933 3.569a5.5 5.5 0 0 1-6.213-4.708l-2.04-14.808a5.5 5.5 0 0 1 4.71-6.212"/><path d="M8.807 13.007c.712-.208 1.259-.623 1.736-1.717c.216-.492.6-.914 1.17-.993l2.721-.374c.57-.079 1.055.224 1.395.64c.71.869 1.317 1.143 2.004 1.18"/></g><path fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" d="M34.027 17.746c-.125.017-1.366-1.43-1.467-1.507s-1.83-.88-1.847-1.005c-.018-.125 1.43-1.366 1.507-1.466s.88-1.83 1.005-1.847s1.366 1.43 1.467 1.507s1.83.88 1.847 1.005c.018.125-1.43 1.365-1.507 1.466s-.88 1.83-1.005 1.847" stroke-width="1"/><g fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"><path d="M31.982 23.333c.602 4.374-2.457 8.408-6.833 9.01s-8.412-2.456-9.014-6.83h0a7.995 7.995 0 0 1 6.833-9.01h0a7.997 7.997 0 0 1 9.014 6.83m-15.847 2.181l-1.29-9.373"/><path d="M24.68 22.451a2.06 2.06 0 0 1-1.758 2.32h0a2.06 2.06 0 0 1-2.321-1.759h0a2.059 2.059 0 0 1 4.08-.56"/></g></svg>
+                Salonumuzdan Kareler
+            </h2>
+            <div class="animation-trigger"></div>
+            <div class="sidebyside">
+                <div class="sidebyside-container">
+                    <div class="gallery-container LeftToRightAnim">
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiperGallery2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-1.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-1.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-2.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-2.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-3.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-3.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-4.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-4.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-5.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-5.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-6.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-6.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-7.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-7.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-8.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-8.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-9.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-9.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                        <div thumbsSlider="" class="swiper mySwiperGallery">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-1.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-1.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-2.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-2.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-3.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-3.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-4.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-4.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-5.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-5.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-6.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-6.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-7.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-7.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-8.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-8.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/salon/feliz-beautyland-9.webp') }}?v={{ filemtime(public_path('assets/images/salon/feliz-beautyland-9.webp')) }}" alt="FELİZ SPA & BEAUTYLAND" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <div class="location-link-container RightToLeftAnim">
+                            <div class="location-link">
+                                <a rel="nofollow" target="_blank" href="https://www.google.com/maps/dir//FEL%C4%B0Z+SPA+%26+BEAUTYLAND,+akatlar,+Levent,+Ebulula+Mardin+Cd.+No:69,+34335+Be%C5%9Fikta%C5%9F%2F%C4%B0stanbul/@41.0828663,29.0185741,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x14cab7fb0d3f440f:0x9fc0c14816c4af9a!2m2!1d29.021149!2d41.0828623!3e0?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D">Şimdi Ziyaret Et</a>
+                            </div>
+                        </div>
+                        <div class="location-map BottomToTopAnim">
+                            <iframe title="FELİZ SPA & BEAUTYLAND" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.3653998211325!2d29.021148999999998!3d41.082862299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7fb0d3f440f%3A0x9fc0c14816c4af9a!2sFEL%C4%B0Z%20SPA%20%26%20BEAUTYLAND!5e0!3m2!1str!2str!4v1751737717665!5m2!1str!2str" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
