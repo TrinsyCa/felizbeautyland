@@ -113,7 +113,7 @@
                     </div>
                 </div>
             </div>
-            <div class="sidebyside-container">
+            <div class="sidebyside-container reponsive-reserse">
             <div class="animation-trigger"></div>
                 <div class="sidebyside-content">
                     <h2 class="LeftToRightAnim">

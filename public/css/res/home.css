@@ -23,4 +23,7 @@
     .sidebyside-container {
         flex-direction: column;
     }
+    .sidebyside-container.reponsive-reserse {
+        flex-direction: column-reverse;
+    }
 }
