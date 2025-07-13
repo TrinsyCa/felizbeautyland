@@ -1,0 +1,26 @@
+@media (max-width: 1440px) {
+    .sidebyside {
+        margin: 0;
+    }
+    .sidebyside-content p {
+        font-size: 0.95rem;
+    }
+    .swiper.mySwiper2 {
+        width: 450px;
+    }
+    .sidebyside-content {
+        gap: 10px;
+    }
+    .contactMedia {
+        width: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 70px;
+    }
+}
+@media (max-width: 1024px) {
+    .sidebyside-container {
+        flex-direction: column;
+    }
+}

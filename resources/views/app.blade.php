@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="{{ asset('css/anim.css') }}?v={{ filemtime(public_path('css/footer.css')) }}">
     {{-- Static Styles --}}
 
+    {{-- Static Responsive Styles --}}
+    <link rel="stylesheet" href="{{ asset('css/res/app.css') }}?v={{ filemtime(public_path('css/res/app.css')) }}">
+    {{-- Static Responsive Styles --}}
+
     {{-- Dynamic Styles --}}
     @yield('styles')
     {{-- Dynamic Styles --}}
