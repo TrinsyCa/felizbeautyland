@@ -2,17 +2,6 @@ footer {
     user-select: none;
     translate: 0 100px;
     opacity: 0;
-    animation: footerAnim 1.2s ease-in-out forwards;
-}
-@keyframes footerAnim {
-    0% {
-        translate: 0 100px;
-        opacity: 0;
-    }
-    100% {
-        translate: 0 0;
-        opacity: 1;
-    }
 }
 .footer-container {
     display: flex;
