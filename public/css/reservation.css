@@ -53,7 +53,7 @@ body.reservationActivated .reservation-container {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: rgba(0,0,0, 0.6);
     transition: 0.25s opacity ease-in-out;
     pointer-events: none;

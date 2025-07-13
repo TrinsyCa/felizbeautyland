@@ -138,6 +138,13 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <picture>
+                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef.webp')) }}" type="image/webp">
+                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef.webp')) }}" type="image/webp">
+                                    <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
                                     <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-1.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-1.webp')) }}" type="image/webp">
                                     <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-1.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-1.webp')) }}" type="image/webp">
                                     <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-1.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
