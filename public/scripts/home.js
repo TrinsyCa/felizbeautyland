@@ -53,10 +53,10 @@ document.addEventListener('DOMContentLoaded', function () {
         'use strict';
 
         let swiper4 = null;
-        const breakpoint = window.matchMedia('(max-width: 1024px)');
+        const breakpoint = window.matchMedia('(max-width: 1265px)');
 
         const enableSwiper = function () {
-            swiper4 = new Swipe2('.mySwiper4', {
+            swiper4 = new Swiper('.mySwiper4', {
                 slidesPerView: 5,
                 speed: 800,
                 allowTouchMove: true,

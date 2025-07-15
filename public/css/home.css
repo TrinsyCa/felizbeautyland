@@ -264,8 +264,7 @@
 }
 .userStories-container .userStories-stories {
     position: relative;
-    width: 550px;
-    padding: 25px 0;
+    padding: 25px 50px;
     overflow: hidden;
 }
 .userStories-container .userStories-stories::after {
@@ -431,16 +430,6 @@
 }
 .userStories-story-button:active {
     scale: 0.92;
-}
-@media (min-width: 1024px) {
-    .userStories-users .swiper-button-prev,
-    .userStories-users .swiper-button-next {
-        display: none;
-    }
-    .userStories-users .swiper-wrapper {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 }
 .gallery {
     padding: 3rem 0;

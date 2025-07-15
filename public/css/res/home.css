@@ -22,8 +22,33 @@
         width: 100%;
     }
 }
-@media (max-width: 1024px) {
-
+@media (min-width: 1265px) {
+    .userStories-users .swiper-button-prev,
+    .userStories-users .swiper-button-next {
+        display: none;
+    }
+    .userStories-users .swiper-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width: 1265px) {
+    .userStories-users-container {
+        width: 670px;
+    }
+}
+@media (max-width: 1150px) {
+    .userStories-users-container {
+        width: 490px;
+    }
+}
+@media (max-width: 950px) {
+    .userStories .sidebyside-container {
+        flex-direction: column;
+    }
+    .userStories-users-container {
+        width: 670px;
+    }
 }
 @media (max-width: 1000px) {
     .contact .contactMedia {
