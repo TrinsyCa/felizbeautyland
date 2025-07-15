@@ -1,0 +1,6 @@
+@media (max-width: 1025px) {
+    .reservationList {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}

@@ -47,6 +47,12 @@ nav {
 }
 .nav-hamburger {
     display: none;
+    margin: 0 10px;
+}
+.hamburger-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nav-links a,
 .close-reservation button,

@@ -20,6 +20,9 @@
 
     {{-- Static Responsive Styles --}}
     <link rel="stylesheet" href="{{ asset('css/res/app.css') }}?v={{ filemtime(public_path('css/res/app.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/res/navbar.css') }}?v={{ filemtime(public_path('css/res/navbar.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/res/footer.css') }}?v={{ filemtime(public_path('css/res/footer.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/res/reservation.css') }}?v={{ filemtime(public_path('css/res/reservation.css')) }}">
     {{-- Static Responsive Styles --}}
 
     {{-- Dynamic Styles --}}

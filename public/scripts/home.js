@@ -56,18 +56,17 @@ document.addEventListener('DOMContentLoaded', function () {
         const breakpoint = window.matchMedia('(max-width: 1024px)');
 
         const enableSwiper = function () {
-            swiper4 = new Swiper('.mySwiper4', {
+            swiper4 = new Swipe2('.mySwiper4', {
                 slidesPerView: 5,
                 speed: 800,
-                allowTouchMove: true, /* Mobilde kaydırma açık */
+                allowTouchMove: true,
                 navigation: {
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
                 },
                 breakpoints: {
-                    320: { slidesPerView: 1 }, /* Opsiyonel: Daha küçük ekranlar için */
-                    768: { slidesPerView: 3 },
-                    1024: { slidesPerView: 5 }
+                    501: { slidesPerView: 1 },
+                    767: { slidesPerView: 4 }
                 }
             });
         };

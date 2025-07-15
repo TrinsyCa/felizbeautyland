@@ -1,0 +1,17 @@
+@media (max-width: 700px) {
+    .nav-container {
+        scale: 0.9;
+        width: 153px;
+    }
+    .nav-hamburger {
+        display: block;
+        margin: 0 10px;
+    }
+    .nav-links {
+        display: none;
+    }
+    nav {
+        top: 5px;
+        justify-content: space-between;
+    }
+}

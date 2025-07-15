@@ -18,6 +18,9 @@
         align-items: center;
         padding-left: 70px;
     }
+    .userStories-users-container {
+        width: 100%;
+    }
 }
 @media (max-width: 1024px) {
     .sidebyside-container {
@@ -25,5 +28,92 @@
     }
     .sidebyside-container.reponsive-reserse {
         flex-direction: column-reverse;
+    }
+    .userStories-users-container {
+        width: 670px;
+    }
+    .gallery-container {
+        width: 100%;
+    }
+    .gallery .location {
+        display: flex;
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width: 1000px) {
+    .contact .contactMedia {
+        display: none;
+    }
+}
+@media (max-width: 700px) {
+    .userStories-users .swiper-wrapper {
+        gap: 5px;
+    }
+    .userStories-users .swiper-slide {
+        width: 100px !important;
+    }
+    .userStories-users-container {
+        width: 420px;
+    }
+    .sidebyside-container {
+        margin: 30px 0;
+    }
+    .home-header {
+        height: 52svh;
+    }
+    .header-content h1 {
+        font-size: 2.8rem;
+    }
+    .header-content p {
+        font-size: 1.6rem;
+    }
+    .header-content button {
+        font-size: 1.2rem;
+    }
+    .header-icon {
+        width: 45px;
+    }
+    .header-icon svg {
+        padding: 0;
+    }
+}
+@media (max-width: 500px) {
+    .userStories-users-container {
+        width: 315px;
+    }
+    .userStories-container .swiper {
+        width: 280px;
+        height: 480px;
+    }
+    .userStories-story-button {
+        gap: 5px;
+    }
+    .swiper.mySwiper2 {
+        width: 380px;
+    }
+}
+@media (max-width: 374px) {
+    .userStories-container .swiper {
+        width: 220px;
+        height: 380px;
+    }
+    .userStories-users .swiper-slide {
+        width: 80px !important;
+    }
+    .userStories-users .user-profile-pic {
+        padding: 3px;
+    }
+    .userStories-users .swiper-slide .user-profile-pic img {
+        padding: 2px;
+    }
+    .userStories-users-container {
+        width: 255px;
+    }
+    .userStories-story-button {
+        font-size: 0.9rem;
+    }
+    .swiper.mySwiper2 {
+        width: 330px;
     }
 }

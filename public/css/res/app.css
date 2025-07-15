@@ -10,3 +10,8 @@
         font-size: 1.8rem;
     }
 }
+@media (max-width: 374px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+}
