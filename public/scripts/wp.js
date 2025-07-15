@@ -1,3 +1,45 @@
+const reservationsInput = document.getElementsByName("reservations")[0];
+const reservateBtns = document.querySelectorAll('.reservate-btn');
+const submitWp = document.querySelector('#submitWp');
+const nameInput = document.getElementsByName("name")[0];
+const timeInput = document.getElementsByName("time")[0];
+const datetimeInput = document.getElementsByName("datetime")[0];
+function checkFormValidity() {
+    const isFormValid =
+        nameInput.value.trim() !== '' &&
+        timeInput.value.trim() !== '' &&
+        datetimeInput.value.trim() !== '' &&
+        reservationsInput.value.trim() !== '';
+    if (isFormValid) {
+        submitWp.classList.remove('disable');
+    } else {
+        submitWp.classList.add('disable');
+    }
+}
+reservateBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+        btn.classList.toggle('checked');
+        const p = btn.previousElementSibling;
+        if (!p || p.tagName !== 'P') return;
+        const text = p.textContent.trim();
+        let value = reservationsInput.value || "";
+        if (btn.classList.contains('checked')) {
+            if (!value.includes(text + ',')) {
+                value += text + ',';
+            }
+            btn.innerText = '✓ Randevu Eklendi';
+        } else {
+            value = value.replace(text + ',', '');
+            btn.innerText = '+ Randevu Ekle';
+        }
+        reservationsInput.value = value.trim();
+        checkFormValidity();
+    });
+});
+[nameInput, timeInput, datetimeInput].forEach(input => {
+    input.addEventListener('change', checkFormValidity);
+});
+
 function formatDate(inputDate) {
     var dateParts = inputDate.split("-");
     var day = new Date(inputDate).toLocaleDateString('tr-TR', { weekday: 'long' });

@@ -208,61 +208,6 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
-
-    const reservationsInput = document.getElementsByName("reservations")[0];
-    const reservateBtns = document.querySelectorAll('.reservate-btn');
-    const submitWp = document.querySelector('#submitWp');
-    const nameInput = document.getElementsByName("name")[0];
-    const timeInput = document.getElementsByName("time")[0];
-    const datetimeInput = document.getElementsByName("datetime")[0];
-
-    // Form geçerliliğini kontrol eden fonksiyon
-    function checkFormValidity() {
-        const isFormValid =
-            nameInput.value.trim() !== '' &&
-            timeInput.value.trim() !== '' &&
-            datetimeInput.value.trim() !== '' &&
-            reservationsInput.value.trim() !== '';
-
-        // Eğer tüm alanlar doluysa .disable kaldır, yoksa ekle
-        if (isFormValid) {
-            submitWp.classList.remove('disable');
-        } else {
-            submitWp.classList.add('disable');
-        }
-    }
-
-    // Reservations butonları için tıklama olayı
-    reservateBtns.forEach((btn) => {
-        btn.addEventListener('click', () => {
-            btn.classList.toggle('checked');
-            const p = btn.previousElementSibling;
-            if (!p || p.tagName !== 'P') return;
-            const text = p.textContent.trim();
-
-            let value = reservationsInput.value || "";
-
-            if (btn.classList.contains('checked')) {
-                if (!value.includes(text + ',')) {
-                    value += text + ',';
-                }
-                btn.innerText = '✓ Randevu Eklendi';
-            } else {
-                value = value.replace(text + ',', '');
-                btn.innerText = '+ Randevu Ekle';
-            }
-
-            reservationsInput.value = value.trim();
-
-            // Form geçerliliğini kontrol et
-            checkFormValidity();
-        });
-    });
-
-    // Name, time ve datetime için change olaylarını dinle
-    [nameInput, timeInput, datetimeInput].forEach(input => {
-        input.addEventListener('change', checkFormValidity);
-    });
 });
 function changeStory(element) {
     const slides = document.querySelectorAll('#userStoriesUsers .swiper-slide');
