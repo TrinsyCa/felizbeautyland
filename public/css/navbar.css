@@ -52,12 +52,12 @@ nav {
     margin: 0 10px;
     position: relative;
     z-index: 999999999999;
+    transition: opacity 0.3s ease-in-out;
 }
 #hamburgerButton {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: opacity 0.3s ease-in-out;
 }
 .nav-links a,
 .close-reservation button,
@@ -127,8 +127,11 @@ nav {
     transition: width 0.3s ease-in-out;
     overflow: hidden;
 }
+.nav-logo a {
+    padding: 0 11px;
+}
 .nav-logo img {
-    height: 55px;
+    height: 45px;
     aspect-ratio: 750 / 348;
 }
 html.reservationActivated .nav-links {
