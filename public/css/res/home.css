@@ -104,6 +104,9 @@
     }
 }
 @media (max-width: 500px) {
+    .sidebyside-media {
+        scale: 1.08;
+    }
     .userStories-users-container {
         width: 315px;
     }
