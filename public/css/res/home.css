@@ -6,7 +6,7 @@
         font-size: 0.95rem;
     }
     .swiper.mySwiper2 {
-        width: 450px;
+        width: 400px;
     }
     .sidebyside-content {
         gap: 10px;
@@ -23,6 +23,33 @@
     }
 }
 @media (max-width: 1024px) {
+
+}
+@media (max-width: 1000px) {
+    .contact .contactMedia {
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    h2 {
+        font-size: 1.4rem;
+    }
+    .sidebyside-content p,
+    button.primary {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+    .sidebyside-content p {
+        font-size: 1rem;
+    }
+    button.primary {
+        font-size: 1.1rem;
+        margin: 30px 0;
+    }
     .sidebyside-container {
         flex-direction: column;
     }
@@ -40,10 +67,8 @@
         gap: 20px;
         flex-direction: column-reverse;
     }
-}
-@media (max-width: 1000px) {
-    .contact .contactMedia {
-        display: none;
+    .swiper.mySwiper2 {
+        width: 100%;
     }
 }
 @media (max-width: 700px) {
@@ -89,9 +114,6 @@
     .userStories-story-button {
         gap: 5px;
     }
-    .swiper.mySwiper2 {
-        width: 380px;
-    }
 }
 @media (max-width: 374px) {
     .userStories-container .swiper {
@@ -112,8 +134,5 @@
     }
     .userStories-story-button {
         font-size: 0.9rem;
-    }
-    .swiper.mySwiper2 {
-        width: 330px;
     }
 }
