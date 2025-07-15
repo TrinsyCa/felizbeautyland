@@ -26,25 +26,25 @@
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <video muted autoplay loop>
+                        <video muted autoplay loop poster="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-1.webp') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-1.webp')) }}">
                             <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-1.webm') }}?v={{ filemtime(public_path('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-1.webm')) }}" type="video/webm" media="(max-width: 767px)">
                             <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-1.webm') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-1.webm')) }}" type="video/webm" media="(min-width: 768px)">
                         </video>
                     </div>
                     <div class="swiper-slide">
-                        <video muted autoplay loop>
+                        <video muted autoplay loop poster="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-2.webp') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-2.webp')) }}">
                             <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-2.webm') }}?v={{ filemtime(public_path('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-2.webm')) }}" type="video/webm" media="(max-width: 767px)">
                             <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-2.webm') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-2.webm')) }}" type="video/webm" media="(min-width: 768px)">
                         </video>
                     </div>
                     <div class="swiper-slide">
-                        <video muted autoplay loop>
+                        <video muted autoplay loop poster="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-3.webp') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-3.webp')) }}">
                             <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-3.webm') }}?v={{ filemtime(public_path('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-3.webm')) }}" type="video/webm" media="(max-width: 767px)">
                             <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-3.webm') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-3.webm')) }}" type="video/webm" media="(min-width: 768px)">
                         </video>
                     </div>
                     <div class="swiper-slide">
-                        <video muted autoplay loop>
+                        <video muted autoplay loop poster="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-4.webp') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-4.webp')) }}">
                             <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-4.webm') }}?v={{ filemtime(public_path('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-4.webm')) }}" type="video/webm" media="(max-width: 767px)">
                             <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-4.webm') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-4.webm')) }}" type="video/webm" media="(min-width: 768px)">
                         </video>
@@ -256,7 +256,7 @@
                                     <div class="swiper-slide">
                                         <div class="swiper mySwiper">
                                             <div class="swiper-wrapper">
-                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.mp4') }}?v={{ filemtime(public_path('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.mp4')) }}" type="video/mp4"></video></div>
+                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.webm')) }}" type="video/mp4"></video></div>
                                                 <div class="swiper-slide"><img src="{{ asset('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.webp')) }}"" alt="Nilsu Aktaş | Feliz Beautyland"></div>
                                             </div>
                                         </div>
