@@ -4,3 +4,8 @@
         gap: 10px;
     }
 }
+@media (max-width: 700px) {
+    .reservationBox article h3 {
+        font-size: 1.8rem;
+    }
+}
