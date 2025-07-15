@@ -12,6 +12,8 @@ nav {
 }
 .nav-logo {
     padding-right: 30px;
+    position: relative;
+    z-index: 999999999999;
 }
 .nav-container,
 .nav-hamburger {
@@ -48,11 +50,14 @@ nav {
 .nav-hamburger {
     display: none;
     margin: 0 10px;
+    position: relative;
+    z-index: 999999999999;
 }
-.hamburger-button {
+#hamburgerButton {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: opacity 0.3s ease-in-out;
 }
 .nav-links a,
 .close-reservation button,
@@ -126,7 +131,7 @@ nav {
     height: 55px;
     aspect-ratio: 750 / 348;
 }
-body.reservationActivated .nav-links {
+html.reservationActivated .nav-links {
     width: 0;
 }
 .close-reservation {
@@ -139,13 +144,20 @@ body.reservationActivated .nav-links {
     overflow: hidden;
     transition: padding-left 0.3s ease-in-out, width 0.3s ease-in-out;
 }
-body.reservationActivated .nav-container {
+html.reservationActivated .nav-container {
     width: 325px;
 }
-body.reservationActivated .close-reservation {
+html.reservationActivated .close-reservation {
     width: 100%;
     padding-left: 30px;
 }
-body.reservationActivated {
+html.reservationActivated {
     overflow: hidden;
+}
+#hizmetler,
+#galeri {
+    scroll-margin-top: 30px;
+}
+#iletisim {
+    scroll-margin-top: 80px;
 }

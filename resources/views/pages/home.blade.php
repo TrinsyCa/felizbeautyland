@@ -302,7 +302,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="iletisim">
             <div class="animation-trigger"></div>
             <div class="sidebyside">
                 <div class="sidebyside-container">

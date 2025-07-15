@@ -1,4 +1,7 @@
 @media (max-width: 700px) {
+    html.navLinksActivated {
+        overflow: hidden;
+    }
     .nav-container {
         scale: 0.9;
         width: 153px;
@@ -8,10 +11,32 @@
         margin: 0 10px;
     }
     .nav-links {
-        display: none;
+        position: fixed;
+        top: -10px;
+        left: -10px;
+        background-color: var(--background-color);
+        opacity: 0;
+        transition: 0.3s opacity;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 112svw;
+        height: 115svh;
+        pointer-events: none;
     }
     nav {
         top: 5px;
         justify-content: space-between;
+    }
+    html.navLinksActivated .nav-links {
+        opacity: 1;
+        pointer-events: all;
+        gap: 20px;
+    }
+    .nav-links a {
+        font-size: 2rem;
+    }
+    html.reservationActivated #hamburgerButton {
+        opacity: 0;
     }
 }

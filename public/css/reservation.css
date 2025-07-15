@@ -20,7 +20,7 @@
     margin-bottom: 40px;
     color: var(--text-color);
 }
-body.reservationActivated .reservation-container {
+html.reservationActivated .reservation-container {
     opacity: 1;
     pointer-events: auto;
 }
