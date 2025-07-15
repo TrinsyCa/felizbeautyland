@@ -5,7 +5,7 @@ function formatDate(inputDate) {
     return formattedDate;
 }
 
-function wp() {
+function bookNow() {
     var name = document.getElementsByName("name")[0].value;
     var time = document.getElementsByName("time")[0].value;
     var datetime = document.getElementsByName("datetime")[0].value;
