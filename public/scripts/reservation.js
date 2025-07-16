@@ -37,7 +37,7 @@ function bookNowFunc() {
     let formattedReservations = "";
     if (reservations) {
         const reservationItems = reservations.split(',').filter(item => item.trim() !== '');
-        formattedReservations = reservationItems.map(item => `hizmetler%5B%5D=${item.trim()}-1`).join('&');
+        formattedReservations = reservationItems.map(item => `hizmetler%5B%5D=${item.trim()}`).join('&');
     }
 
     reservation_url = 'https://kolayrandevu.com/randevu3.php?';
