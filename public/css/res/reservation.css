@@ -6,6 +6,14 @@
 }
 @media (max-width: 700px) {
     .reservationBox article h3 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 500px) {
+    .reservationList {
+        grid-template-columns: 1fr;
+    }
+    .reservationBox article h3 {
+        font-size: 1.9rem;
     }
 }

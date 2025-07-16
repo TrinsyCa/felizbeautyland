@@ -66,7 +66,7 @@
 }
 @media (max-width: 768px) {
     h2 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     .sidebyside-content p {
         font-size: 1rem;
@@ -154,6 +154,10 @@
     .userStories-story-button {
         gap: 5px;
     }
+    .fixed-contact {
+        bottom: 10px;
+        right: 10px;
+    }
 }
 @media (max-width: 374px) {
     .userStories-container .swiper {
@@ -174,5 +178,26 @@
     }
     .userStories-story-button {
         font-size: 0.9rem;
+    }
+    .reservation-category-btn {
+        font-size: 1.15rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h2 svg {
+        width: 38px;
+        aspect-ratio: 1 / 1;
+    }
+    .header-content h1 {
+        font-size: 1.8rem;
+    }
+    .header-content p {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 330px) {
+    h2 {
+        font-size: 1.2rem;
     }
 }

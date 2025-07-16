@@ -152,7 +152,6 @@ html.reservationActivated .nav-container {
 }
 html.reservationActivated .close-reservation {
     width: 100%;
-    padding-left: 30px;
 }
 html.reservationActivated {
     overflow: hidden;
