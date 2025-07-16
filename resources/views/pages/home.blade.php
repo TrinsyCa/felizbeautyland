@@ -375,12 +375,12 @@
                                         <input type="hidden" name="reservations" id="reservations">
                                         <div class="reservation-category-box BottomToTopAnim" category="Makyaj">
                                             <button class="reservation-category-btn">
-                                                Makyaj Hizmetleri
+                                                Kaş ve Kirpik Hizmetleri
                                             </button>
                                             <div class="reservation-list">
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
-                                                        <p data-value="35">Kaş Alma</p>
+                                                        <p data-value="35">Ölçülü Kaş Alımı</p>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -388,7 +388,7 @@
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
-                                                        <p data-value="399121">Lashbotox [Vitamin]</p>
+                                                        <p data-value="399121">Kirpik Laminasyonu (Lash Botox)</p>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -552,7 +552,7 @@
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
-                                                        <p data-value="444665">G8 (Selülit Giderme ve Bölgesel İncelme) [Erkek]</p>
+                                                        <p data-value="444665">G8 (Selülit Giderme ve Bölgesel İncelme)</p>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -720,7 +720,7 @@
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
-                                                        <p data-value="444665">G8 (Selülit Giderme ve Bölgesel İncelme) [Erkek]</p>
+                                                        <p data-value="444665">G8 (Selülit Giderme ve Bölgesel İncelme)</p>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>

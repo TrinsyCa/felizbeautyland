@@ -5,7 +5,7 @@
             <button onclick="openReservationCategory(this);" class="reservationBox">
                 <img src="{{ asset('assets/images/stock/makyaj-hizmetleri.webp') }}?v={{ filemtime(public_path('assets/images/stock/makyaj-hizmetleri.webp')) }}" alt="Feliz Beautyland Makyaj Hizmetleri">
                 <article>
-                    <h3 data-text="Makyaj">Makyaj</h3>
+                    <h3 data-text="Kaş ve Kirpik">Kaş ve Kirpik</h3>
                 </article>
             </button>
             <button onclick="openReservationCategory(this);" class="reservationBox">
