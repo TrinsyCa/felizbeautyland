@@ -366,223 +366,397 @@
                             <div class="minispace"></div> --}}
                             <div class="services BottomToTopAnim">
                                 <h3 class="LeftToRightAnim">Hizmetlerimiz</h3>
-                                <div class="reservation-category-list shutdownAnim">
-                                    <input type="hidden" name="reservations" id="reservations">
-                                    <div class="reservation-category-box BottomToTopAnim" category="Makyaj">
-                                        <button class="reservation-category-btn">
-                                            Makyaj Hizmetleri
-                                        </button>
-                                        <div class="reservation-list">
-                                            <div class="reservation-item">
-                                                <div class="reservation-box">
-                                                    <p data-value="35">Kaş Alma</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
+                                <div class="reservation-gender-section BottomToTopAnim">
+                                    <button class="active" id="reservationGenderWoman">Kadın</button>
+                                    <button id="reservationGenderMan">Erkek</button>
+                                </div>
+                                <div class="reservation-category-section">
+                                    <div class="reservation-category-list shutdownAnim" id="genderWomanList">
+                                        <input type="hidden" name="reservations" id="reservations">
+                                        <div class="reservation-category-box BottomToTopAnim" category="Makyaj">
+                                            <button class="reservation-category-btn">
+                                                Makyaj Hizmetleri
+                                            </button>
+                                            <div class="reservation-list">
+                                                <div class="reservation-item">
+                                                    <div class="reservation-box">
+                                                        <p data-value="35">Kaş Alma</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="191858">Kaş Vitamini</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="399121">Lashbotox [Vitamin]</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="191863">Kaş Laminasyonu</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
                                                 </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="191858">Kaş Vitamini</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
+                                            </div>
+                                        </div>
+                                        <div class="reservation-category-box BottomToTopAnim" category="Estetik ve Güzellik">
+                                            <button class="reservation-category-btn">
+                                                Estetik ve Güzellik Hizmetleri
+                                            </button>
+                                            <div class="reservation-list">
+                                                <div class="reservation-item">
+                                                    <div class="reservation-box">
+                                                        <p data-value="446978">Cilt Bakımı</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="96">İğneli Epilasyon (Vücut)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="95">İğneli Epilasyon (Yüz)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="253">Leke Tedavisi</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="191851">Gıdı Toparlama</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
                                                 </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="399121">Lashbotox [Vitamin]</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
+                                            </div>
+                                        </div>
+                                        <div class="reservation-category-box BottomToTopAnim" category="Cilt Bakımı">
+                                            <button class="reservation-category-btn">
+                                                Cilt Bakımı Hizmetleri
+                                            </button>
+                                            <div class="reservation-list">
+                                                <div class="reservation-item">
+                                                    <div class="reservation-box">
+                                                        <p data-value="491127">Bukkal Masajı</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="37">Cilt Bakımı</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="12372">HydraFacial</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="37099">Görüşme</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="49">Selülit Giderme</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
                                                 </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="191863">Kaş Laminasyonu</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
+                                            </div>
+                                        </div>
+                                        <div class="reservation-category-box BottomToTopAnim" category="Lazer Epilasyon">
+                                            <button class="reservation-category-btn">
+                                                Lazer Epilasyon Hizmetleri
+                                            </button>
+                                            <div class="reservation-list">
+                                                <div class="reservation-item">
+                                                    <div class="reservation-box">
+                                                        <p data-value="207">Lazer Epilasyon (Tüm Vücut)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="216">Lazer Epilasyon (Ense)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="215">Lazer Epilasyon (Çene)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="214">Lazer Epilasyon (Dudak Üstü)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="213">Lazer Epilasyon (Göğüs)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="212">Lazer Epilasyon (Sırt)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="211">Lazer Epilasyon (Kol)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="210">Lazer Epilasyon (Yüz)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="209">Lazer Epilasyon (Bacak)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="208">Lazer Epilasyon (Bikini Bölgesi)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="407990">Lazer Epilasyon (Koltuk Altı)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="407987">Lazer Epilasyon (Yarım Kol)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="371592">Lazer Epilasyon (Yarım Bacak)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="371592">Lazer Epilasyon (Popo Üstü)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="335726">Lazer Epilasyon (Göbek)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="218">Lazer Epilasyon (Boyun)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="217">Lazer Epilasyon (Boyun)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="reservation-category-box BottomToTopAnim" category="Zayıflama ve Sıkılaşma">
+                                            <button class="reservation-category-btn">
+                                                Zayıflama, İncelme ve Sıkılaşma Hizmetleri
+                                            </button>
+                                            <div class="reservation-list">
+                                                <div class="reservation-item">
+                                                    <div class="reservation-box">
+                                                        <p data-value="292000">Pasif Cimnastik</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="291959">Lenf Drenaj / Pressoterapi</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="292002">Magic</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="444665">G8 (Selülit Giderme ve Bölgesel İncelme) [Erkek]</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="reservation-category-box BottomToTopAnim" category="Saç Bakımı">
+                                            <button class="reservation-category-btn">
+                                                Saç Bakımı Hizmetleri
+                                            </button>
+                                            <div class="reservation-list">
+                                                <div class="reservation-item">
+                                                    <div class="reservation-box">
+                                                        <p data-value="288683">Saç Vitamini (Bölgesel)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="408032">Saç Vitamini (Komple)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="reservation-category-box BottomToTopAnim" category="Masaj">
+                                            <button class="reservation-category-btn">
+                                                Masaj Hizmetleri
+                                            </button>
+                                            <div class="reservation-list">
+                                                <div class="reservation-item">
+                                                    <div class="reservation-box">
+                                                        <p data-value="488257">Kafa Masajı</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="533007">Sırt Bakımı</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="reservation-category-box BottomToTopAnim" category="Estetik ve Güzellik">
-                                        <button class="reservation-category-btn">
-                                            Estetik ve Güzellik Hizmetleri
-                                        </button>
-                                        <div class="reservation-list">
-                                            <div class="reservation-item">
-                                                <div class="reservation-box">
-                                                    <p data-value="446978">Cilt Bakımı</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="96">İğneli Epilasyon (Vücut)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="95">İğneli Epilasyon (Yüz)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="253">Leke Tedavisi</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="191851">Gıdı Toparlama</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="reservation-category-box BottomToTopAnim" category="Cilt Bakımı">
-                                        <button class="reservation-category-btn">
-                                            Cilt Bakımı Hizmetleri
-                                        </button>
-                                        <div class="reservation-list">
-                                            <div class="reservation-item">
-                                                <div class="reservation-box">
-                                                    <p data-value="491127">Bukkal Masajı</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="37">Cilt Bakımı</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="12372">HydraFacial</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="37099">Görüşme</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="49">Selülit Giderme</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
+                                    <div class="reservation-category-list shutdownAnim" id="genderManList">
+                                        <input type="hidden" name="reservations" id="reservations">
+                                        <div class="reservation-category-box BottomToTopAnim" category="Cilt Bakımı">
+                                            <button class="reservation-category-btn">
+                                                Cilt Bakımı Hizmetleri
+                                            </button>
+                                            <div class="reservation-list">
+                                                <div class="reservation-item">
+                                                    <div class="reservation-box">
+                                                        <p data-value="491127">Bukkal Masajı</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="37">Cilt Bakımı</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="12372">HydraFacial</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="37099">Görüşme</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="49">Selülit Giderme</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="reservation-category-box BottomToTopAnim" category="Lazer Epilasyon">
-                                        <button class="reservation-category-btn">
-                                            Lazer Epilasyon Hizmetleri
-                                        </button>
-                                        <div class="reservation-list">
-                                            <div class="reservation-item">
-                                                <div class="reservation-box">
-                                                    <p data-value="207">Lazer Epilasyon (Tüm Vücut)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="216">Lazer Epilasyon (Ense)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="215">Lazer Epilasyon (Çene)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="214">Lazer Epilasyon (Dudak Üstü)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="213">Lazer Epilasyon (Göğüs)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="212">Lazer Epilasyon (Sırt)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="211">Lazer Epilasyon (Kol)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="210">Lazer Epilasyon (Yüz)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="209">Lazer Epilasyon (Bacak)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="208">Lazer Epilasyon (Bikini Bölgesi)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="407990">Lazer Epilasyon (Koltuk Altı)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="407987">Lazer Epilasyon (Yarım Kol)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="371592">Lazer Epilasyon (Yarım Bacak)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="371592">Lazer Epilasyon (Popo Üstü)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="335726">Lazer Epilasyon (Göbek)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="218">Lazer Epilasyon (Boyun)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="217">Lazer Epilasyon (Boyun)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="reservation-category-box BottomToTopAnim" category="Zayıflama ve Sıkılaşma">
-                                        <button class="reservation-category-btn">
-                                            Zayıflama, İncelme ve Sıkılaşma Hizmetleri
-                                        </button>
-                                        <div class="reservation-list">
-                                            <div class="reservation-item">
-                                                <div class="reservation-box">
-                                                    <p data-value="292000">Pasif Cimnastik</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="291959">Lenf Drenaj / Pressoterapi</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="292002">Magic</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="444665">G8 (Selülit Giderme ve Bölgesel İncelme) [Erkek]</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
+                                        <div class="reservation-category-box BottomToTopAnim" category="Lazer Epilasyon">
+                                            <button class="reservation-category-btn">
+                                                Lazer Epilasyon Hizmetleri
+                                            </button>
+                                            <div class="reservation-list">
+                                                <div class="reservation-item">
+                                                    <div class="reservation-box">
+                                                        <p data-value="207">Lazer Epilasyon (Tüm Vücut)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="216">Lazer Epilasyon (Ense)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="215">Lazer Epilasyon (Çene)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="214">Lazer Epilasyon (Dudak Üstü)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="213">Lazer Epilasyon (Göğüs)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="212">Lazer Epilasyon (Sırt)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="211">Lazer Epilasyon (Kol)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="210">Lazer Epilasyon (Yüz)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="209">Lazer Epilasyon (Bacak)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="208">Lazer Epilasyon (Bikini Bölgesi)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="407990">Lazer Epilasyon (Koltuk Altı)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="407987">Lazer Epilasyon (Yarım Kol)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="371592">Lazer Epilasyon (Yarım Bacak)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="371592">Lazer Epilasyon (Popo Üstü)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="335726">Lazer Epilasyon (Göbek)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="218">Lazer Epilasyon (Boyun)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="217">Lazer Epilasyon (Boyun)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="reservation-category-box BottomToTopAnim" category="Saç Bakımı">
-                                        <button class="reservation-category-btn">
-                                            Saç Bakımı Hizmetleri
-                                        </button>
-                                        <div class="reservation-list">
-                                            <div class="reservation-item">
-                                                <div class="reservation-box">
-                                                    <p data-value="288683">Saç Vitamini (Bölgesel)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
-                                                </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="408032">Saç Vitamini (Komple)</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
+                                        <div class="reservation-category-box BottomToTopAnim" category="Zayıflama ve Sıkılaşma">
+                                            <button class="reservation-category-btn">
+                                                Zayıflama, İncelme ve Sıkılaşma Hizmetleri
+                                            </button>
+                                            <div class="reservation-list">
+                                                <div class="reservation-item">
+                                                    <div class="reservation-box">
+                                                        <p data-value="292000">Pasif Cimnastik</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="291959">Lenf Drenaj / Pressoterapi</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="292002">Magic</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="444665">G8 (Selülit Giderme ve Bölgesel İncelme) [Erkek]</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="reservation-category-box BottomToTopAnim" category="Masaj">
-                                        <button class="reservation-category-btn">
-                                            Masaj Hizmetleri
-                                        </button>
-                                        <div class="reservation-list">
-                                            <div class="reservation-item">
-                                                <div class="reservation-box">
-                                                    <p data-value="488257">Kafa Masajı</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
+                                        <div class="reservation-category-box BottomToTopAnim" category="Saç Bakımı">
+                                            <button class="reservation-category-btn">
+                                                Saç Bakımı Hizmetleri
+                                            </button>
+                                            <div class="reservation-list">
+                                                <div class="reservation-item">
+                                                    <div class="reservation-box">
+                                                        <p data-value="288683">Saç Vitamini (Bölgesel)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="408032">Saç Vitamini (Komple)</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
                                                 </div>
-                                                <div class="reservation-box">
-                                                    <p data-value="533007">Sırt Bakımı</p>
-                                                    <button class="reservate-btn">+ Randevu Ekle</button>
+                                            </div>
+                                        </div>
+                                        <div class="reservation-category-box BottomToTopAnim" category="Masaj">
+                                            <button class="reservation-category-btn">
+                                                Masaj Hizmetleri
+                                            </button>
+                                            <div class="reservation-list">
+                                                <div class="reservation-item">
+                                                    <div class="reservation-box">
+                                                        <p data-value="488257">Kafa Masajı</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="533007">Sırt Bakımı</p>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

@@ -55,3 +55,49 @@ function openReservationCategory(btn) {
         }
     });
 }
+
+const reservationGenderMan = document.getElementById('reservationGenderMan');
+const reservationGenderWoman = document.getElementById('reservationGenderWoman');
+const genderWomanList = document.getElementById('genderWomanList');
+const genderManList = document.getElementById('genderManList');
+const reservationCategorySection = document.querySelector('.reservation-category-section');
+const reservationCategoryBtns = document.querySelectorAll('.reservation-category-btn');
+
+reservationGenderMan.addEventListener('click', () => {
+    reservationCategoryBtns.forEach((btn) => {
+        btn.classList.remove('active');
+        btn.nextElementSibling.classList.remove('active');
+        btn.nextElementSibling.style.height = "0px";
+    });
+
+    reservationCategorySection.classList.add('activeMan');
+    reservationCategorySection.style.height = genderManList.offsetHeight + "px";
+    reservationGenderMan.classList.add('active');
+    reservationGenderWoman.classList.remove('active');
+});
+reservationGenderWoman.addEventListener('click', () => {
+    reservationCategoryBtns.forEach((btn) => {
+        btn.classList.remove('active');
+        btn.nextElementSibling.classList.remove('active');
+        btn.nextElementSibling.style.height = "0px";
+    });
+
+    reservationCategorySection.classList.remove('activeMan');
+    reservationCategorySection.style.height = genderWomanList.offsetHeight + "px";
+    reservationGenderMan.classList.remove('active');
+    reservationGenderWoman.classList.add('active');
+});
+reservationCategoryBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+        if(reservationCategorySection.classList.contains('activeMan')) {
+            setTimeout(() => {
+                reservationCategorySection.style.height = genderManList.offsetHeight + "px";
+            },500);
+        }
+        else {
+            setTimeout(() => {
+                reservationCategorySection.style.height = genderWomanList.offsetHeight + "px";
+            },500);
+        }
+    });
+});

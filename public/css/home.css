@@ -893,3 +893,45 @@ textarea::-webkit-scrollbar-thumb
 .mySwiper4 {
     padding-left: 5px;
 }
+.reservation-category-section {
+    width: 200%;
+    overflow: hidden;
+    display: flex;
+    transition: translate 0.2s ease-in-out, height 0.2s ease-in-out;
+}
+.reservation-category-list {
+    width: 100%;
+    height: fit-content;
+}
+.reservation-gender-section {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.reservation-gender-section button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: rgba(0,0,0, 0.17);
+    transition: background-color 0.2s ease-in-out, scale 0.2s ease-in-out, color 0.2s ease-in-out;
+    color: var(--text-secondary-color);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.reservation-gender-section button.active {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    pointer-events: none;
+}
+.reservation-category-section.activeMan {
+    translate: -50% 0;
+}
+.reservation-gender-section button:not(.active):hover {
+    background-color: var(--primary-color-hover);
+    color: var(--background-color);
+}
+.reservation-gender-section button:active {
+    scale: 0.9;
+}
