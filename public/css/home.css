@@ -437,6 +437,9 @@
 .userStories-story-button:active {
     scale: 0.92;
 }
+.userStories .swiper-button-prev {
+    
+}
 .gallery {
     padding: 3rem 0;
 }

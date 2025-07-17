@@ -73,7 +73,10 @@
     }
     button.primary {
         font-size: 1.1rem;
-        margin: 30px 0;
+        margin: 20px 0;
+    }
+    #contactForm button.primary {
+        margin: 0;
     }
     .sidebyside-container {
         flex-direction: column;
@@ -157,6 +160,12 @@
     .fixed-contact {
         bottom: 10px;
         right: 10px;
+    }
+    .gallery .location {
+        height: 100%;
+    }
+    .gallery .location .location-map {
+        height: 250px;
     }
 }
 @media (max-width: 374px) {

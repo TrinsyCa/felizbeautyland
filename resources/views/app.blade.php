@@ -36,8 +36,8 @@
     @include('layouts.footer')
 
     {{-- Static Scripts --}}
-    <script src="{{ asset('scripts/app.js') }}?v={{ filemtime(public_path('scripts/app.js')) }}" async></script>
-    <script src="{{ asset('scripts/anim.js') }}?v={{ filemtime(public_path('scripts/anim.js')) }}" defer></script>
+    <script src="{{ asset('scripts/app.js') }}?v={{ filemtime(public_path('scripts/app.js')) }}"></script>
+    <script src="{{ asset('scripts/anim.js') }}?v={{ filemtime(public_path('scripts/anim.js')) }}"></script>
     {{-- Static Scripts --}}
 
     {{-- Dynamic Scripts --}}

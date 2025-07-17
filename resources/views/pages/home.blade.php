@@ -33,20 +33,20 @@
                     </div>
                     <div class="swiper-slide">
                         <video muted autoplay loop poster="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-2.webp') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-2.webp')) }}">
-                            <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-2.webm') }}?v={{ filemtime(public_path('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-2.webm')) }}" type="video/webm" media="(max-width: 767px)">
-                            <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-2.webm') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-2.webm')) }}" type="video/webm" media="(min-width: 768px)">
+                            <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-2.webm') }}?v={{ filemtime(public_path('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-2.webm')) }}" type="video/webm" media="(max-width: 767px)" loading="layz">
+                            <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-2.webm') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-2.webm')) }}" type="video/webm" media="(min-width: 768px)" loading="layz">
                         </video>
                     </div>
                     <div class="swiper-slide">
                         <video muted autoplay loop poster="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-3.webp') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-3.webp')) }}">
-                            <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-3.webm') }}?v={{ filemtime(public_path('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-3.webm')) }}" type="video/webm" media="(max-width: 767px)">
-                            <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-3.webm') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-3.webm')) }}" type="video/webm" media="(min-width: 768px)">
+                            <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-3.webm') }}?v={{ filemtime(public_path('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-3.webm')) }}" type="video/webm" media="(max-width: 767px)" loading="layz">
+                            <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-3.webm') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-3.webm')) }}" type="video/webm" media="(min-width: 768px)" loading="layz">
                         </video>
                     </div>
                     <div class="swiper-slide">
                         <video muted autoplay loop poster="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-4.webp') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-4.webp')) }}">
-                            <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-4.webm') }}?v={{ filemtime(public_path('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-4.webm')) }}" type="video/webm" media="(max-width: 767px)">
-                            <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-4.webm') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-4.webm')) }}" type="video/webm" media="(min-width: 768px)">
+                            <source src="{{ asset('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-4.webm') }}?v={{ filemtime(public_path('assets/videos/stock/360p/feliz-beautyland-güzellik-salonu-4.webm')) }}" type="video/webm" media="(max-width: 767px)" loading="layz">
+                            <source src="{{ asset('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-4.webm') }}?v={{ filemtime(public_path('assets/videos/stock/1080p/feliz-beautyland-güzellik-salonu-4.webm')) }}" type="video/webm" media="(min-width: 768px)" loading="layz">
                         </video>
                     </div>
                 </div>
@@ -65,22 +65,22 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <picture>
-                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-1.webp') }}?v={{ filemtime(public_path('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-1.webp')) }}" type="image/webp">
-                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-1.webp') }}?v={{ filemtime(public_path('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-1.webp')) }}" type="image/webp">
+                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-1.webp') }}?v={{ filemtime(public_path('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-1.webp')) }}" type="image/webp" loading="layz">
+                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-1.webp') }}?v={{ filemtime(public_path('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-1.webp')) }}" type="image/webp" loading="layz">
                                     <img src="{{ asset('assets/images/customers/original/feliz-beautyland-güzellik-salonu-1.jpg') }}" alt="Feliz Beautyland Güzellik Salonu">
                                 </picture>
                             </div>
                             <div class="swiper-slide">
                                 <picture>
-                                <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-2.webp') }}?v={{ filemtime(public_path('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-2.webp')) }}" type="image/webp">
-                                <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-2.webp') }}?v={{ filemtime(public_path('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-2.webp')) }}" type="image/webp">
+                                <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-2.webp') }}?v={{ filemtime(public_path('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-2.webp')) }}" type="image/webp" loading="layz">
+                                <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-2.webp') }}?v={{ filemtime(public_path('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-2.webp')) }}" type="image/webp" loading="layz">
                                 <img src="{{ asset('assets/images/customers/original/feliz-beautyland-güzellik-salonu-2.jpg') }}" alt="Feliz Beautyland Güzellik Salonu">
                             </picture>
                             </div>
                             <div class="swiper-slide">
                                 <picture>
-                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-3.webp') }}?v={{ filemtime(public_path('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-3.webp')) }}" type="image/webp">
-                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-3.webp') }}?v={{ filemtime(public_path('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-3.webp')) }}" type="image/webp">
+                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-3.webp') }}?v={{ filemtime(public_path('assets/images/customers/360p/feliz-beautyland-güzellik-salonu-3.webp')) }}" type="image/webp" loading="layz">
+                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-3.webp') }}?v={{ filemtime(public_path('assets/images/customers/720p/feliz-beautyland-güzellik-salonu-3.webp')) }}" type="image/webp" loading="layz">
                                     <img src="{{ asset('assets/images/customers/original/feliz-beautyland-güzellik-salonu-3.jpg') }}" alt="Feliz Beautyland Güzellik Salonu">
                                 </picture>
                             </div>
@@ -131,101 +131,103 @@
                     Kleonef Göz Maskesi, güçlü ve özel formülüyle göz çevresindeki kuruluk, ince çizgiler, şişlik ve koyu halkalara karşı etkili bakım sunar.
                 </p>
             </div>
-            <div class="sidebyside-container reponsive-reserse">
-            <div class="animation-trigger"></div>
-                <div class="sidebyside-content">
-                    <p class="BottomToTopAnim">
-                        💧 Hyaluronik Asit: Cildi derinlemesine nemlendirir, dolgunlaştırır ve genç görünüm kazandırır.
-                        <br>
-                        ☕️ Kafein: Göz altı torbalarını ve koyu halkaları azaltarak daha aydınlık bir bakış sağlar.
-                        <br>
-                        🧬 Peptitler: İnce çizgilerin görünümünü yumuşatır, cilt elastikiyetini artırır.
-                        <br>
-                        🌿 Lavanta, At Kestanesi, Ananas ve Çiçek Özleri: Göz çevresine rahatlatıcı, canlandırıcı ve tazelik veren doğal etkiler sunar.
-                        <br><br>
-                        Monodoz (tek kullanımlık) ambalajı sayesinde her kullanımda maksimum tazelik ve hijyen garantilenir. Dermatolojik olarak test edilmiş, vegan ve çevre dostu içeriğiyle güvenle kullanabilirsiniz.
-                        <br><br>
-                        Kleonef Göz Maskesi’nin Farkı Nedir?
-                        <br>
-                        Yaşlanma karşıtı, botoks etkili sıkılaştırıcı formül.
-                        <br>
-                        Göz çevresindeki şişlik ve morlukları azaltmaya yardımcı.
-                        <br>
-                        Vegan, geri dönüştürülebilir ambalaj ile çevre dostu.
-                        <br>
-                        Gözlerinizin ihtiyacı olan bakımı Kleonef ile keşfedin, daha genç, taze ve parlak bir görünüm kazanın.
-                    </p>
-                    <div class="center-container BottomToTopAnim">
-                        <button onclick="reservationSection();" class="primary">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><rect width="24" height="24" fill="none"/><path fill="rgb(245, 245, 245)" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg>
-                            Hizmetlerimizi İnceleyin
-                        </button>
-                    </div>
-                </div>
-                <div class="sidebyside-media RightToLeftAnim" id="hizmetler">
-                    <div class="swiper mySwiper2">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <picture>
-                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef.webp')) }}" type="image/webp">
-                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef.webp')) }}" type="image/webp">
-                                    <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
-                                </picture>
-                            </div>
-                            <div class="swiper-slide">
-                                <picture>
-                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-1.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-1.webp')) }}" type="image/webp">
-                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-1.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-1.webp')) }}" type="image/webp">
-                                    <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-1.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
-                                </picture>
-                            </div>
-                            <div class="swiper-slide">
-                                <picture>
-                                <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-2.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-2.webp')) }}" type="image/webp">
-                                <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-2.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-2.webp')) }}" type="image/webp">
-                                <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-2.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
-                            </picture>
-                            </div>
-                            <div class="swiper-slide">
-                                <picture>
-                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-3.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-3.webp')) }}" type="image/webp">
-                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-3.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-3.webp')) }}" type="image/webp">
-                                    <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-3.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
-                                </picture>
-                            </div>
-                            <div class="swiper-slide">
-                                <picture>
-                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-4.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-4.webp')) }}" type="image/webp">
-                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-4.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-4.webp')) }}" type="image/webp">
-                                    <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-4.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
-                                </picture>
-                            </div>
-                            <div class="swiper-slide">
-                                <picture>
-                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-5.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-5.webp')) }}" type="image/webp">
-                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-5.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-5.webp')) }}" type="image/webp">
-                                    <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-5.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
-                                </picture>
-                            </div>
-                            <div class="swiper-slide">
-                                <picture>
-                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-6.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-6.webp')) }}" type="image/webp">
-                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-6.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-6.webp')) }}" type="image/webp">
-                                    <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-6.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
-                                </picture>
-                            </div>
-                            <div class="swiper-slide">
-                                <picture>
-                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-7.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-7.webp')) }}" type="image/webp">
-                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-7.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-7.webp')) }}" type="image/webp">
-                                    <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-7.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
-                                </picture>
-                            </div>
+            <div>
+                <div class="animation-trigger"></div>
+                <div class="sidebyside-container reponsive-reserse">
+                    <div class="sidebyside-content">
+                        <p class="BottomToTopAnim">
+                            💧 Hyaluronik Asit: Cildi derinlemesine nemlendirir, dolgunlaştırır ve genç görünüm kazandırır.
+                            <br>
+                            ☕️ Kafein: Göz altı torbalarını ve koyu halkaları azaltarak daha aydınlık bir bakış sağlar.
+                            <br>
+                            🧬 Peptitler: İnce çizgilerin görünümünü yumuşatır, cilt elastikiyetini artırır.
+                            <br>
+                            🌿 Lavanta, At Kestanesi, Ananas ve Çiçek Özleri: Göz çevresine rahatlatıcı, canlandırıcı ve tazelik veren doğal etkiler sunar.
+                            <br><br>
+                            Monodoz (tek kullanımlık) ambalajı sayesinde her kullanımda maksimum tazelik ve hijyen garantilenir. Dermatolojik olarak test edilmiş, vegan ve çevre dostu içeriğiyle güvenle kullanabilirsiniz.
+                            <br><br>
+                            Kleonef Göz Maskesi’nin Farkı Nedir?
+                            <br>
+                            Yaşlanma karşıtı, botoks etkili sıkılaştırıcı formül.
+                            <br>
+                            Göz çevresindeki şişlik ve morlukları azaltmaya yardımcı.
+                            <br>
+                            Vegan, geri dönüştürülebilir ambalaj ile çevre dostu.
+                            <br>
+                            Gözlerinizin ihtiyacı olan bakımı Kleonef ile keşfedin, daha genç, taze ve parlak bir görünüm kazanın.
+                        </p>
+                        <div class="center-container BottomToTopAnim">
+                            <button onclick="reservationSection();" class="primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><rect width="24" height="24" fill="none"/><path fill="rgb(245, 245, 245)" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg>
+                                Hizmetlerimizi İnceleyin
+                            </button>
                         </div>
-                        <div class="swiper-prev-next-buttons">
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
+                    </div>
+                    <div class="sidebyside-media RightToLeftAnim" id="hizmetler">
+                        <div class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <picture>
+                                        <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef.webp')) }}" type="image/webp" loading="layz">
+                                        <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef.webp')) }}" type="image/webp" loading="layz">
+                                        <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                    </picture>
+                                </div>
+                                <div class="swiper-slide">
+                                    <picture>
+                                        <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-1.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-1.webp')) }}" type="image/webp" loading="layz">
+                                        <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-1.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-1.webp')) }}" type="image/webp" loading="layz">
+                                        <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-1.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                    </picture>
+                                </div>
+                                <div class="swiper-slide">
+                                    <picture>
+                                    <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-2.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-2.webp')) }}" type="image/webp" loading="layz">
+                                    <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-2.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-2.webp')) }}" type="image/webp" loading="layz">
+                                    <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-2.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                </picture>
+                                </div>
+                                <div class="swiper-slide">
+                                    <picture>
+                                        <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-3.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-3.webp')) }}" type="image/webp" loading="layz">
+                                        <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-3.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-3.webp')) }}" type="image/webp" loading="layz">
+                                        <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-3.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                    </picture>
+                                </div>
+                                <div class="swiper-slide">
+                                    <picture>
+                                        <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-4.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-4.webp')) }}" type="image/webp" loading="layz">
+                                        <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-4.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-4.webp')) }}" type="image/webp" loading="layz">
+                                        <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-4.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                    </picture>
+                                </div>
+                                <div class="swiper-slide">
+                                    <picture>
+                                        <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-5.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-5.webp')) }}" type="image/webp" loading="layz">
+                                        <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-5.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-5.webp')) }}" type="image/webp" loading="layz">
+                                        <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-5.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                    </picture>
+                                </div>
+                                <div class="swiper-slide">
+                                    <picture>
+                                        <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-6.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-6.webp')) }}" type="image/webp" loading="layz">
+                                        <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-6.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-6.webp')) }}" type="image/webp" loading="layz">
+                                        <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-6.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                    </picture>
+                                </div>
+                                <div class="swiper-slide">
+                                    <picture>
+                                        <source media="(max-width: 767px)" srcset="{{ asset('assets/images/products/kleonef/425p/felizbeautyland-kleonef-7.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/425p/felizbeautyland-kleonef-7.webp')) }}" type="image/webp" loading="layz">
+                                        <source media="(min-width: 768px)" srcset="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-7.webp') }}?v={{ filemtime(public_path('assets/images/products/kleonef/800p/felizbeautyland-kleonef-7.webp')) }}" type="image/webp" loading="layz">
+                                        <img src="{{ asset('assets/images/products/kleonef/800p/felizbeautyland-kleonef-7.webp') }}" alt="Feliz Beautyland Güzellik Salonu">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="swiper-prev-next-buttons">
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -246,33 +248,65 @@
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide ScaleToShowAnim" onclick="changeStory(this);">
                                         <div class="user-profile-pic">
-                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/nilsu-aktas.webp')) }}" alt="Nilsu Aktaş">
+                                            <img src="{{ asset('assets/images/customers/pp/betul-cakmak.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/betul-cakmak.webp')) }}" alt="Betül Çakmak" loading="lazy">
+                                        </div>
+                                        <p>Betül Çakmak</p>
+                                    </div>
+                                    <div class="swiper-slide ScaleToShowAnim" onclick="changeStory(this);">
+                                        <div class="user-profile-pic">
+                                            <img src="{{ asset('assets/images/customers/pp/aleyna-solaker.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/aleyna-solaker.webp')) }}" alt="Aleyna Solaker" loading="lazy">
+                                        </div>
+                                        <p>Aleyna Solaker</p>
+                                    </div>
+                                    <div class="swiper-slide ScaleToShowAnim" onclick="changeStory(this);">
+                                        <div class="user-profile-pic">
+                                            <img src="{{ asset('assets/images/customers/pp/merve-yildirim.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/merve-yildirim.webp')) }}" alt="Merve Yıldırım" loading="lazy">
+                                        </div>
+                                        <p>Merve Yıldırım</p>
+                                    </div>
+                                    <div class="swiper-slide ScaleToShowAnim" onclick="changeStory(this);">
+                                        <div class="user-profile-pic">
+                                            <img src="{{ asset('assets/images/customers/pp/buket-sena.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/buket-sena.webp')) }}" alt="Buket Sena" loading="lazy">
+                                        </div>
+                                        <p>Buket Sena</p>
+                                    </div>
+                                    <div class="swiper-slide ScaleToShowAnim" onclick="changeStory(this);">
+                                        <div class="user-profile-pic">
+                                            <img src="{{ asset('assets/images/customers/pp/melis-fis.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/melis-fis.webp')) }}" alt="Melis Fis" loading="lazy">
+                                        </div>
+                                        <p>Melis Fis</p>
+                                    </div>
+                                    <div class="swiper-slide ScaleToShowAnim" onclick="changeStory(this);">
+                                        <div class="user-profile-pic">
+                                            <img src="{{ asset('assets/images/customers/pp/merve-kutlu.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/merve-kutlu.webp')) }}" alt="Merve Kutlu" loading="lazy">
+                                        </div>
+                                        <p>Merve Kutlu</p>
+                                    </div>
+                                    <div class="swiper-slide ScaleToShowAnim" onclick="changeStory(this);">
+                                        <div class="user-profile-pic">
+                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/nilsu-aktas.webp')) }}" alt="Nilsu Aktaş" loading="lazy">
                                         </div>
                                         <p>Nilsu Aktaş</p>
                                     </div>
                                     <div class="swiper-slide ScaleToShowAnim" onclick="changeStory(this);">
                                         <div class="user-profile-pic">
-                                            <img src="{{ asset('assets/images/customers/pp/cagla-simsek.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/cagla-simsek.webp')) }}" alt="Çağla Şimşek">
+                                            <img src="{{ asset('assets/images/customers/pp/eda-eryurt.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/eda-eryurt.webp')) }}" alt="Eda Eryurt" loading="lazy">
+                                        </div>
+                                        <p>Eda Eryurt</p>
+                                    </div>
+                                    <div class="swiper-slide ScaleToShowAnim" onclick="changeStory(this);">
+                                        <div class="user-profile-pic">
+                                            <img src="{{ asset('assets/images/customers/pp/cagla-simsek.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/cagla-simsek.webp')) }}" alt="Çağla Şimşek" loading="lazy">
                                         </div>
                                         <p>Çağla Şimşek</p>
                                     </div>
                                     <div class="swiper-slide ScaleToShowAnim" onclick="changeStory(this);">
                                         <div class="user-profile-pic">
-                                            <img src="{{ asset('assets/images/customers/pp/buket-sena.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/buket-sena.webp')) }}" alt="Buket Sena">
+                                            <img src="{{ asset('assets/images/customers/pp/mervan-tepelioglu.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/mervan-tepelioglu.webp')) }}" alt="Mervan Tepelioğlu" loading="lazy">
                                         </div>
-                                        <p>Buket Sena</p>
+                                        <p>Mervan Tepelioğlu</p>
                                     </div>
-                                    @for($i = 0; $i < 8; $i++)
-                                    <div class="swiper-slide ScaleToShowAnim" onclick="changeStory(this);">
-                                        <div class="user-profile-pic">
-                                            <img src="{{ asset('assets/images/customers/pp/nilsu-aktas.webp') }}?v={{ filemtime(public_path('assets/images/customers/pp/nilsu-aktas.webp')) }}" alt="Nilsu Aktaş">
-                                        </div>
-                                        <p>Nilsu Aktaş</p>
-                                    </div>
-                                    @endfor
                                 </div>
-                                <div class="swiper-button-prev"></div>
-                                <div class="swiper-button-next"></div>
                             </div>
                         </div>
                     </div>
@@ -283,8 +317,127 @@
                                     <div class="swiper-slide">
                                         <div class="swiper mySwiper">
                                             <div class="swiper-wrapper">
-                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.webm')) }}" type="video/mp4"></video></div>
-                                                <div class="swiper-slide"><img src="{{ asset('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.webp')) }}"" alt="Nilsu Aktaş | Feliz Beautyland"></div>
+                                                <div class="swiper-slide">
+                                                    <video poster="{{ asset('assets/images/customers/stories/betul-cakmak/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/betul-cakmak/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/betul-cakmak/betul-cakmak-feliz-beautyland-1.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/betul-cakmak/betul-cakmak-feliz-beautyland-1.webm')) }}" type="video/mp4" title="Betül Çakmak Güzellik Salonu" loading="lazy"></video>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <video poster="{{ asset('assets/images/customers/stories/betul-cakmak/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/betul-cakmak/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/betul-cakmak/betul-cakmak-feliz-beautyland-2.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/betul-cakmak/betul-cakmak-feliz-beautyland-2.webm')) }}" type="video/mp4" title="Betül Çakmak Güzellik Salonu" loading="lazy"></video>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <video poster="{{ asset('assets/images/customers/stories/betul-cakmak/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/betul-cakmak/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/betul-cakmak/betul-cakmak-feliz-beautyland-3.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/betul-cakmak/betul-cakmak-feliz-beautyland-3.webm')) }}" type="video/mp4" title="Betül Çakmak Güzellik Salonu" loading="lazy"></video>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <video poster="{{ asset('assets/images/customers/stories/betul-cakmak/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/betul-cakmak/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/betul-cakmak/betul-cakmak-feliz-beautyland-4.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/betul-cakmak/betul-cakmak-feliz-beautyland-4.webm')) }}" type="video/mp4" title="Betül Çakmak Güzellik Salonu" loading="lazy"></video>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <video poster="{{ asset('assets/images/customers/stories/betul-cakmak/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/betul-cakmak/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/betul-cakmak/betul-cakmak-feliz-beautyland-5.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/betul-cakmak/betul-cakmak-feliz-beautyland-5.webm')) }}" type="video/mp4" title="Betül Çakmak Güzellik Salonu" loading="lazy"></video>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <video poster="{{ asset('assets/images/customers/stories/betul-cakmak/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/betul-cakmak/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/betul-cakmak/betul-cakmak-feliz-beautyland-6.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/betul-cakmak/betul-cakmak-feliz-beautyland-6.webm')) }}" type="video/mp4" title="Betül Çakmak Güzellik Salonu" loading="lazy"></video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="userStories-story-button" target="_blank" rel="nofollow" href="https://www.instagram.com/stories/highlights/17924705225278768/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><g fill="none"><rect width="256" height="256" fill="url(#skillIconsInstagram0)" rx="60"/><rect width="256" height="256" fill="url(#skillIconsInstagram1)" rx="60"/><path fill="#fff" d="M128.009 28c-27.158 0-30.567.119-41.233.604c-10.646.488-17.913 2.173-24.271 4.646c-6.578 2.554-12.157 5.971-17.715 11.531c-5.563 5.559-8.98 11.138-11.542 17.713c-2.48 6.36-4.167 13.63-4.646 24.271c-.477 10.667-.602 14.077-.602 41.236s.12 30.557.604 41.223c.49 10.646 2.175 17.913 4.646 24.271c2.556 6.578 5.973 12.157 11.533 17.715c5.557 5.563 11.136 8.988 17.709 11.542c6.363 2.473 13.631 4.158 24.275 4.646c10.667.485 14.073.604 41.23.604c27.161 0 30.559-.119 41.225-.604c10.646-.488 17.921-2.173 24.284-4.646c6.575-2.554 12.146-5.979 17.702-11.542c5.563-5.558 8.979-11.137 11.542-17.712c2.458-6.361 4.146-13.63 4.646-24.272c.479-10.666.604-14.066.604-41.225s-.125-30.567-.604-41.234c-.5-10.646-2.188-17.912-4.646-24.27c-2.563-6.578-5.979-12.157-11.542-17.716c-5.562-5.562-11.125-8.979-17.708-11.53c-6.375-2.474-13.646-4.16-24.292-4.647c-10.667-.485-14.063-.604-41.23-.604zm-8.971 18.021c2.663-.004 5.634 0 8.971 0c26.701 0 29.865.096 40.409.575c9.75.446 15.042 2.075 18.567 3.444c4.667 1.812 7.994 3.979 11.492 7.48c3.5 3.5 5.666 6.833 7.483 11.5c1.369 3.52 3 8.812 3.444 18.562c.479 10.542.583 13.708.583 40.396s-.104 29.855-.583 40.396c-.446 9.75-2.075 15.042-3.444 18.563c-1.812 4.667-3.983 7.99-7.483 11.488c-3.5 3.5-6.823 5.666-11.492 7.479c-3.521 1.375-8.817 3-18.567 3.446c-10.542.479-13.708.583-40.409.583c-26.702 0-29.867-.104-40.408-.583c-9.75-.45-15.042-2.079-18.57-3.448c-4.666-1.813-8-3.979-11.5-7.479s-5.666-6.825-7.483-11.494c-1.369-3.521-3-8.813-3.444-18.563c-.479-10.542-.575-13.708-.575-40.413s.096-29.854.575-40.396c.446-9.75 2.075-15.042 3.444-18.567c1.813-4.667 3.983-8 7.484-11.5s6.833-5.667 11.5-7.483c3.525-1.375 8.819-3 18.569-3.448c9.225-.417 12.8-.542 31.437-.563zm62.351 16.604c-6.625 0-12 5.37-12 11.996c0 6.625 5.375 12 12 12s12-5.375 12-12s-5.375-12-12-12zm-53.38 14.021c-28.36 0-51.354 22.994-51.354 51.355s22.994 51.344 51.354 51.344c28.361 0 51.347-22.983 51.347-51.344c0-28.36-22.988-51.355-51.349-51.355zm0 18.021c18.409 0 33.334 14.923 33.334 33.334c0 18.409-14.925 33.334-33.334 33.334s-33.333-14.925-33.333-33.334c0-18.411 14.923-33.334 33.333-33.334"/><defs><radialGradient id="skillIconsInstagram0" cx="0" cy="0" r="1" gradientTransform="matrix(0 -253.715 235.975 0 68 275.717)" gradientUnits="userSpaceOnUse"><stop stop-color="#fd5"/><stop offset=".1" stop-color="#fd5"/><stop offset=".5" stop-color="#ff543e"/><stop offset="1" stop-color="#c837ab"/></radialGradient><radialGradient id="skillIconsInstagram1" cx="0" cy="0" r="1" gradientTransform="matrix(22.25952 111.2061 -458.39518 91.75449 -42.881 18.441)" gradientUnits="userSpaceOnUse"><stop stop-color="#3771c8"/><stop offset=".128" stop-color="#3771c8"/><stop offset="1" stop-color="#60f" stop-opacity="0"/></radialGradient></defs></g></svg>
+                                            Instagram'da Görüntüle
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/aleyna-solaker/aleyna-solaker-feliz-beautyland-1.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/aleyna-solaker/aleyna-solaker-feliz-beautyland-1.webm')) }}" type="video/mp4" title="Aleyna Solaker Güzellik Salonu" loading="lazy"></video>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/aleyna-solaker/aleyna-solaker-feliz-beautyland-2.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/aleyna-solaker/aleyna-solaker-feliz-beautyland-2.webm')) }}" type="video/mp4" title="Aleyna Solaker Güzellik Salonu" loading="lazy"></video>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/aleyna-solaker/aleyna-solaker-feliz-beautyland-3.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/aleyna-solaker/aleyna-solaker-feliz-beautyland-3.webm')) }}" type="video/mp4" title="Aleyna Solaker Güzellik Salonu" loading="lazy"></video>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <img src="{{ asset('assets/images/customers/stories/aleyna-solaker/aleyna-solaker-feliz-beautyland.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/aleyna-solaker/aleyna-solaker-feliz-beautyland.webp')) }}" alt="Aleyna Solaker Güzellik Salonu" loading="lazy">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="userStories-story-button" target="_blank" rel="nofollow" href="https://www.instagram.com/stories/highlights/18141142012283730/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><g fill="none"><rect width="256" height="256" fill="url(#skillIconsInstagram0)" rx="60"/><rect width="256" height="256" fill="url(#skillIconsInstagram1)" rx="60"/><path fill="#fff" d="M128.009 28c-27.158 0-30.567.119-41.233.604c-10.646.488-17.913 2.173-24.271 4.646c-6.578 2.554-12.157 5.971-17.715 11.531c-5.563 5.559-8.98 11.138-11.542 17.713c-2.48 6.36-4.167 13.63-4.646 24.271c-.477 10.667-.602 14.077-.602 41.236s.12 30.557.604 41.223c.49 10.646 2.175 17.913 4.646 24.271c2.556 6.578 5.973 12.157 11.533 17.715c5.557 5.563 11.136 8.988 17.709 11.542c6.363 2.473 13.631 4.158 24.275 4.646c10.667.485 14.073.604 41.23.604c27.161 0 30.559-.119 41.225-.604c10.646-.488 17.921-2.173 24.284-4.646c6.575-2.554 12.146-5.979 17.702-11.542c5.563-5.558 8.979-11.137 11.542-17.712c2.458-6.361 4.146-13.63 4.646-24.272c.479-10.666.604-14.066.604-41.225s-.125-30.567-.604-41.234c-.5-10.646-2.188-17.912-4.646-24.27c-2.563-6.578-5.979-12.157-11.542-17.716c-5.562-5.562-11.125-8.979-17.708-11.53c-6.375-2.474-13.646-4.16-24.292-4.647c-10.667-.485-14.063-.604-41.23-.604zm-8.971 18.021c2.663-.004 5.634 0 8.971 0c26.701 0 29.865.096 40.409.575c9.75.446 15.042 2.075 18.567 3.444c4.667 1.812 7.994 3.979 11.492 7.48c3.5 3.5 5.666 6.833 7.483 11.5c1.369 3.52 3 8.812 3.444 18.562c.479 10.542.583 13.708.583 40.396s-.104 29.855-.583 40.396c-.446 9.75-2.075 15.042-3.444 18.563c-1.812 4.667-3.983 7.99-7.483 11.488c-3.5 3.5-6.823 5.666-11.492 7.479c-3.521 1.375-8.817 3-18.567 3.446c-10.542.479-13.708.583-40.409.583c-26.702 0-29.867-.104-40.408-.583c-9.75-.45-15.042-2.079-18.57-3.448c-4.666-1.813-8-3.979-11.5-7.479s-5.666-6.825-7.483-11.494c-1.369-3.521-3-8.813-3.444-18.563c-.479-10.542-.575-13.708-.575-40.413s.096-29.854.575-40.396c.446-9.75 2.075-15.042 3.444-18.567c1.813-4.667 3.983-8 7.484-11.5s6.833-5.667 11.5-7.483c3.525-1.375 8.819-3 18.569-3.448c9.225-.417 12.8-.542 31.437-.563zm62.351 16.604c-6.625 0-12 5.37-12 11.996c0 6.625 5.375 12 12 12s12-5.375 12-12s-5.375-12-12-12zm-53.38 14.021c-28.36 0-51.354 22.994-51.354 51.355s22.994 51.344 51.354 51.344c28.361 0 51.347-22.983 51.347-51.344c0-28.36-22.988-51.355-51.349-51.355zm0 18.021c18.409 0 33.334 14.923 33.334 33.334c0 18.409-14.925 33.334-33.334 33.334s-33.333-14.925-33.333-33.334c0-18.411 14.923-33.334 33.333-33.334"/><defs><radialGradient id="skillIconsInstagram0" cx="0" cy="0" r="1" gradientTransform="matrix(0 -253.715 235.975 0 68 275.717)" gradientUnits="userSpaceOnUse"><stop stop-color="#fd5"/><stop offset=".1" stop-color="#fd5"/><stop offset=".5" stop-color="#ff543e"/><stop offset="1" stop-color="#c837ab"/></radialGradient><radialGradient id="skillIconsInstagram1" cx="0" cy="0" r="1" gradientTransform="matrix(22.25952 111.2061 -458.39518 91.75449 -42.881 18.441)" gradientUnits="userSpaceOnUse"><stop stop-color="#3771c8"/><stop offset=".128" stop-color="#3771c8"/><stop offset="1" stop-color="#60f" stop-opacity="0"/></radialGradient></defs></g></svg>
+                                            Instagram'da Görüntüle
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <video poster="{{ asset('assets/images/customers/stories/merve-yildirim/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/merve-yildirim/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/merve-yildirim/merve-yildirim-feliz-beautyland.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/merve-yildirim/merve-yildirim-feliz-beautyland.webm')) }}" type="video/mp4" title="Merve Yıldırım Güzellik Salonu" loading="lazy"></video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="userStories-story-button" target="_blank" rel="nofollow" href="https://www.instagram.com/p/C6gsRCcMk-2/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><g fill="none"><rect width="256" height="256" fill="url(#skillIconsInstagram0)" rx="60"/><rect width="256" height="256" fill="url(#skillIconsInstagram1)" rx="60"/><path fill="#fff" d="M128.009 28c-27.158 0-30.567.119-41.233.604c-10.646.488-17.913 2.173-24.271 4.646c-6.578 2.554-12.157 5.971-17.715 11.531c-5.563 5.559-8.98 11.138-11.542 17.713c-2.48 6.36-4.167 13.63-4.646 24.271c-.477 10.667-.602 14.077-.602 41.236s.12 30.557.604 41.223c.49 10.646 2.175 17.913 4.646 24.271c2.556 6.578 5.973 12.157 11.533 17.715c5.557 5.563 11.136 8.988 17.709 11.542c6.363 2.473 13.631 4.158 24.275 4.646c10.667.485 14.073.604 41.23.604c27.161 0 30.559-.119 41.225-.604c10.646-.488 17.921-2.173 24.284-4.646c6.575-2.554 12.146-5.979 17.702-11.542c5.563-5.558 8.979-11.137 11.542-17.712c2.458-6.361 4.146-13.63 4.646-24.272c.479-10.666.604-14.066.604-41.225s-.125-30.567-.604-41.234c-.5-10.646-2.188-17.912-4.646-24.27c-2.563-6.578-5.979-12.157-11.542-17.716c-5.562-5.562-11.125-8.979-17.708-11.53c-6.375-2.474-13.646-4.16-24.292-4.647c-10.667-.485-14.063-.604-41.23-.604zm-8.971 18.021c2.663-.004 5.634 0 8.971 0c26.701 0 29.865.096 40.409.575c9.75.446 15.042 2.075 18.567 3.444c4.667 1.812 7.994 3.979 11.492 7.48c3.5 3.5 5.666 6.833 7.483 11.5c1.369 3.52 3 8.812 3.444 18.562c.479 10.542.583 13.708.583 40.396s-.104 29.855-.583 40.396c-.446 9.75-2.075 15.042-3.444 18.563c-1.812 4.667-3.983 7.99-7.483 11.488c-3.5 3.5-6.823 5.666-11.492 7.479c-3.521 1.375-8.817 3-18.567 3.446c-10.542.479-13.708.583-40.409.583c-26.702 0-29.867-.104-40.408-.583c-9.75-.45-15.042-2.079-18.57-3.448c-4.666-1.813-8-3.979-11.5-7.479s-5.666-6.825-7.483-11.494c-1.369-3.521-3-8.813-3.444-18.563c-.479-10.542-.575-13.708-.575-40.413s.096-29.854.575-40.396c.446-9.75 2.075-15.042 3.444-18.567c1.813-4.667 3.983-8 7.484-11.5s6.833-5.667 11.5-7.483c3.525-1.375 8.819-3 18.569-3.448c9.225-.417 12.8-.542 31.437-.563zm62.351 16.604c-6.625 0-12 5.37-12 11.996c0 6.625 5.375 12 12 12s12-5.375 12-12s-5.375-12-12-12zm-53.38 14.021c-28.36 0-51.354 22.994-51.354 51.355s22.994 51.344 51.354 51.344c28.361 0 51.347-22.983 51.347-51.344c0-28.36-22.988-51.355-51.349-51.355zm0 18.021c18.409 0 33.334 14.923 33.334 33.334c0 18.409-14.925 33.334-33.334 33.334s-33.333-14.925-33.333-33.334c0-18.411 14.923-33.334 33.333-33.334"/><defs><radialGradient id="skillIconsInstagram0" cx="0" cy="0" r="1" gradientTransform="matrix(0 -253.715 235.975 0 68 275.717)" gradientUnits="userSpaceOnUse"><stop stop-color="#fd5"/><stop offset=".1" stop-color="#fd5"/><stop offset=".5" stop-color="#ff543e"/><stop offset="1" stop-color="#c837ab"/></radialGradient><radialGradient id="skillIconsInstagram1" cx="0" cy="0" r="1" gradientTransform="matrix(22.25952 111.2061 -458.39518 91.75449 -42.881 18.441)" gradientUnits="userSpaceOnUse"><stop stop-color="#3771c8"/><stop offset=".128" stop-color="#3771c8"/><stop offset="1" stop-color="#60f" stop-opacity="0"/></radialGradient></defs></g></svg>
+                                            Instagram'da Görüntüle
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/buket-sena/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland.webm')) }}" type="video/mp4" title="Buket Sena Güzellik Salonu" loading="lazy"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/buket-sena/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-1.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-1.webm')) }}" type="video/mp4" title="Buket Sena Güzellik Salonu" loading="lazy"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/buket-sena/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-2.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-2.webm')) }}" type="video/mp4" title="Buket Sena Güzellik Salonu" loading="lazy"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/buket-sena/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-3.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-3.webm')) }}" type="video/mp4" title="Buket Sena Güzellik Salonu" loading="lazy"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/buket-sena/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-4.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-4.webm')) }}" type="video/mp4" title="Buket Sena Güzellik Salonu" loading="lazy"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/buket-sena/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-5.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-5.webm')) }}" type="video/mp4" title="Buket Sena Güzellik Salonu" loading="lazy"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/buket-sena/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-6.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-6.webm')) }}" type="video/mp4" title="Buket Sena Güzellik Salonu" loading="lazy"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/buket-sena/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-7.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-7.webm')) }}" type="video/mp4" title="Buket Sena Güzellik Salonu" loading="lazy"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/buket-sena/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-8.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-8.webm')) }}" type="video/mp4" title="Buket Sena Güzellik Salonu" loading="lazy"></video></div>
+                                            </div>
+                                        </div>
+                                        <a class="userStories-story-button" target="_blank" rel="nofollow" href="https://www.instagram.com/stories/highlights/17946376207869882/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><g fill="none"><rect width="256" height="256" fill="url(#skillIconsInstagram0)" rx="60"/><rect width="256" height="256" fill="url(#skillIconsInstagram1)" rx="60"/><path fill="#fff" d="M128.009 28c-27.158 0-30.567.119-41.233.604c-10.646.488-17.913 2.173-24.271 4.646c-6.578 2.554-12.157 5.971-17.715 11.531c-5.563 5.559-8.98 11.138-11.542 17.713c-2.48 6.36-4.167 13.63-4.646 24.271c-.477 10.667-.602 14.077-.602 41.236s.12 30.557.604 41.223c.49 10.646 2.175 17.913 4.646 24.271c2.556 6.578 5.973 12.157 11.533 17.715c5.557 5.563 11.136 8.988 17.709 11.542c6.363 2.473 13.631 4.158 24.275 4.646c10.667.485 14.073.604 41.23.604c27.161 0 30.559-.119 41.225-.604c10.646-.488 17.921-2.173 24.284-4.646c6.575-2.554 12.146-5.979 17.702-11.542c5.563-5.558 8.979-11.137 11.542-17.712c2.458-6.361 4.146-13.63 4.646-24.272c.479-10.666.604-14.066.604-41.225s-.125-30.567-.604-41.234c-.5-10.646-2.188-17.912-4.646-24.27c-2.563-6.578-5.979-12.157-11.542-17.716c-5.562-5.562-11.125-8.979-17.708-11.53c-6.375-2.474-13.646-4.16-24.292-4.647c-10.667-.485-14.063-.604-41.23-.604zm-8.971 18.021c2.663-.004 5.634 0 8.971 0c26.701 0 29.865.096 40.409.575c9.75.446 15.042 2.075 18.567 3.444c4.667 1.812 7.994 3.979 11.492 7.48c3.5 3.5 5.666 6.833 7.483 11.5c1.369 3.52 3 8.812 3.444 18.562c.479 10.542.583 13.708.583 40.396s-.104 29.855-.583 40.396c-.446 9.75-2.075 15.042-3.444 18.563c-1.812 4.667-3.983 7.99-7.483 11.488c-3.5 3.5-6.823 5.666-11.492 7.479c-3.521 1.375-8.817 3-18.567 3.446c-10.542.479-13.708.583-40.409.583c-26.702 0-29.867-.104-40.408-.583c-9.75-.45-15.042-2.079-18.57-3.448c-4.666-1.813-8-3.979-11.5-7.479s-5.666-6.825-7.483-11.494c-1.369-3.521-3-8.813-3.444-18.563c-.479-10.542-.575-13.708-.575-40.413s.096-29.854.575-40.396c.446-9.75 2.075-15.042 3.444-18.567c1.813-4.667 3.983-8 7.484-11.5s6.833-5.667 11.5-7.483c3.525-1.375 8.819-3 18.569-3.448c9.225-.417 12.8-.542 31.437-.563zm62.351 16.604c-6.625 0-12 5.37-12 11.996c0 6.625 5.375 12 12 12s12-5.375 12-12s-5.375-12-12-12zm-53.38 14.021c-28.36 0-51.354 22.994-51.354 51.355s22.994 51.344 51.354 51.344c28.361 0 51.347-22.983 51.347-51.344c0-28.36-22.988-51.355-51.349-51.355zm0 18.021c18.409 0 33.334 14.923 33.334 33.334c0 18.409-14.925 33.334-33.334 33.334s-33.333-14.925-33.333-33.334c0-18.411 14.923-33.334 33.333-33.334"/><defs><radialGradient id="skillIconsInstagram0" cx="0" cy="0" r="1" gradientTransform="matrix(0 -253.715 235.975 0 68 275.717)" gradientUnits="userSpaceOnUse"><stop stop-color="#fd5"/><stop offset=".1" stop-color="#fd5"/><stop offset=".5" stop-color="#ff543e"/><stop offset="1" stop-color="#c837ab"/></radialGradient><radialGradient id="skillIconsInstagram1" cx="0" cy="0" r="1" gradientTransform="matrix(22.25952 111.2061 -458.39518 91.75449 -42.881 18.441)" gradientUnits="userSpaceOnUse"><stop stop-color="#3771c8"/><stop offset=".128" stop-color="#3771c8"/><stop offset="1" stop-color="#60f" stop-opacity="0"/></radialGradient></defs></g></svg>
+                                            Instagram'da Görüntüle
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/melis-fis/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/melis-fis/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/melis-fis/melis-fis-feliz-beautyland-1.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/melis-fis/melis-fis-feliz-beautyland-1.webm')) }}" type="video/mp4"  loading="lazy" title="Melis Fis Güzellik Salonu"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/melis-fis/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/melis-fis/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/melis-fis/melis-fis-feliz-beautyland-2.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/melis-fis/melis-fis-feliz-beautyland-2.webm')) }}" type="video/mp4"  loading="lazy" title="Melis Fis Güzellik Salonu"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/melis-fis/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/melis-fis/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/melis-fis/melis-fis-feliz-beautyland-3.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/melis-fis/melis-fis-feliz-beautyland-3.webm')) }}" type="video/mp4"  loading="lazy" title="Melis Fis Güzellik Salonu"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/melis-fis/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/melis-fis/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/melis-fis/melis-fis-feliz-beautyland-4.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/melis-fis/melis-fis-feliz-beautyland-4.webm')) }}" type="video/mp4"  loading="lazy" title="Melis Fis Güzellik Salonu"></video></div>
+                                                <div class="swiper-slide">
+                                                    <img src="{{ asset('assets/images/customers/stories/melis-fis/melis-fis-feliz-beautyland.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/melis-fis/melis-fis-feliz-beautyland.webp')) }}" alt="Melis Fis Güzellik Salonu">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="userStories-story-button" target="_blank" rel="nofollow" href="https://www.instagram.com/stories/highlights/17924330360672286/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><g fill="none"><rect width="256" height="256" fill="url(#skillIconsInstagram0)" rx="60"/><rect width="256" height="256" fill="url(#skillIconsInstagram1)" rx="60"/><path fill="#fff" d="M128.009 28c-27.158 0-30.567.119-41.233.604c-10.646.488-17.913 2.173-24.271 4.646c-6.578 2.554-12.157 5.971-17.715 11.531c-5.563 5.559-8.98 11.138-11.542 17.713c-2.48 6.36-4.167 13.63-4.646 24.271c-.477 10.667-.602 14.077-.602 41.236s.12 30.557.604 41.223c.49 10.646 2.175 17.913 4.646 24.271c2.556 6.578 5.973 12.157 11.533 17.715c5.557 5.563 11.136 8.988 17.709 11.542c6.363 2.473 13.631 4.158 24.275 4.646c10.667.485 14.073.604 41.23.604c27.161 0 30.559-.119 41.225-.604c10.646-.488 17.921-2.173 24.284-4.646c6.575-2.554 12.146-5.979 17.702-11.542c5.563-5.558 8.979-11.137 11.542-17.712c2.458-6.361 4.146-13.63 4.646-24.272c.479-10.666.604-14.066.604-41.225s-.125-30.567-.604-41.234c-.5-10.646-2.188-17.912-4.646-24.27c-2.563-6.578-5.979-12.157-11.542-17.716c-5.562-5.562-11.125-8.979-17.708-11.53c-6.375-2.474-13.646-4.16-24.292-4.647c-10.667-.485-14.063-.604-41.23-.604zm-8.971 18.021c2.663-.004 5.634 0 8.971 0c26.701 0 29.865.096 40.409.575c9.75.446 15.042 2.075 18.567 3.444c4.667 1.812 7.994 3.979 11.492 7.48c3.5 3.5 5.666 6.833 7.483 11.5c1.369 3.52 3 8.812 3.444 18.562c.479 10.542.583 13.708.583 40.396s-.104 29.855-.583 40.396c-.446 9.75-2.075 15.042-3.444 18.563c-1.812 4.667-3.983 7.99-7.483 11.488c-3.5 3.5-6.823 5.666-11.492 7.479c-3.521 1.375-8.817 3-18.567 3.446c-10.542.479-13.708.583-40.409.583c-26.702 0-29.867-.104-40.408-.583c-9.75-.45-15.042-2.079-18.57-3.448c-4.666-1.813-8-3.979-11.5-7.479s-5.666-6.825-7.483-11.494c-1.369-3.521-3-8.813-3.444-18.563c-.479-10.542-.575-13.708-.575-40.413s.096-29.854.575-40.396c.446-9.75 2.075-15.042 3.444-18.567c1.813-4.667 3.983-8 7.484-11.5s6.833-5.667 11.5-7.483c3.525-1.375 8.819-3 18.569-3.448c9.225-.417 12.8-.542 31.437-.563zm62.351 16.604c-6.625 0-12 5.37-12 11.996c0 6.625 5.375 12 12 12s12-5.375 12-12s-5.375-12-12-12zm-53.38 14.021c-28.36 0-51.354 22.994-51.354 51.355s22.994 51.344 51.354 51.344c28.361 0 51.347-22.983 51.347-51.344c0-28.36-22.988-51.355-51.349-51.355zm0 18.021c18.409 0 33.334 14.923 33.334 33.334c0 18.409-14.925 33.334-33.334 33.334s-33.333-14.925-33.333-33.334c0-18.411 14.923-33.334 33.333-33.334"/><defs><radialGradient id="skillIconsInstagram0" cx="0" cy="0" r="1" gradientTransform="matrix(0 -253.715 235.975 0 68 275.717)" gradientUnits="userSpaceOnUse"><stop stop-color="#fd5"/><stop offset=".1" stop-color="#fd5"/><stop offset=".5" stop-color="#ff543e"/><stop offset="1" stop-color="#c837ab"/></radialGradient><radialGradient id="skillIconsInstagram1" cx="0" cy="0" r="1" gradientTransform="matrix(22.25952 111.2061 -458.39518 91.75449 -42.881 18.441)" gradientUnits="userSpaceOnUse"><stop stop-color="#3771c8"/><stop offset=".128" stop-color="#3771c8"/><stop offset="1" stop-color="#60f" stop-opacity="0"/></radialGradient></defs></g></svg>
+                                            Instagram'da Görüntüle
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <video poster="{{ asset('assets/images/customers/stories/merve-kutlu/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/merve-kutlu/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/merve-kutlu/merve-kutlu-feliz-beautyland-1.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/merve-kutlu/merve-kutlu-feliz-beautyland-1.webm')) }}" type="video/mp4"  loading="lazy"></video>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <video poster="{{ asset('assets/images/customers/stories/merve-kutlu/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/merve-kutlu/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/merve-kutlu/merve-kutlu-feliz-beautyland-2.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/merve-kutlu/merve-kutlu-feliz-beautyland-2.webm')) }}" type="video/mp4"  loading="lazy"></video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="userStories-story-button" target="_blank" rel="nofollow" href="https://www.instagram.com/p/DLpzsZctnpd/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><g fill="none"><rect width="256" height="256" fill="url(#skillIconsInstagram0)" rx="60"/><rect width="256" height="256" fill="url(#skillIconsInstagram1)" rx="60"/><path fill="#fff" d="M128.009 28c-27.158 0-30.567.119-41.233.604c-10.646.488-17.913 2.173-24.271 4.646c-6.578 2.554-12.157 5.971-17.715 11.531c-5.563 5.559-8.98 11.138-11.542 17.713c-2.48 6.36-4.167 13.63-4.646 24.271c-.477 10.667-.602 14.077-.602 41.236s.12 30.557.604 41.223c.49 10.646 2.175 17.913 4.646 24.271c2.556 6.578 5.973 12.157 11.533 17.715c5.557 5.563 11.136 8.988 17.709 11.542c6.363 2.473 13.631 4.158 24.275 4.646c10.667.485 14.073.604 41.23.604c27.161 0 30.559-.119 41.225-.604c10.646-.488 17.921-2.173 24.284-4.646c6.575-2.554 12.146-5.979 17.702-11.542c5.563-5.558 8.979-11.137 11.542-17.712c2.458-6.361 4.146-13.63 4.646-24.272c.479-10.666.604-14.066.604-41.225s-.125-30.567-.604-41.234c-.5-10.646-2.188-17.912-4.646-24.27c-2.563-6.578-5.979-12.157-11.542-17.716c-5.562-5.562-11.125-8.979-17.708-11.53c-6.375-2.474-13.646-4.16-24.292-4.647c-10.667-.485-14.063-.604-41.23-.604zm-8.971 18.021c2.663-.004 5.634 0 8.971 0c26.701 0 29.865.096 40.409.575c9.75.446 15.042 2.075 18.567 3.444c4.667 1.812 7.994 3.979 11.492 7.48c3.5 3.5 5.666 6.833 7.483 11.5c1.369 3.52 3 8.812 3.444 18.562c.479 10.542.583 13.708.583 40.396s-.104 29.855-.583 40.396c-.446 9.75-2.075 15.042-3.444 18.563c-1.812 4.667-3.983 7.99-7.483 11.488c-3.5 3.5-6.823 5.666-11.492 7.479c-3.521 1.375-8.817 3-18.567 3.446c-10.542.479-13.708.583-40.409.583c-26.702 0-29.867-.104-40.408-.583c-9.75-.45-15.042-2.079-18.57-3.448c-4.666-1.813-8-3.979-11.5-7.479s-5.666-6.825-7.483-11.494c-1.369-3.521-3-8.813-3.444-18.563c-.479-10.542-.575-13.708-.575-40.413s.096-29.854.575-40.396c.446-9.75 2.075-15.042 3.444-18.567c1.813-4.667 3.983-8 7.484-11.5s6.833-5.667 11.5-7.483c3.525-1.375 8.819-3 18.569-3.448c9.225-.417 12.8-.542 31.437-.563zm62.351 16.604c-6.625 0-12 5.37-12 11.996c0 6.625 5.375 12 12 12s12-5.375 12-12s-5.375-12-12-12zm-53.38 14.021c-28.36 0-51.354 22.994-51.354 51.355s22.994 51.344 51.354 51.344c28.361 0 51.347-22.983 51.347-51.344c0-28.36-22.988-51.355-51.349-51.355zm0 18.021c18.409 0 33.334 14.923 33.334 33.334c0 18.409-14.925 33.334-33.334 33.334s-33.333-14.925-33.333-33.334c0-18.411 14.923-33.334 33.333-33.334"/><defs><radialGradient id="skillIconsInstagram0" cx="0" cy="0" r="1" gradientTransform="matrix(0 -253.715 235.975 0 68 275.717)" gradientUnits="userSpaceOnUse"><stop stop-color="#fd5"/><stop offset=".1" stop-color="#fd5"/><stop offset=".5" stop-color="#ff543e"/><stop offset="1" stop-color="#c837ab"/></radialGradient><radialGradient id="skillIconsInstagram1" cx="0" cy="0" r="1" gradientTransform="matrix(22.25952 111.2061 -458.39518 91.75449 -42.881 18.441)" gradientUnits="userSpaceOnUse"><stop stop-color="#3771c8"/><stop offset=".128" stop-color="#3771c8"/><stop offset="1" stop-color="#60f" stop-opacity="0"/></radialGradient></defs></g></svg>
+                                            Instagram'da Görüntüle
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <video poster="{{ asset('assets/images/customers/stories/nilsu-aktas/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/nilsu-aktas/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.webm')) }}" type="video/mp4" loading="lazy"></video>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <img src="{{ asset('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/nilsu-aktas/nilsu-aktas-feliz-beautyland.webp')) }}" alt="Nilsu Aktaş Güzellik Salonu">
+                                                </div>
                                             </div>
                                         </div>
                                         <a class="userStories-story-button" target="_blank" rel="nofollow" href="https://www.instagram.com/stories/highlights/18503115352043404/">
@@ -295,7 +448,23 @@
                                     <div class="swiper-slide">
                                         <div class="swiper mySwiper">
                                             <div class="swiper-wrapper">
-                                                <div class="swiper-slide"><img src="{{ asset('assets/images/customers/stories/cagla-simsek/cagla-simsek-feliz-beautyland.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/cagla-simsek/cagla-simsek-feliz-beautyland.webp')) }}" alt="Nilsu Aktaş | Feliz Beautyland"></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/eda-eryurt/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/eda-eryurt/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/eda-eryurt/eda-eryurt-feliz-beautyland-1.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/eda-eryurt/eda-eryurt-feliz-beautyland-1.webm')) }}" type="video/mp4" loading="lazy"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/eda-eryurt/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/eda-eryurt/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/eda-eryurt/eda-eryurt-feliz-beautyland-2.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/eda-eryurt/eda-eryurt-feliz-beautyland-2.webm')) }}" type="video/mp4" loading="lazy"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/eda-eryurt/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/eda-eryurt/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/eda-eryurt/eda-eryurt-feliz-beautyland-3.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/eda-eryurt/eda-eryurt-feliz-beautyland-3.webm')) }}" type="video/mp4" loading="lazy"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/eda-eryurt/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/eda-eryurt/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/eda-eryurt/eda-eryurt-feliz-beautyland-4.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/eda-eryurt/eda-eryurt-feliz-beautyland-4.webm')) }}" type="video/mp4" loading="lazy"></video></div>
+                                            </div>
+                                        </div>
+                                        <a class="userStories-story-button" target="_blank" rel="nofollow" href="https://www.instagram.com/stories/highlights/17878484333640907/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><g fill="none"><rect width="256" height="256" fill="url(#skillIconsInstagram0)" rx="60"/><rect width="256" height="256" fill="url(#skillIconsInstagram1)" rx="60"/><path fill="#fff" d="M128.009 28c-27.158 0-30.567.119-41.233.604c-10.646.488-17.913 2.173-24.271 4.646c-6.578 2.554-12.157 5.971-17.715 11.531c-5.563 5.559-8.98 11.138-11.542 17.713c-2.48 6.36-4.167 13.63-4.646 24.271c-.477 10.667-.602 14.077-.602 41.236s.12 30.557.604 41.223c.49 10.646 2.175 17.913 4.646 24.271c2.556 6.578 5.973 12.157 11.533 17.715c5.557 5.563 11.136 8.988 17.709 11.542c6.363 2.473 13.631 4.158 24.275 4.646c10.667.485 14.073.604 41.23.604c27.161 0 30.559-.119 41.225-.604c10.646-.488 17.921-2.173 24.284-4.646c6.575-2.554 12.146-5.979 17.702-11.542c5.563-5.558 8.979-11.137 11.542-17.712c2.458-6.361 4.146-13.63 4.646-24.272c.479-10.666.604-14.066.604-41.225s-.125-30.567-.604-41.234c-.5-10.646-2.188-17.912-4.646-24.27c-2.563-6.578-5.979-12.157-11.542-17.716c-5.562-5.562-11.125-8.979-17.708-11.53c-6.375-2.474-13.646-4.16-24.292-4.647c-10.667-.485-14.063-.604-41.23-.604zm-8.971 18.021c2.663-.004 5.634 0 8.971 0c26.701 0 29.865.096 40.409.575c9.75.446 15.042 2.075 18.567 3.444c4.667 1.812 7.994 3.979 11.492 7.48c3.5 3.5 5.666 6.833 7.483 11.5c1.369 3.52 3 8.812 3.444 18.562c.479 10.542.583 13.708.583 40.396s-.104 29.855-.583 40.396c-.446 9.75-2.075 15.042-3.444 18.563c-1.812 4.667-3.983 7.99-7.483 11.488c-3.5 3.5-6.823 5.666-11.492 7.479c-3.521 1.375-8.817 3-18.567 3.446c-10.542.479-13.708.583-40.409.583c-26.702 0-29.867-.104-40.408-.583c-9.75-.45-15.042-2.079-18.57-3.448c-4.666-1.813-8-3.979-11.5-7.479s-5.666-6.825-7.483-11.494c-1.369-3.521-3-8.813-3.444-18.563c-.479-10.542-.575-13.708-.575-40.413s.096-29.854.575-40.396c.446-9.75 2.075-15.042 3.444-18.567c1.813-4.667 3.983-8 7.484-11.5s6.833-5.667 11.5-7.483c3.525-1.375 8.819-3 18.569-3.448c9.225-.417 12.8-.542 31.437-.563zm62.351 16.604c-6.625 0-12 5.37-12 11.996c0 6.625 5.375 12 12 12s12-5.375 12-12s-5.375-12-12-12zm-53.38 14.021c-28.36 0-51.354 22.994-51.354 51.355s22.994 51.344 51.354 51.344c28.361 0 51.347-22.983 51.347-51.344c0-28.36-22.988-51.355-51.349-51.355zm0 18.021c18.409 0 33.334 14.923 33.334 33.334c0 18.409-14.925 33.334-33.334 33.334s-33.333-14.925-33.333-33.334c0-18.411 14.923-33.334 33.333-33.334"/><defs><radialGradient id="skillIconsInstagram0" cx="0" cy="0" r="1" gradientTransform="matrix(0 -253.715 235.975 0 68 275.717)" gradientUnits="userSpaceOnUse"><stop stop-color="#fd5"/><stop offset=".1" stop-color="#fd5"/><stop offset=".5" stop-color="#ff543e"/><stop offset="1" stop-color="#c837ab"/></radialGradient><radialGradient id="skillIconsInstagram1" cx="0" cy="0" r="1" gradientTransform="matrix(22.25952 111.2061 -458.39518 91.75449 -42.881 18.441)" gradientUnits="userSpaceOnUse"><stop stop-color="#3771c8"/><stop offset=".128" stop-color="#3771c8"/><stop offset="1" stop-color="#60f" stop-opacity="0"/></radialGradient></defs></g></svg>
+                                            Instagram'da Görüntüle
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <img src="{{ asset('assets/images/customers/stories/cagla-simsek/cagla-simsek-feliz-beautyland.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/cagla-simsek/cagla-simsek-feliz-beautyland.webp')) }}" alt="Çağla Şimşek Güzellik Salonu" loading="lazy">
+                                                </div>
                                             </div>
                                         </div>
                                         <a class="userStories-story-button" target="_blank" rel="nofollow" href="https://www.instagram.com/stories/highlights/18065876987108984/">
@@ -306,18 +475,13 @@
                                     <div class="swiper-slide">
                                         <div class="swiper mySwiper">
                                             <div class="swiper-wrapper">
-                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland.webm')) }}" type="video/mp4"></video></div>
-                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-1.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-1.webm')) }}" type="video/mp4"></video></div>
-                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-2.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-2.webm')) }}" type="video/mp4"></video></div>
-                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-3.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-3.webm')) }}" type="video/mp4"></video></div>
-                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-4.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-4.webm')) }}" type="video/mp4"></video></div>
-                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-5.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-5.webm')) }}" type="video/mp4"></video></div>
-                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-6.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-6.webm')) }}" type="video/mp4"></video></div>
-                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-7.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-7.webm')) }}" type="video/mp4"></video></div>
-                                                <div class="swiper-slide"><video muted autoplay loop><source src="{{ asset('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-8.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/buket-sena/buket-sena-feliz-beautyland-8.webm')) }}" type="video/mp4"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/mervan-tepelioglu/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/melis-fis/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/mervan-tepelioglu/mervan-tepelioglu-feliz-beautyland-1.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/mervan-tepelioglu/mervan-tepelioglu-feliz-beautyland-1.webm')) }}" type="video/mp4"  loading="lazy" title="Melis Fis Güzellik Salonu"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/mervan-tepelioglu/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/melis-fis/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/mervan-tepelioglu/mervan-tepelioglu-feliz-beautyland-2.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/mervan-tepelioglu/mervan-tepelioglu-feliz-beautyland-2.webm')) }}" type="video/mp4"  loading="lazy" title="Melis Fis Güzellik Salonu"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/mervan-tepelioglu/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/melis-fis/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/mervan-tepelioglu/mervan-tepelioglu-feliz-beautyland-3.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/mervan-tepelioglu/mervan-tepelioglu-feliz-beautyland-3.webm')) }}" type="video/mp4"  loading="lazy" title="Melis Fis Güzellik Salonu"></video></div>
+                                                <div class="swiper-slide"><video poster="{{ asset('assets/images/customers/stories/mervan-tepelioglu/cover.webp') }}?v={{ filemtime(public_path('assets/images/customers/stories/melis-fis/cover.webp')) }}" muted autoplay loop><source src="{{ asset('assets/images/customers/stories/mervan-tepelioglu/mervan-tepelioglu-feliz-beautyland-4.webm') }}?v={{ filemtime(public_path('assets/images/customers/stories/mervan-tepelioglu/mervan-tepelioglu-feliz-beautyland-4.webm')) }}" type="video/mp4"  loading="lazy" title="Melis Fis Güzellik Salonu"></video></div>
                                             </div>
                                         </div>
-                                        <a class="userStories-story-button" target="_blank" rel="nofollow" href="https://www.instagram.com/stories/highlights/17946376207869882/">
+                                        <a class="userStories-story-button" target="_blank" rel="nofollow" href="https://www.instagram.com/stories/highlights/17926509317034097/">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><g fill="none"><rect width="256" height="256" fill="url(#skillIconsInstagram0)" rx="60"/><rect width="256" height="256" fill="url(#skillIconsInstagram1)" rx="60"/><path fill="#fff" d="M128.009 28c-27.158 0-30.567.119-41.233.604c-10.646.488-17.913 2.173-24.271 4.646c-6.578 2.554-12.157 5.971-17.715 11.531c-5.563 5.559-8.98 11.138-11.542 17.713c-2.48 6.36-4.167 13.63-4.646 24.271c-.477 10.667-.602 14.077-.602 41.236s.12 30.557.604 41.223c.49 10.646 2.175 17.913 4.646 24.271c2.556 6.578 5.973 12.157 11.533 17.715c5.557 5.563 11.136 8.988 17.709 11.542c6.363 2.473 13.631 4.158 24.275 4.646c10.667.485 14.073.604 41.23.604c27.161 0 30.559-.119 41.225-.604c10.646-.488 17.921-2.173 24.284-4.646c6.575-2.554 12.146-5.979 17.702-11.542c5.563-5.558 8.979-11.137 11.542-17.712c2.458-6.361 4.146-13.63 4.646-24.272c.479-10.666.604-14.066.604-41.225s-.125-30.567-.604-41.234c-.5-10.646-2.188-17.912-4.646-24.27c-2.563-6.578-5.979-12.157-11.542-17.716c-5.562-5.562-11.125-8.979-17.708-11.53c-6.375-2.474-13.646-4.16-24.292-4.647c-10.667-.485-14.063-.604-41.23-.604zm-8.971 18.021c2.663-.004 5.634 0 8.971 0c26.701 0 29.865.096 40.409.575c9.75.446 15.042 2.075 18.567 3.444c4.667 1.812 7.994 3.979 11.492 7.48c3.5 3.5 5.666 6.833 7.483 11.5c1.369 3.52 3 8.812 3.444 18.562c.479 10.542.583 13.708.583 40.396s-.104 29.855-.583 40.396c-.446 9.75-2.075 15.042-3.444 18.563c-1.812 4.667-3.983 7.99-7.483 11.488c-3.5 3.5-6.823 5.666-11.492 7.479c-3.521 1.375-8.817 3-18.567 3.446c-10.542.479-13.708.583-40.409.583c-26.702 0-29.867-.104-40.408-.583c-9.75-.45-15.042-2.079-18.57-3.448c-4.666-1.813-8-3.979-11.5-7.479s-5.666-6.825-7.483-11.494c-1.369-3.521-3-8.813-3.444-18.563c-.479-10.542-.575-13.708-.575-40.413s.096-29.854.575-40.396c.446-9.75 2.075-15.042 3.444-18.567c1.813-4.667 3.983-8 7.484-11.5s6.833-5.667 11.5-7.483c3.525-1.375 8.819-3 18.569-3.448c9.225-.417 12.8-.542 31.437-.563zm62.351 16.604c-6.625 0-12 5.37-12 11.996c0 6.625 5.375 12 12 12s12-5.375 12-12s-5.375-12-12-12zm-53.38 14.021c-28.36 0-51.354 22.994-51.354 51.355s22.994 51.344 51.354 51.344c28.361 0 51.347-22.983 51.347-51.344c0-28.36-22.988-51.355-51.349-51.355zm0 18.021c18.409 0 33.334 14.923 33.334 33.334c0 18.409-14.925 33.334-33.334 33.334s-33.333-14.925-33.333-33.334c0-18.411 14.923-33.334 33.333-33.334"/><defs><radialGradient id="skillIconsInstagram0" cx="0" cy="0" r="1" gradientTransform="matrix(0 -253.715 235.975 0 68 275.717)" gradientUnits="userSpaceOnUse"><stop stop-color="#fd5"/><stop offset=".1" stop-color="#fd5"/><stop offset=".5" stop-color="#ff543e"/><stop offset="1" stop-color="#c837ab"/></radialGradient><radialGradient id="skillIconsInstagram1" cx="0" cy="0" r="1" gradientTransform="matrix(22.25952 111.2061 -458.39518 91.75449 -42.881 18.441)" gradientUnits="userSpaceOnUse"><stop stop-color="#3771c8"/><stop offset=".128" stop-color="#3771c8"/><stop offset="1" stop-color="#60f" stop-opacity="0"/></radialGradient></defs></g></svg>
                                             Instagram'da Görüntüle
                                         </a>
@@ -334,7 +498,7 @@
             <div class="sidebyside">
                 <div class="sidebyside-container">
                     <div class="contactMedia RightToLeftAnim">
-                        <img src="{{ asset('assets/images/stock/contact-us.webp') }}" alt="">
+                        <img src="{{ asset('assets/images/stock/contact-us.webp') }}" alt="Randevu Al" loading="lazy">
                     </div>
                     <div class="contact-container">
                         <div id="contactForm">

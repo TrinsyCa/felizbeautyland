@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         effect: "fade",
         speed: 1000,
         autoplay: {
-            delay: 5000,
+            delay: 7000,
             disableOnInteraction: false,
         },
         loop: true,
@@ -58,14 +58,15 @@ document.addEventListener('DOMContentLoaded', function () {
         const enableSwiper = function () {
             swiper4 = new Swiper('.mySwiper4', {
                 slidesPerView: 5,
-                speed: 800,
+                speed: 700,
                 allowTouchMove: true,
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
+                loop: true,
+                autoplay: {
+                    delay: 1500,
+                    disableOnInteraction: false,
                 },
                 breakpoints: {
-                    501: { slidesPerView: 1 },
+                    501: { slidesPerView: 3 },
                     767: { slidesPerView: 4 }
                 }
             });
