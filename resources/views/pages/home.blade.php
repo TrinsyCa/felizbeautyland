@@ -52,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <a class="header-icon" href="{{ url('#hizmetler') }}">
+        <a class="header-icon" href="{{ url('#hizmetler') }}" aria-label="Hizmetlerimiz hakkında daha fazla bilgi al">
             <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><rect width="24" height="24" fill="none"/><path fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m6 13l6 6l6-6M6 5l6 6l6-6"/></svg>
         </a>
     </header>
