@@ -51,7 +51,7 @@ jobs:
               echo 'export PATH=$HOME/node/bin:$PATH' >> ~/.bashrc
               export PATH=$HOME/node/bin:$PATH
             fi
-            cd ~/domains/trinsy.ca/public_html/subdomains/felizbeautyland
+            cd ~/domains/felizbeautyland/public_html/
             pwd
             ls -la
             # Verify Node.js and npm
