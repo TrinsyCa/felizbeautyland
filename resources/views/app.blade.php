@@ -27,7 +27,6 @@
     <meta name="twitter:image" content="/assets/images/logo/feliz-icon.webp">
     <meta name="theme-color" content="#e09160">
     <meta property="og:card" content="summary_large_image">
-    <meta http-equiv="refresh" content="3600">
     {{-- Meta Tags --}}
 
     {{-- Static Styles --}}
