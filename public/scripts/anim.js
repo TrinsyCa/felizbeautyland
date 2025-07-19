@@ -29,18 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const timeouts = [];
 
-            if(!isMobile()) {
-                if (rect.top <= window.innerHeight - 300 && rect.bottom >= 0)
+            if (rect.top <= window.innerHeight - 300 && rect.bottom >= 0)
                     openAnims();
                 else
                     closeAnims();
-            }
-            else {
-                if(rect.top <= window.innerHeight - 300)
-                    openAnims();
-                else
-                    closeAnims();
-            }
+
             function openAnims() {
                 anims.forEach((el, i) => {
                     if (sameTime) {
