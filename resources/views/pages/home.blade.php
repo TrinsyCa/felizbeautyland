@@ -1,7 +1,5 @@
 @extends('app')
-@section('title', 'Anasayfa | Feliz Beautyland')
-@section('description', 'Tüm güzellik ihtiyaçlarınız için tek adresiniz olan Feliz Beautyland\'e hoş geldiniz.')
-@section('keywords', 'Feliz Beautyland, ünlülerin geldiği güzellik salonları, güzellik salonu, güzellik, beşiktaş güzellik salonu, cilt bakımı, sırt bakımı, masaj, güzellik salonu randevu')
+@section('title', 'Feliz Beautyland - Güzellik Salonu | Cilt Bakımı, Lazer Epilasyon, Manikür')
 @section('styles')
     <link rel="stylesheet" href="{{ asset('tools/swiper-bundle.min.css') }}?v={{ filemtime(public_path('tools/swiper-bundle.min.css')) }}">
     <link rel="stylesheet" href="{{ asset('css/home.css') }}?v={{ filemtime(public_path('css/home.css')) }}">

@@ -8,6 +8,27 @@
     <link rel="shortcut-icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
 
     {{-- Meta Tags --}}
+    <meta name="title" content="Feliz Beautyland - Güzellik Salonu | Cilt Bakımı, Lazer Epilasyon, Manikür">
+    <meta name="og:title" content="Feliz Beautyland - Güzellik Salonu | Cilt Bakımı, Lazer Epilasyon, Manikür">
+    <meta name="twitter:title" content="Feliz Beautyland - Güzellik Salonu | Cilt Bakımı, Lazer Epilasyon, Manikür">
+    <meta name="description" content="Feliz Beautyland, cilt bakımı, lazer epilasyon, manikür, pedikür ve daha birçok güzellik hizmeti sunar. Kleonef Göz Maskesi ile gençleşin! Randevu için ziyaret edin.">
+    <meta name="og:description" content="Feliz Beautyland, cilt bakımı, lazer epilasyon, manikür, pedikür ve daha birçok güzellik hizmeti sunar. Kleonef Göz Maskesi ile gençleşin! Randevu için ziyaret edin.">
+    <meta name="twitter:description" content="Feliz Beautyland, cilt bakımı, lazer epilasyon, manikür, pedikür ve daha birçok güzellik hizmeti sunar. Kleonef Göz Maskesi ile gençleşin! Randevu için ziyaret edin.">
+    <meta name="keywords" content="güzellik salonu, cilt bakımı, lazer epilasyon, manikür, pedikür, kaş laminasyonu, kirpik laminasyonu, protez tırnak, lash botox, green peel, dermapen, kleonef göz maskesi, Filiz Büyüktaş, Feliz Beautyland">
+    <meta name="og:keywords" content="güzellik salonu, cilt bakımı, lazer epilasyon, manikür, pedikür, kaş laminasyonu, kirpik laminasyonu, protez tırnak, lash botox, green peel, dermapen, kleonef göz maskesi, Filiz Büyüktaş, Feliz Beautyland">
+    <meta name="author" content="Feliz Beautyland">
+    <meta name="og:site_name" content="Feliz Beautyland">
+    <meta name="twitter:site" content="Feliz Beautyland">
+    <meta name="og:url" content="felizbeautyland.com">
+    <meta name="twitter:url" content="felizbeautyland.com">
+    <meta name="og:type" content="article">
+    <meta name="article:section" content="Feliz Beautyland">
+    <meta name="og:image" content="/assets/images/logo/feliz-icon.webp">
+    <meta name="twitter:image" content="/assets/images/logo/feliz-icon.webp">
+    <meta name="theme-color" content="#e09160">
+    <meta property="og:card" content="summary_large_image">
+    <meta http-equiv="refresh" content="3600">
+    {{-- Meta Tags --}}
 
     {{-- Static Styles --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}?v={{ filemtime(public_path('css/app.css')) }}">
