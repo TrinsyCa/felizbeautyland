@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const timeouts = [];
 
-            if (rect.top <= window.innerHeight - 300 && rect.bottom >= 0)
+            if(rect.top <= window.innerHeight - 300)
                     openAnims();
                 else
                     closeAnims();
