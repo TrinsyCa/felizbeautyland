@@ -7,7 +7,7 @@
         </div>
         <ul class="nav-links">
             <li><a href="{{ url('/#') }}">Anasayfa</a></li>
-            <li><a onclick="reservationSection();">Hizmetler</a></li>
+            <li><button onclick="reservationSection();">Hizmetler</button></li>
             <li><a href="{{ url('/#iletisim') }}">İletişim</a></li>
             <li><a href="{{ url('/#galeri') }}">Galeri</a></li>
         </ul>
