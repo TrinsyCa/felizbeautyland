@@ -491,7 +491,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact" id="iletisim">
+        <section class="contact" id="randevu-al">
             <div class="animation-trigger"></div>
             <div class="sidebyside">
                 <div class="sidebyside-container">

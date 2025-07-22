@@ -25,7 +25,7 @@ nav {
     border-radius: 10rem;
 }
 .nav-container {
-    width: 665px;
+    width: 710px;
     padding: 5px 10px;
     transition: background-color 0.25s ease, width 0.3s ease-in-out;
     backdrop-filter: blur(5px);
@@ -63,6 +63,7 @@ nav {
 .nav-links button,
 .close-reservation button,
 .nav-hamburger button {
+    white-space: nowrap;
     background-color: transparent;
     padding: 15px;
     font-size: 1.4rem;
