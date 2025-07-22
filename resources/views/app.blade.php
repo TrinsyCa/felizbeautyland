@@ -30,6 +30,7 @@
     {{-- Meta Tags --}}
 
     {{-- Static Styles --}}
+    <link rel="stylesheet" href="{{ asset('css/preloader.css') }}?v={{ filemtime(public_path('css/preloader.css')) }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}?v={{ filemtime(public_path('css/app.css')) }}">
     <link rel="stylesheet" href="{{ asset('css/fixedscreen.css') }}?v={{ filemtime(public_path('css/fixedscreen.css')) }}">
     <link rel="stylesheet" href="{{ asset('css/navbar.css') }}?v={{ filemtime(public_path('css/navbar.css')) }}">
@@ -50,12 +51,14 @@
     {{-- Dynamic Styles --}}
 </head>
 <body>
+    @include('layouts.preloader')
     @include('layouts.fixedscreen')
     @include('layouts.navbar')
     @yield('content')
     @include('layouts.footer')
 
     {{-- Static Scripts --}}
+    <script src="{{ asset('scripts/preloader.js') }}?v={{ filemtime(public_path('scripts/preloader.js')) }}"></script>
     <script src="{{ asset('scripts/app.js') }}?v={{ filemtime(public_path('scripts/app.js')) }}"></script>
     <script src="{{ asset('scripts/anim.js') }}?v={{ filemtime(public_path('scripts/anim.js')) }}"></script>
     {{-- Static Scripts --}}
