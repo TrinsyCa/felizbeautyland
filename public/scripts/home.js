@@ -60,7 +60,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 slidesPerView: 5,
                 speed: 700,
                 allowTouchMove: true,
-                loop: true,
                 autoplay: {
                     delay: 1500,
                     disableOnInteraction: false,
