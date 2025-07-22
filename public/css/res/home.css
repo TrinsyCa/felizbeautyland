@@ -167,6 +167,11 @@
     .gallery .location .location-map {
         height: 250px;
     }
+    .userStories-stories>.mySwiper3>.swiper-wrapper>.swiper-slide::after {
+        transition: 0s;
+        opacity: 1;
+        padding: 6px;
+    }
 }
 @media (max-width: 374px) {
     .userStories-container .swiper {
