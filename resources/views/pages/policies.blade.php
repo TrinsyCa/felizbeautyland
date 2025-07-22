@@ -4,7 +4,7 @@
 @section('keywords', 'Feliz Beautyland, ünlülerin geldiği güzellik salonları, güzellik salonu, güzellik, beşiktaş güzellik salonu, cilt bakımı, sırt bakımı, masaj, güzellik salonu randevu')
 
 @section('styles')
-    <link rel="stylesheet" href="{{ asset('css/policies.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/policies.min.css') }}?v={{ filemtime(public_path('css/policies.min.css')) }}">
 @endsection
 
 @section('content')

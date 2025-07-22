@@ -30,20 +30,20 @@
     {{-- Meta Tags --}}
 
     {{-- Static Styles --}}
-    <link rel="stylesheet" href="{{ asset('css/preloader.css') }}?v={{ filemtime(public_path('css/preloader.css')) }}">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}?v={{ filemtime(public_path('css/app.css')) }}">
-    <link rel="stylesheet" href="{{ asset('css/fixedscreen.css') }}?v={{ filemtime(public_path('css/fixedscreen.css')) }}">
-    <link rel="stylesheet" href="{{ asset('css/navbar.css') }}?v={{ filemtime(public_path('css/navbar.css')) }}">
-    <link rel="stylesheet" href="{{ asset('css/footer.css') }}?v={{ filemtime(public_path('css/footer.css')) }}">
-    <link rel="stylesheet" href="{{ asset('css/reservation.css') }}?v={{ filemtime(public_path('css/reservation.css')) }}">
-    <link rel="stylesheet" href="{{ asset('css/anim.css') }}?v={{ filemtime(public_path('css/footer.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/preloader.min.css') }}?v={{ filemtime(public_path('css/preloader.min.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/app.min.css') }}?v={{ filemtime(public_path('css/app.min.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/fixedscreen.min.css') }}?v={{ filemtime(public_path('css/fixedscreen.min.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/navbar.min.css') }}?v={{ filemtime(public_path('css/navbar.min.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/footer.min.css') }}?v={{ filemtime(public_path('css/footer.min.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/reservation.min.css') }}?v={{ filemtime(public_path('css/reservation.min.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/anim.min.css') }}?v={{ filemtime(public_path('css/footer.min.css')) }}">
     {{-- Static Styles --}}
 
     {{-- Static Responsive Styles --}}
-    <link rel="stylesheet" href="{{ asset('css/res/app.css') }}?v={{ filemtime(public_path('css/res/app.css')) }}">
-    <link rel="stylesheet" href="{{ asset('css/res/navbar.css') }}?v={{ filemtime(public_path('css/res/navbar.css')) }}">
-    <link rel="stylesheet" href="{{ asset('css/res/footer.css') }}?v={{ filemtime(public_path('css/res/footer.css')) }}">
-    <link rel="stylesheet" href="{{ asset('css/res/reservation.css') }}?v={{ filemtime(public_path('css/res/reservation.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/res/app.min.css') }}?v={{ filemtime(public_path('css/res/app.min.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/res/navbar.min.css') }}?v={{ filemtime(public_path('css/res/navbar.min.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/res/footer.min.css') }}?v={{ filemtime(public_path('css/res/footer.min.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/res/reservation.min.css') }}?v={{ filemtime(public_path('css/res/reservation.min.css')) }}">
     {{-- Static Responsive Styles --}}
 
     {{-- Dynamic Styles --}}
@@ -58,9 +58,9 @@
     @include('layouts.footer')
 
     {{-- Static Scripts --}}
-    <script src="{{ asset('scripts/preloader.js') }}?v={{ filemtime(public_path('scripts/preloader.js')) }}"></script>
-    <script src="{{ asset('scripts/app.js') }}?v={{ filemtime(public_path('scripts/app.js')) }}"></script>
-    <script src="{{ asset('scripts/anim.js') }}?v={{ filemtime(public_path('scripts/anim.js')) }}"></script>
+    <script src="{{ asset('scripts/preloader.min.js') }}?v={{ filemtime(public_path('scripts/preloader.min.js')) }}"></script>
+    <script src="{{ asset('scripts/app.min.js') }}?v={{ filemtime(public_path('scripts/app.min.js')) }}"></script>
+    <script src="{{ asset('scripts/anim.min.js') }}?v={{ filemtime(public_path('scripts/anim.min.js')) }}"></script>
     {{-- Static Scripts --}}
 
     {{-- Dynamic Scripts --}}

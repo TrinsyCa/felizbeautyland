@@ -2,10 +2,10 @@
 @section('title', 'Feliz Beautyland - Güzellik Salonu | Cilt Bakımı, Lazer Epilasyon, Manikür')
 @section('styles')
     <link rel="stylesheet" href="{{ asset('tools/swiper-bundle.min.css') }}?v={{ filemtime(public_path('tools/swiper-bundle.min.css')) }}">
-    <link rel="stylesheet" href="{{ asset('css/home.css') }}?v={{ filemtime(public_path('css/home.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/home.min.css') }}?v={{ filemtime(public_path('css/home.min.css')) }}">
 
     {{-- Responsive Styles --}}
-    <link rel="stylesheet" href="{{ asset('css/res/home.css') }}?v={{ filemtime(public_path('css/res/home.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/res/home.min.css') }}?v={{ filemtime(public_path('css/res/home.min.css')) }}">
     {{-- Responsive Styles --}}
 @endsection
 
@@ -1025,7 +1025,7 @@
 
 @section('scripts')
     <script src="{{ asset('tools/swiper-bundle.min.js') }}?v={{ filemtime(public_path('tools/swiper-bundle.min.js')) }}"></script>
-    <script src="{{ asset('scripts/home.js') }}?v={{ filemtime(public_path('scripts/home.js')) }}"></script>
-    {{-- <script src="{{ asset('scripts/wp.js') }}?v={{ filemtime(public_path('scripts/wp.js')) }}"></script> --}}
-    <script src="{{ asset('scripts/reservation.js') }}?v={{ filemtime(public_path('scripts/reservation.js')) }}"></script>
+    <script src="{{ asset('scripts/home.min.js') }}?v={{ filemtime(public_path('scripts/home.min.js')) }}"></script>
+    {{-- <script src="{{ asset('scripts/wp.min.js') }}?v={{ filemtime(public_path('scripts/wp.min.js')) }}"></script> --}}
+    <script src="{{ asset('scripts/reservation.min.js') }}?v={{ filemtime(public_path('scripts/reservation.min.js')) }}"></script>
 @endsection

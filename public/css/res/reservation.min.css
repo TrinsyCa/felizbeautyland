@@ -1,0 +1,1 @@
+@media (max-width:1025px){.reservationList{grid-template-columns:1fr 1fr;gap:10px}}@media (max-width:700px){.reservationBox article h3{font-size:1.6rem}}@media (max-width:500px){.reservationList{grid-template-columns:1fr}.reservationBox article h3{font-size:1.9rem}}
