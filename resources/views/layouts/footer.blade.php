@@ -12,7 +12,7 @@
                 <li class="footer-menu">
                     <button class="footer-link" onclick="reservationSection();"><span><b>Randevu Al</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M14.5 13.5v-7h-7m7 0l-8 8"/></svg></b></button>
                     <a class="footer-link" href="#hizmetler"><span>Hizmetler</span></a>
-                    <a class="footer-link" href="#iletisim"><span>İletişim</span></a>
+                    <a class="footer-link" href="#randevu-al"><span>İletişim</span></a>
                 </li>
             </ul>
         </div>

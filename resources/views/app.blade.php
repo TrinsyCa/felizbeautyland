@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title', 'Feliz Beautyland')</title>
-    <link rel="shortcut-icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('/assets/images/logo/feliz-icon.webp') }}?v={{ filemtime(public_path('/assets/images/logo/feliz-icon.webp')) }}" type="image/x-icon">
 
     {{-- Meta Tags --}}
     <meta name="title" content="Feliz Beautyland - Güzellik Salonu | Cilt Bakımı, Lazer Epilasyon, Manikür">
@@ -23,8 +23,8 @@
     <meta name="twitter:url" content="felizbeautyland.com">
     <meta name="og:type" content="article">
     <meta name="article:section" content="Feliz Beautyland">
-    <meta name="og:image" content="/assets/images/logo/feliz-icon.webp">
-    <meta name="twitter:image" content="/assets/images/logo/feliz-icon.webp">
+    <meta name="og:image" content="{{ asset('/assets/images/logo/feliz-icon.webp') }}?v={{ filemtime(public_path('/assets/images/logo/feliz-icon.webp')) }}">
+    <meta name="twitter:image" content="{{ asset('/assets/images/logo/feliz-icon.webp') }}?v={{ filemtime(public_path('/assets/images/logo/feliz-icon.webp')) }}">
     <meta name="theme-color" content="#e09160">
     <meta property="og:card" content="summary_large_image">
     {{-- Meta Tags --}}
