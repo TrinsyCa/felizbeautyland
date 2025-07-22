@@ -532,7 +532,7 @@
                                     <button class="active" id="reservationGenderWoman">Kadın</button>
                                     <button id="reservationGenderMan">Erkek</button>
                                 </div>
-                                <div class="reservation-category-section">
+                                <div class="reservation-category-section" style="height: 336px;">
                                     <div class="reservation-category-list shutdownAnim" id="genderWomanList">
                                         <input type="hidden" name="reservations" id="reservations">
                                         <div class="reservation-category-box BottomToTopAnim" category="Makyaj">
