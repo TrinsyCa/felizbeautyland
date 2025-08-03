@@ -710,7 +710,7 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="335726-1">Lazer Epilasyon (Göbek)</p>
-                                                        <span class="reservate-price empty-reservation">{{-- 'empty-reservation' sil ve bu bölüme fiyatı ekle --}}</span>
+                                                        <span class="reservate-price empty-reservate">{{-- 'empty-reservate' sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
