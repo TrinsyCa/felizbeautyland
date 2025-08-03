@@ -27,6 +27,7 @@
     <meta name="twitter:image" content="{{ asset('/assets/images/logo/feliz-icon.webp') }}?v={{ filemtime(public_path('/assets/images/logo/feliz-icon.webp')) }}">
     <meta name="theme-color" content="#e09160">
     <meta property="og:card" content="summary_large_image">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     {{-- Meta Tags --}}
 
     {{-- Static Styles --}}
@@ -58,6 +59,7 @@
     @include('layouts.footer')
 
     {{-- Static Scripts --}}
+    <script src="{{ asset('tools/jquery-3.7.1.slim.min.js') }}?v={{ filemtime(public_path('tools/jquery-3.7.1.slim.min.js')) }}"></script>
     <script src="{{ asset('scripts/preloader.min.js') }}?v={{ filemtime(public_path('scripts/preloader.min.js')) }}"></script>
     <script src="{{ asset('scripts/app.min.js') }}?v={{ filemtime(public_path('scripts/app.min.js')) }}"></script>
     <script src="{{ asset('scripts/anim.min.js') }}?v={{ filemtime(public_path('scripts/anim.min.js')) }}"></script>

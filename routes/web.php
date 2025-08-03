@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ReservationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,6 @@ Route::get('/', function () {
 Route::get('/gizlilik-ve-kullanim-kosullari', function () {
     return view('pages.policies');
 });
+
+Route::post('/process-reservation', [ReservationController::class, 'processReservation'])->name('process.reservation');
+Route::get('/reservation', [ReservationController::class, 'showReservation'])->name('reservation');
