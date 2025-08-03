@@ -703,6 +703,21 @@
 .reservation-box.activeReservation {
     background: rgba(0, 0, 0, 0.19);
 }
+.reservation-box .reservate-price {
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    border: 2px solid green;
+    color: green;
+    background-color: transparent;
+    height: 40px;
+    font-size: 1rem;
+    text-align: center;
+    white-space: nowrap;
+}
+.reservation-box .reservate-price.empty-reservate {
+    display: none;
+}
 .reservation-box .reservate-btn {
     padding: 8px 10px;
     border-radius: 10px;

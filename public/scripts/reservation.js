@@ -13,7 +13,7 @@ function checkFormValidity() {
 reservateBtns.forEach((btn) => {
     btn.addEventListener('click', () => {
         btn.classList.toggle('checked');
-        const p = btn.previousElementSibling;
+        const p = btn.previousElementSibling.previousElementSibling;
         if (!p || p.tagName !== 'P') return;
         const text = p.getAttribute('data-value').trim();
         let value = reservationsInput.value || "";
