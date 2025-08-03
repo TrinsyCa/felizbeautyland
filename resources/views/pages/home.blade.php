@@ -577,22 +577,22 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="96-1">İğneli Epilasyon (Vücut)</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="95-1">İğneli Epilasyon (Yüz)</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="253-1">Leke Tedavisi</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="191851-1">Gıdı Toparlama</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -616,17 +616,17 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="12372-1">HydraFacial</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="37099-1">Görüşme</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="49-1">Selülit Giderme</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -645,7 +645,7 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="216-1">Lazer Epilasyon (Ense)</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -660,17 +660,17 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="213-1">Lazer Epilasyon (Göğüs)</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="212-1">Lazer Epilasyon (Sırt)</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="211-1">Lazer Epilasyon (Kol)</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -690,17 +690,17 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="407990-1">Lazer Epilasyon (Koltuk Altı)</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="407987-1">Lazer Epilasyon (Yarım Kol)</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="371592-1">Lazer Epilasyon (Yarım Bacak)</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -710,7 +710,7 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="335726-1">Lazer Epilasyon (Göbek)</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- 'empty-reservation' sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -809,12 +809,12 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="12372-2">HydraFacial</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="37099-2">Görüşme</p>
-                                                        <span class="reservate-price empty-reservation"></span>
+                                                        <span class="reservate-price empty-reservation">{{-- empty-reservation sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
