@@ -30,6 +30,17 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     {{-- Meta Tags --}}
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17382843511"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-17382843511');
+    </script>
+    <!-- Google tag (gtag.js) -->
+
     {{-- Static Styles --}}
     <link rel="stylesheet" href="{{ asset('css/preloader.min.css') }}?v={{ filemtime(public_path('css/preloader.min.css')) }}">
     <link rel="stylesheet" href="{{ asset('css/app.min.css') }}?v={{ filemtime(public_path('css/app.min.css')) }}">
