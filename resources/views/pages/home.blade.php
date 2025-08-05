@@ -799,7 +799,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="491127-2">Bukkal Masajı</p>
-                                                        <span class="reservate-price">1.000 ₺</span>
+                                                        <span class="reservate-price">2.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
