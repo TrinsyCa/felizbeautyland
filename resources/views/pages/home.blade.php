@@ -98,7 +98,7 @@
                     <p class="BottomToTopAnim">
                         Feliz Beautyland olarak güzelliğinizin her adımında yanınızdayız. Geniş hizmet yelpazemizle cilt bakımı, manikür-pedikür, kalıcı oje ve protez tırnak uygulamalarından, özel lazer epilasyon seanslarına kadar kapsamlı çözümler sunuyoruz.
                         <br><br>
-                        Lazer epilasyon hizmetlerimizle kadın ve erkeklere uzun süreli pürüzsüzlük sağlıyor, kendinizi özgür ve rahat hissetmenizi hedefliyoruz. Kirpiklerinize doğal ve etkili bakım sağlayan Lash Botox uygulamalarımız ise bakışlarınızı güçlendiriyor.
+                        Lazer epilasyon hizmetlerimizle kadın ve erkeklere uzun süreli pürüzsüzlük sağlıyor, kendinizi özgür ve rahat hissetmenizi hedefliyoruz. Kirpiklerinize doğal ve etkili bakım sağlayan Kirpik Laminasyon uygulamalarımız ise bakışlarınızı güçlendiriyor.
                         <br><br>
                         Cilt yenileme ve bakım alanında klasik cilt bakımı, Green Peel ve Dermapen gibi son teknoloji uygulamalarla cildinizin sağlığını ve gençliğini koruyoruz. Manikür ve pedikürde ise hem klasik hem kalıcı oje seçeneklerimizle ellerinizin ve ayaklarınızın güzelliğine önem veriyoruz.
                         <br><br>
