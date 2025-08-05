@@ -552,7 +552,7 @@
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
-                                                        <p data-value="399121-1">Kirpik Laminasyonu (Lash Botox)</p>
+                                                        <p data-value="399121-1">Kirpik Laminasyonu</p>
                                                         <span class="reservate-price">2.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
