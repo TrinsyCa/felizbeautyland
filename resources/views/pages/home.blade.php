@@ -122,7 +122,7 @@
                 </h2>
                 <br>
                 <p class="LeftToRightAnim">
-                    Kleonef Göz Maskesi – Botoks Etkili Göz Maskesi
+                    Kleonef Göz Maskesi – Kırışıklık Azaltıcı Göz Maskesi
                     <br><br>
                     Göz çevresi bakımı, yaşlanma karşıtı cilt rutinlerinin en hassas ve önemli adımıdır.
                     <br>
@@ -146,7 +146,7 @@
                             <br><br>
                             Kleonef Göz Maskesi’nin Farkı Nedir?
                             <br>
-                            Yaşlanma karşıtı, botoks etkili sıkılaştırıcı formül.
+                            Yaşlanma karşıtı, kırışıklık azaltıcı sıkılaştırıcı formül.
                             <br>
                             Göz çevresindeki şişlik ve morlukları azaltmaya yardımcı.
                             <br>
