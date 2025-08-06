@@ -14,8 +14,8 @@
     <meta name="description" content="Feliz Beautyland, cilt bakımı, lazer epilasyon, manikür, pedikür ve daha birçok güzellik hizmeti sunar. Kleonef Göz Maskesi ile gençleşin! Randevu için ziyaret edin.">
     <meta name="og:description" content="Feliz Beautyland, cilt bakımı, lazer epilasyon, manikür, pedikür ve daha birçok güzellik hizmeti sunar. Kleonef Göz Maskesi ile gençleşin! Randevu için ziyaret edin.">
     <meta name="twitter:description" content="Feliz Beautyland, cilt bakımı, lazer epilasyon, manikür, pedikür ve daha birçok güzellik hizmeti sunar. Kleonef Göz Maskesi ile gençleşin! Randevu için ziyaret edin.">
-    <meta name="keywords" content="güzellik salonu, cilt bakımı, lazer epilasyon, manikür, pedikür, kaş laminasyonu, kirpik laminasyonu, protez tırnak, kirpik laminasyon, green peel, dermapen, kleonef göz maskesi, Filiz Büyüktaş, Feliz Beautyland">
-    <meta name="og:keywords" content="güzellik salonu, cilt bakımı, lazer epilasyon, manikür, pedikür, kaş laminasyonu, kirpik laminasyonu, protez tırnak, kirpik laminasyon, green peel, dermapen, kleonef göz maskesi, Filiz Büyüktaş, Feliz Beautyland">
+    <meta name="keywords" content="güzellik salonu, cilt bakımı, lazer epilasyon, manikür, pedikür, kaş laminasyonu, kirpik laminasyonu, protez tırnak, kirpik laminasyon, etiler lazer, dermapen, kleonef göz maskesi, etiler epilasyon, Feliz Beautyland">
+    <meta name="og:keywords" content="güzellik salonu, cilt bakımı, lazer epilasyon, manikür, pedikür, kaş laminasyonu, kirpik laminasyonu, protez tırnak, kirpik laminasyon, etiler lazer, dermapen, kleonef göz maskesi, etiler epilasyon, Feliz Beautyland">
     <meta name="author" content="Feliz Beautyland">
     <meta name="og:site_name" content="Feliz Beautyland">
     <meta name="twitter:site" content="Feliz Beautyland">
