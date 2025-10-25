@@ -543,7 +543,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="35-1">Ölçülü Kaş Alımı</p>
-                                                        <span class="reservate-price">1.000 ₺</span>
+                                                        <span class="reservate-price">1.400 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -553,12 +553,12 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="399121-1">Kirpik Laminasyonu</p>
-                                                        <span class="reservate-price">2.000 ₺</span>
+                                                        <span class="reservate-price">2.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="191863-1">Kaş Laminasyonu</p>
-                                                        <span class="reservate-price">2.500 ₺</span>
+                                                        <span class="reservate-price">3.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
