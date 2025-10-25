@@ -572,7 +572,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="446978-1">Cilt Bakımı</p>
-                                                        <span class="reservate-price">2.500 ₺</span>
+                                                        <span class="reservate-price">3.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
