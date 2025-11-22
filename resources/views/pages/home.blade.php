@@ -543,7 +543,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="35-1">Ölçülü Kaş Alımı</p>
-                                                        <span class="reservate-price">1.400 ₺</span>
+                                                        <span class="reservate-price">1.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
