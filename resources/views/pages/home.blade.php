@@ -543,22 +543,22 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="35-1">Ölçülü Kaş Alımı</p>
-                                                        <span class="reservate-price">1.500 ₺</span>
+                                                        <span class="reservate-price">1.800 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="191858-1">Kaş Vitamini</p>
-                                                        <span class="reservate-price">1.500 ₺</span>
+                                                        <span class="reservate-price">2.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="399121-1">Kirpik Laminasyonu</p>
-                                                        <span class="reservate-price">2.500 ₺</span>
+                                                        <span class="reservate-price">3.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="191863-1">Kaş Laminasyonu</p>
-                                                        <span class="reservate-price">3.000 ₺</span>
+                                                        <span class="reservate-price">3.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -572,7 +572,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="446978-1">Cilt Bakımı</p>
-                                                        <span class="reservate-price">3.500 ₺</span>
+                                                        <span class="reservate-price">4.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -611,7 +611,7 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="37-1">Cilt Bakımı</p>
-                                                        <span class="reservate-price">3.500 ₺</span>
+                                                        <span class="reservate-price">4.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
