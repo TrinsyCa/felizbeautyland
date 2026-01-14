@@ -718,11 +718,6 @@
                                                         <span class="reservate-price empty-reservate">{{-- empty-reservate sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
-                                                    <div class="reservation-box">
-                                                        <p data-value="218-1">Lazer Epilasyon (Boyun)</p>
-                                                        <span class="reservate-price">900 ₺</span>
-                                                        <button class="reservate-btn">+ Randevu Ekle</button>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
