@@ -606,7 +606,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="491127-1">Bukkal Masajı</p>
-                                                        <span class="reservate-price">1.000 ₺</span>
+                                                        <span class="reservate-price empty-reservate">{{-- empty-reservate sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -639,8 +639,8 @@
                                             <div class="reservation-list">
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
-                                                        <p data-value="207-1">Lazer Epilasyon (Tüm Vücut)</p>
-                                                        <span class="reservate-price">3.500 ₺</span>
+                                                        <p data-value="207-1">Lazer Epilasyon (Tüm Vücut, 8 Seans)</p>
+                                                        <span class="reservate-price">22.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -650,12 +650,17 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="215-1">Lazer Epilasyon (Çene)</p>
-                                                        <span class="reservate-price">400 ₺</span>
+                                                        <span class="reservate-price">900 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="214-1">Lazer Epilasyon (Dudak Üstü)</p>
-                                                        <span class="reservate-price">400 ₺</span>
+                                                        <span class="reservate-price">900 ₺</span>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="218-1">Lazer Epilasyon (Boyun)</p>
+                                                        <span class="reservate-price">900 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -674,8 +679,8 @@
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
-                                                        <p data-value="210-1">Lazer Epilasyon (Yüz)</p>
-                                                        <span class="reservate-price">1.000 ₺</span>
+                                                        <p data-value="210-1">Lazer Epilasyon (Yüz Komple)</p>
+                                                        <span class="reservate-price">1.200 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -715,7 +720,7 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="218-1">Lazer Epilasyon (Boyun)</p>
-                                                        <span class="reservate-price">400 ₺</span>
+                                                        <span class="reservate-price">900 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -729,12 +734,12 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="292000-1">Pasif Cimnastik</p>
-                                                        <span class="reservate-price">700 ₺</span>
+                                                        <span class="reservate-price">2.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="291959-1">Lenf Drenaj / Pressoterapi</p>
-                                                        <span class="reservate-price">700 ₺</span>
+                                                        <span class="reservate-price">2.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -744,7 +749,7 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="444665-1">G8 (Selülit Giderme ve Bölgesel İncelme)</p>
-                                                        <span class="reservate-price">1.400 ₺</span>
+                                                        <span class="reservate-price">2.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -758,7 +763,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="288683-1">Saç Vitamini (Bölgesel)</p>
-                                                        <span class="reservate-price">2.000 ₺</span>
+                                                        <span class="reservate-price">2.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -777,12 +782,12 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="488257-1">Kafa Masajı</p>
-                                                        <span class="reservate-price">2.000 ₺</span>
+                                                        <span class="reservate-price">4.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="533007-1">Sırt Bakımı</p>
-                                                        <span class="reservate-price">2.000 ₺</span>
+                                                        <span class="reservate-price">5.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -827,68 +832,68 @@
                                             <div class="reservation-list">
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
-                                                        <p data-value="207-2">Lazer Epilasyon (Tüm Vücut)</p>
-                                                        <span class="reservate-price">3.500 ₺</span>
+                                                        <p data-value="207-2">Lazer Epilasyon (Tüm Vücut, 8 Seans)</p>
+                                                        <span class="reservate-price">30.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="213-2">Lazer Epilasyon (Göğüs)</p>
-                                                        <span class="reservate-price">750 ₺</span>
-                                                        <button class="reservate-btn">+ Randevu Ekle</button>
-                                                    </div>
-                                                    <div class="reservation-box">
-                                                        <p data-value="212-2">Lazer Epilasyon (Sırt)</p>
-                                                        <span class="reservate-price">750 ₺</span>
-                                                        <button class="reservate-btn">+ Randevu Ekle</button>
-                                                    </div>
-                                                    <div class="reservation-box">
-                                                        <p data-value="211-2">Lazer Epilasyon (Kol)</p>
-                                                        <span class="reservate-price">1.500 ₺</span>
-                                                        <button class="reservate-btn">+ Randevu Ekle</button>
-                                                    </div>
-                                                    <div class="reservation-box">
-                                                        <p data-value="210-2">Lazer Epilasyon (Yüz)</p>
                                                         <span class="reservate-price">900 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
-                                                        <p data-value="209-2">Lazer Epilasyon (Bacak)</p>
-                                                        <span class="reservate-price">2.000 ₺</span>
+                                                        <p data-value="212-2">Lazer Epilasyon (Sırt)</p>
+                                                        <span class="reservate-price">900 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
-                                                        <p data-value="208-2">Lazer Epilasyon (Genital Bölgesi)</p>
-                                                        <span class="reservate-price">1.350 ₺</span>
+                                                        <p data-value="211-2">Lazer Epilasyon (Kol)</p>
+                                                        <span class="reservate-price">1.600 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
-                                                        <p data-value="407990-2">Lazer Epilasyon (Koltuk Altı)</p>
-                                                        <span class="reservate-price">950 ₺</span>
-                                                        <button class="reservate-btn">+ Randevu Ekle</button>
-                                                    </div>
-                                                    <div class="reservation-box">
-                                                        <p data-value="407987-2">Lazer Epilasyon (Yarım Kol)</p>
+                                                        <p data-value="210-2">Lazer Epilasyon (Yüz Komple)</p>
                                                         <span class="reservate-price">1.200 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
+                                                        <p data-value="209-2">Lazer Epilasyon (Bacak)</p>
+                                                        <span class="reservate-price">2.500 ₺</span>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="208-2">Lazer Epilasyon (Genital Bölgesi)</p>
+                                                        <span class="reservate-price">1.500 ₺</span>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="407990-2">Lazer Epilasyon (Koltuk Altı)</p>
+                                                        <span class="reservate-price">1.300 ₺</span>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
+                                                        <p data-value="407987-2">Lazer Epilasyon (Yarım Kol)</p>
+                                                        <span class="reservate-price">1.300 ₺</span>
+                                                        <button class="reservate-btn">+ Randevu Ekle</button>
+                                                    </div>
+                                                    <div class="reservation-box">
                                                         <p data-value="371592-2">Lazer Epilasyon (Popo Üstü)</p>
-                                                        <span class="reservate-price">1.350 ₺</span>
+                                                        <span class="reservate-price">1.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="335726-2">Lazer Epilasyon (Göbek)</p>
-                                                        <span class="reservate-price">750 ₺</span>
+                                                        <span class="reservate-price">900 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="218-1">Lazer Epilasyon (Boyun)</p>
-                                                        <span class="reservate-price">480 ₺</span>
+                                                        <span class="reservate-price">600 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="216-2">Lazer Epilasyon (Ense)</p>
-                                                        <span class="reservate-price">480 ₺</span>
+                                                        <span class="reservate-price">600 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -902,12 +907,12 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="292000-2">Pasif Cimnastik</p>
-                                                        <span class="reservate-price">700 ₺</span>
+                                                        <span class="reservate-price">2.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="291959-2">Lenf Drenaj / Pressoterapi</p>
-                                                        <span class="reservate-price">700 ₺</span>
+                                                        <span class="reservate-price">2.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -917,7 +922,7 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="444665-2">G8 (Selülit Giderme ve Bölgesel İncelme)</p>
-                                                        <span class="reservate-price">1.400 ₺</span>
+                                                        <span class="reservate-price">2.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -931,7 +936,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="288683-2">Saç Vitamini (Bölgesel)</p>
-                                                        <span class="reservate-price">2.000 ₺</span>
+                                                        <span class="reservate-price">2.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -950,12 +955,12 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="488257-2">Kafa Masajı</p>
-                                                        <span class="reservate-price">2.000 ₺</span>
+                                                        <span class="reservate-price">4.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="533007-2">Sırt Bakımı</p>
-                                                        <span class="reservate-price">2.000 ₺</span>
+                                                        <span class="reservate-price">5.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
