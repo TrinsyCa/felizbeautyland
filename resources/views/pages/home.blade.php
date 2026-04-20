@@ -553,12 +553,12 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="399121-1">Kirpik Laminasyonu</p>
-                                                        <span class="reservate-price">3.000 ₺</span>
+                                                        <span class="reservate-price">3.750 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="191863-1">Kaş Laminasyonu</p>
-                                                        <span class="reservate-price">3.500 ₺</span>
+                                                        <span class="reservate-price">4.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -572,7 +572,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="446978-1">Cilt Bakımı</p>
-                                                        <span class="reservate-price">4.000 ₺</span>
+                                                        <span class="reservate-price">4.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -611,7 +611,7 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="37-1">Cilt Bakımı</p>
-                                                        <span class="reservate-price">4.000 ₺</span>
+                                                        <span class="reservate-price">4.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -640,7 +640,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="207-1">Lazer Epilasyon (Tüm Vücut, 8 Seans)</p>
-                                                        <span class="reservate-price">22.000 ₺</span>
+                                                        <span class="reservate-price">23.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -729,22 +729,22 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="292000-1">Pasif Cimnastik</p>
-                                                        <span class="reservate-price">2.000 ₺</span>
+                                                        <span class="reservate-price">3.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="291959-1">Lenf Drenaj / Pressoterapi</p>
-                                                        <span class="reservate-price">2.000 ₺</span>
+                                                        <span class="reservate-price">3.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="292002-1">Magic</p>
-                                                        <span class="reservate-price">1.100 ₺</span>
+                                                        <span class="reservate-price empty-reservate">{{-- empty-reservate sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="444665-1">G8 (Selülit Giderme ve Bölgesel İncelme)</p>
-                                                        <span class="reservate-price">2.500 ₺</span>
+                                                        <span class="reservate-price">3.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -758,12 +758,12 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="288683-1">Saç Vitamini (Bölgesel)</p>
-                                                        <span class="reservate-price">2.500 ₺</span>
+                                                        <span class="reservate-price">4.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="408032-1">Saç Vitamini (Komple)</p>
-                                                        <span class="reservate-price">3.000 ₺</span>
+                                                        <span class="reservate-price">5.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -777,12 +777,12 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="488257-1">Kafa Masajı</p>
-                                                        <span class="reservate-price">4.000 ₺</span>
+                                                        <span class="reservate-price">3.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="533007-1">Sırt Bakımı</p>
-                                                        <span class="reservate-price">5.000 ₺</span>
+                                                        <span class="reservate-price">6.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -804,7 +804,7 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="37-2">Cilt Bakımı</p>
-                                                        <span class="reservate-price">3.500 ₺</span>
+                                                        <span class="reservate-price">4.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -828,7 +828,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="207-2">Lazer Epilasyon (Tüm Vücut, 8 Seans)</p>
-                                                        <span class="reservate-price">30.000 ₺</span>
+                                                        <span class="reservate-price">35.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -902,22 +902,22 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="292000-2">Pasif Cimnastik</p>
-                                                        <span class="reservate-price">2.000 ₺</span>
+                                                        <span class="reservate-price">3.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="291959-2">Lenf Drenaj / Pressoterapi</p>
-                                                        <span class="reservate-price">2.000 ₺</span>
+                                                        <span class="reservate-price">3.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="292002-2">Magic</p>
-                                                        <span class="reservate-price">1.100 ₺</span>
+                                                        <span class="reservate-price empty-reservate">{{-- empty-reservate sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="444665-2">G8 (Selülit Giderme ve Bölgesel İncelme)</p>
-                                                        <span class="reservate-price">2.500 ₺</span>
+                                                        <span class="reservate-price">3.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -931,12 +931,12 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="288683-2">Saç Vitamini (Bölgesel)</p>
-                                                        <span class="reservate-price">2.500 ₺</span>
+                                                        <span class="reservate-price">4.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="408032-2">Saç Vitamini (Komple)</p>
-                                                        <span class="reservate-price">3.000 ₺</span>
+                                                        <span class="reservate-price">5.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -950,7 +950,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="488257-2">Kafa Masajı</p>
-                                                        <span class="reservate-price">4.000 ₺</span>
+                                                        <span class="reservate-price">3.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
