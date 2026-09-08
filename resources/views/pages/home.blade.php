@@ -729,7 +729,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="292000-1">Pasif Cimnastik</p>
-                                                        <span class="reservate-price">3.000 ₺</span>
+                                                        <span class="reservate-price">3.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -904,7 +904,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="292000-2">Pasif Cimnastik</p>
-                                                        <span class="reservate-price">3.000 ₺</span>
+                                                        <span class="reservate-price">3.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
