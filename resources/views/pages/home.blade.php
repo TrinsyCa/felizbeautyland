@@ -572,7 +572,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="446978-1">Cilt Bakımı</p>
-                                                        <span class="reservate-price">4.500 ₺</span>
+                                                        <span class="reservate-price">5.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -611,7 +611,7 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="37-1">Cilt Bakımı</p>
-                                                        <span class="reservate-price">4.500 ₺</span>
+                                                        <span class="reservate-price">5.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -804,7 +804,7 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="37-2">Cilt Bakımı</p>
-                                                        <span class="reservate-price">4.500 ₺</span>
+                                                        <span class="reservate-price">5.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
