@@ -744,7 +744,7 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="444665-1">G8 (Selülit Giderme ve Bölgesel İncelme)</p>
-                                                        <span class="reservate-price">3.500 ₺</span>
+                                                        <span class="reservate-price">4.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -917,7 +917,7 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="444665-2">G8 (Selülit Giderme ve Bölgesel İncelme)</p>
-                                                        <span class="reservate-price">3.500 ₺</span>
+                                                        <span class="reservate-price">4.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
