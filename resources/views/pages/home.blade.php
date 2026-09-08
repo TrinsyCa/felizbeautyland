@@ -777,12 +777,12 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="488257-1">Kafa Masajı</p>
-                                                        <span class="reservate-price">3.500 ₺</span>
+                                                        <span class="reservate-price">4.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="533007-1">Sırt Bakımı</p>
-                                                        <span class="reservate-price">6.000 ₺</span>
+                                                        <span class="reservate-price">5.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                 </div>
@@ -950,7 +950,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
                                                         <p data-value="488257-2">Kafa Masajı</p>
-                                                        <span class="reservate-price">3.500 ₺</span>
+                                                        <span class="reservate-price">4.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
