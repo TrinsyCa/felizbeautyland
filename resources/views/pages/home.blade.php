@@ -737,11 +737,13 @@
                                                         <span class="reservate-price">3.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
-                                                    <!-- <div class="reservation-box">
+                                                    <!-- 
+                                                    <div class="reservation-box">
                                                         <p data-value="292002-1">Magic</p>
                                                         <span class="reservate-price empty-reservate">{{-- empty-reservate sil ve bu bölüme fiyatı ekle --}}</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
-                                                    </div> -->
+                                                    </div> 
+                                                    -->
                                                     <div class="reservation-box">
                                                         <p data-value="444665-1">G8 (Selülit Giderme ve Bölgesel İncelme)</p>
                                                         <span class="reservate-price">4.000 ₺</span>
