@@ -640,7 +640,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
     <p data-value="207-1">Lazer Epilasyon (Tüm Vücut, 8 Seans)</p>
-    <span class="reservate-price">40.000 ₺</span>
+    <span class="reservate-price">30.000 ₺</span>
     <button class="reservate-btn">+ Randevu Ekle</button>
 </div>
 
@@ -845,7 +845,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
     <p data-value="207-2">Lazer Epilasyon (Tüm Vücut, 8 Seans)</p>
-    <span class="reservate-price">35.000 ₺</span>
+    <span class="reservate-price">40.000 ₺</span>
     <button class="reservate-btn">+ Randevu Ekle</button>
 </div>
 
