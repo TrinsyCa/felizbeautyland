@@ -548,12 +548,12 @@
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="191858-1">Kaş Vitamini</p>
-                                                        <span class="reservate-price">2.000 ₺</span>
+                                                        <span class="reservate-price">2.500 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
                                                         <p data-value="399121-1">Kirpik Laminasyonu</p>
-                                                        <span class="reservate-price">3.750 ₺</span>
+                                                        <span class="reservate-price">4.000 ₺</span>
                                                         <button class="reservate-btn">+ Randevu Ekle</button>
                                                     </div>
                                                     <div class="reservation-box">
@@ -640,7 +640,7 @@
                                                 <div class="reservation-item">
                                                     <div class="reservation-box">
     <p data-value="207-1">Lazer Epilasyon (Tüm Vücut, 8 Seans)</p>
-    <span class="reservate-price">23.000 ₺</span>
+    <span class="reservate-price">40.000 ₺</span>
     <button class="reservate-btn">+ Randevu Ekle</button>
 </div>
 
